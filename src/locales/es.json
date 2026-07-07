@@ -1,4 +1,15 @@
 {
+  "seo": {
+    "home": {
+      "title": "Legacy Piece Wiki - Códigos, Frutas y Guías",
+      "description": "Legacy Piece Wiki ofrece códigos de Roblox, frutas, guías de nivelación, habilidades, jefes y consejos de actualización para ayudar a los jugadores a progresar más rápido con recursos completos del juego.",
+      "keywords": "Legacy Piece, Roblox, códigos, frutas, nivelación, habilidades, jefes, guías",
+      "ogTitle": "Legacy Piece Wiki - Códigos, Frutas y Guías",
+      "ogDescription": "Legacy Piece Wiki ofrece códigos de Roblox, frutas, guías de nivelación, habilidades, jefes y consejos de actualización para ayudar a los jugadores a progresar más rápido con recursos completos del juego.",
+      "twitterTitle": "Legacy Piece Wiki - Códigos, Frutas y Guías",
+      "twitterDescription": "Legacy Piece Wiki cubre códigos de Roblox, frutas, nivelación, habilidades, jefes y guías de actualización para los jugadores."
+    }
+  },
   "nav": {
     "codes": "Códigos",
     "guide": "Guía",
@@ -6,6 +17,616 @@
     "fruits": "Frutas",
     "weapons": "Armas",
     "abilities": "Habilidades",
-    "locations": "Lugares"
+    "locations": "Ubicaciones"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Roblox",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que estás buscando no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Próximamente más artículos"
+  },
+  "hero": {
+    "badge": "Aventura RPG de piratas de anime",
+    "title": "Legacy Piece Wiki",
+    "description": "Wiki completa de Legacy Piece que cubre códigos, frutas, habilidades, jefes, guías de nivelación, armas, razas, actualizaciones y estrategias de progresión para jugadores de Roblox.",
+    "getFreeCodesCTA": "Obtén códigos gratis",
+    "playOnSteamCTA": "Jugar en Roblox",
+    "stats": {
+      "stat1": {
+        "value": "5M+",
+        "label": "Visitas totales"
+      },
+      "stat2": {
+        "value": "20+",
+        "label": "Habilidades disponibles"
+      },
+      "stat3": {
+        "value": "7+",
+        "label": "Códigos activos"
+      },
+      "stat4": {
+        "value": "Semanal",
+        "label": "Actualizaciones"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de Legacy Piece",
+    "description": "Navega a través de Grand Line en Legacy Piece, un RPG de piratas de anime en Roblox lleno de frutas, habilidades, jefes y una exploración oceánica infinita."
+  },
+  "tools": {
+    "title": "Legacy Piece",
+    "titleHighlight": "Recursos",
+    "subtitle": "Todo lo que necesitas para dominar Legacy Piece: códigos, frutas, habilidades, jefes y guías de progresión.",
+    "cards": [
+      {
+        "icon": "Regalo",
+        "title": "Códigos de Legacy Piece",
+        "description": "Códigos de canje activos para obtener fragmentos, cajas y recompensas gratis."
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guía para principiantes",
+        "description": "Primeros pasos, conceptos básicos de combate y consejos de progresión inicial."
+      },
+      {
+        "icon": "Crown",
+        "title": "Tier List de Frutas",
+        "description": "Clasifica cada fruta según su poder de combate y utilidad."
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Guía de nivelación",
+        "description": "Rutas rápidas para ganar experiencia y desbloquear contenido."
+      },
+      {
+        "icon": "Zap",
+        "title": "Guía de habilidades",
+        "description": "Domina los poderes de las Frutas del Diablo, el Haki y los estilos de pelea."
+      },
+      {
+        "icon": "Skull",
+        "title": "Guía de jefes",
+        "description": "Ubicaciones de jefes, niveles recomendados y recompensas de botín."
+      },
+      {
+        "icon": "Newspaper",
+        "title": "Noticias de actualizaciones",
+        "description": "Últimos parches, nuevas frutas y cambios de equilibrio."
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Comunidad de Discord",
+        "description": "Únete a la comunidad para obtener códigos, eventos y actualizaciones."
+      }
+    ]
+  },
+  "modules": {
+    "legacyPieceCodes": {
+      "eyebrow": "RECOMPENSAS GRATIS",
+      "title": "Códigos de Legacy Piece",
+      "subtitle": "Canjea los últimos códigos de Legacy Piece para reclamar recompensas gratuitas en el juego y potenciar tu aventura.",
+      "intro": "Los jugadores pueden usar códigos activos para recibir recompensas útiles como fragmentos, cajas, cofres, dinero y otros objetos de progresión. Canjea códigos con regularidad, ya que los juegos de Roblox suelen rotar las recompensas durante las actualizaciones y los hitos de la comunidad.",
+      "items": [
+        {
+          "code": "RELEASE!",
+          "rewards": "Recompensas gratis",
+          "description": "Código de recompensa de lanzamiento publicado para los primeros jugadores de Legacy Piece."
+        },
+        {
+          "code": "THANKSFORPLAYING!",
+          "rewards": "Recompensas gratis",
+          "description": "Código de recompensa en agradecimiento a la comunidad para los seguidores de Legacy Piece."
+        },
+        {
+          "code": "sorryforbugs7!",
+          "rewards": "Recompensas gratuitas",
+          "description": "Código de recompensa de actualización de corrección de errores para jugadores de Legacy Piece."
+        },
+        {
+          "code": "addedbosspawn!",
+          "rewards": "Recompensas gratuitas",
+          "description": "Código de recompensa por hito de actualización que celebra el nuevo contenido de Legacy Piece."
+        },
+        {
+          "code": "smallcodes!",
+          "rewards": "Recompensas gratuitas",
+          "description": "Pequeño código de recompensa de la comunidad para jugadores activos de Legacy Piece."
+        },
+        {
+          "code": "thanksfor1kccu!",
+          "rewards": "Fragmentos y otras recompensas",
+          "description": "Código de recompensa por hito de la comunidad para jugadores simultáneos de Legacy Piece."
+        },
+        {
+          "code": "update0.5!",
+          "rewards": "Fragmentos, cofres y dinero",
+          "description": "Código de recompensa de actualización de versión para la actualización 0.5 de Legacy Piece."
+        },
+        {
+          "code": "smallgift!",
+          "rewards": "Fragmentos y cajas",
+          "description": "Código de recompensa de regalo para jugadores de Legacy Piece."
+        }
+      ]
+    },
+    "legacyPieceBeginnerGuide": {
+      "eyebrow": "GUÍA PARA PRINCIPIANTES",
+      "title": "Guía para principiantes de Legacy Piece",
+      "subtitle": "Aprende los controles básicos, los sistemas de progresión y los primeros objetivos para comenzar tu aventura pirata.",
+      "intro": "Los nuevos jugadores deben centrarse en aprender el combate, completar las primeras misiones, mejorar su personaje y recolectar habilidades útiles. Legacy Piece combina la exploración de mundo abierto, la lucha y la progresión de personajes inspirada en el universo de One Piece.",
+      "steps": [
+        {
+          "title": "Crea tu personaje",
+          "description": "Personaliza tu personaje y comienza tu viaje antes de ingresar al mundo de Legacy Piece."
+        },
+        {
+          "title": "Aprende el combate básico",
+          "description": "Practica los ataques básicos, la esquiva, el movimiento y los controles de habilidades para derrotar a los enemigos de manera eficiente."
+        },
+        {
+          "title": "Completa las primeras misiones",
+          "description": "Lucha contra enemigos y completa misiones para ganar experiencia y mejorar tu personaje."
+        },
+        {
+          "title": "Recolecta habilidades",
+          "description": "Descubre habilidades de Núcleo de Poder y otras opciones de combate para crear tu estilo de juego preferido."
+        },
+        {
+          "title": "Mejora tu build",
+          "description": "Mejora tu fuerza de combate a través de habilidades más fuertes, estilos de lucha y sistemas de progresión."
+        }
+      ],
+      "quickTips": [
+        "Canjea códigos activos de Legacy Piece temprano para obtener fragmentos gratis y aumentos de progresión.",
+        "Guarda los drops raros y materiales; se vuelven útiles una vez que desbloqueas habilidades más fuertes.",
+        "Las herramientas de movimiento y desplazamiento hacen que la exploración de las islas sea mucho más rápida a medida que avanzas.",
+        "Únete a la comunidad de Legacy Piece para enterarte rápidamente de nuevos códigos y anuncios de actualizaciones."
+      ]
+    },
+    "legacyPieceFruitsTierList": {
+      "eyebrow": "CLASIFICACIÓN DE FRUTAS",
+      "title": "Tier List de frutas de Legacy Piece",
+      "subtitle": "Compara las frutas de Legacy Piece por su potencial de combate, versatilidad y utilidad durante la progresión.",
+      "intro": "Las frutas otorgan habilidades únicas que cambian la forma en que los jugadores luchan. Esta clasificación se centra en la utilidad general para el combate y la progresión según la información de frutas disponible actualmente.",
+      "tiers": [
+        {
+          "tier": "Tier S",
+          "fruits": [
+            {
+              "name": "Luz",
+              "type": "Alta movilidad y capacidad de combate",
+              "use": "Opción sólida para los jugadores que valoran la movilidad y los ataques a distancia en Legacy Piece."
+            },
+            {
+              "name": "Dragón",
+              "type": "Conjunto de habilidades poderosas",
+              "use": "Habilidad centrada en el juego tardío con un fuerte potencial de combate para jugadores avanzados de Legacy Piece."
+            }
+          ]
+        },
+        {
+          "tier": "Tier A",
+          "fruits": [
+            {
+              "name": "Mochi",
+              "type": "Habilidad centrada en el combate",
+              "use": "Útil para jugadores que prefieren combinaciones de habilidades ofensivas."
+            },
+            {
+              "name": "Terremoto",
+              "type": "Habilidad centrada en el daño",
+              "use": "Buena opción para jugadores que buscan ataques fuertes contra jefes."
+            },
+            {
+              "name": "Magma",
+              "type": "Habilidad de daño",
+              "use": "Opción confiable para una progresión de combate constante en Legacy Piece."
+            }
+          ]
+        },
+        {
+          "tier": "Tier B",
+          "fruits": [
+            {
+              "name": "Hielo",
+              "type": "Habilidad basada en elementos",
+              "use": "Útil para principiantes que aprenden el combate con habilidades en Legacy Piece."
+            },
+            {
+              "name": "Fuego",
+              "type": "Habilidad basada en elementos",
+              "use": "Opción de progresión inicial equilibrada para nuevos jugadores."
+            },
+            {
+              "name": "Oscuridad",
+              "type": "Habilidad de combate",
+              "use": "Proporciona otro estilo de lucha flexible para los jugadores de Legacy Piece."
+            }
+          ]
+        }
+      ]
+    },
+    "legacyPieceLevelingGuide": {
+      "eyebrow": "GUÍA DE SUBIDA DE NIVEL",
+      "title": "Guía de subida de nivel de Legacy Piece",
+      "subtitle": "Sigue una ruta de progresión práctica para obtener experiencia, desbloquear habilidades y hacerte más fuerte.",
+      "intro": "Subir de nivel en Legacy Piece se centra en derrotar enemigos, completar misiones, explorar islas y mejorar las habilidades de combate. La progresión eficiente proviene de combinar las recompensas de las misiones con un entrenamiento de combate constante.",
+      "steps": [
+        {
+          "title": "Completa las misiones iniciales",
+          "description": "Completa las primeras misiones para ganar experiencia y entender el ciclo de juego básico de Legacy Piece."
+        },
+        {
+          "title": "Lucha contra enemigos adecuados",
+          "description": "Enfréntate a enemigos cercanos a tu nivel de fuerza actual para maximizar la ganancia de experiencia."
+        },
+        {
+          "title": "Explora nuevas áreas",
+          "description": "Viaja por el mundo de Legacy Piece y descubre nuevas ubicaciones, misiones y desafíos."
+        },
+        {
+          "title": "Consigue habilidades más fuertes",
+          "description": "Encuentra y usa habilidades que se adapten a tu estilo de combate preferido en Legacy Piece."
+        },
+        {
+          "title": "Prepárate para contenido de mayor nivel",
+          "description": "Mejora tu personaje mediante combates continuos, mejoras y builds más fuertes."
+        }
+      ],
+      "milestones": [
+        "Alcanzar el nivel 100",
+        "Desbloquear la primera Fruta del Diablo",
+        "Derrotar al jefe de la primera isla",
+        "Completar la misión de entrada a Grand Line"
+      ]
+    },
+    "legacyPieceAbilitiesGuide": {
+      "eyebrow": "SISTEMA DE COMBATE",
+      "title": "Guía de habilidades de Legacy Piece",
+      "subtitle": "Explora las habilidades disponibles en Legacy Piece y aprende cómo influyen en el combate, la exploración y el progreso del personaje.",
+      "intro": "Las habilidades son una parte fundamental del combate en Legacy Piece, lo que te permite personalizar tu estilo de lucha y mejorar tu eficacia contra los enemigos. Comprender los tipos de habilidades y sus usos te ayuda a elegir mejores estrategias durante las batallas.",
+      "items": [
+        {
+          "name": "Habilidades de Fruta del Diablo",
+          "type": "Sistema de poder",
+          "description": "Las Frutas del Diablo otorgan habilidades de combate y poderes únicos que definen tu estilo de juego principal, utilizados para ataques de combate, daño a enemigos y estilos de lucha únicos."
+        },
+        {
+          "name": "Habilidades de espada",
+          "type": "Habilidades de armas",
+          "description": "Las técnicas de espada ofrecen poderosos movimientos de armas y ataques a corta distancia para el combate cuerpo a cuerpo, batallas contra jefes y batallas PvE."
+        },
+        {
+          "name": "Habilidades de combate",
+          "type": "Sistema de lucha",
+          "description": "Los movimientos de combate básicos y avanzados se combinan con armas y habilidades para crear combos y enfrentarse a los enemigos."
+        },
+        {
+          "name": "Haki",
+          "type": "Mejora de combate",
+          "description": "El Haki fortalece tus ataques, defensa y percepción, volviéndose esencial para combates de alto nivel y enemigos más fuertes."
+        },
+        {
+          "name": "Habilidades de movilidad",
+          "type": "Habilidad de desplazamiento",
+          "description": "Las habilidades de movimiento te ayudan a cruzar islas, esquivar ataques y llegar a zonas ocultas durante la exploración."
+        },
+        {
+          "name": "Movimientos definitivos",
+          "type": "Habilidad de remate",
+          "description": "Los movimientos definitivos infligen un gran daño de ráfaga y ponen a tu favor los combates difíciles contra los jefes."
+        }
+      ]
+    },
+    "legacyPieceBossGuide": {
+      "eyebrow": "BATALLAS CONTRA JEFES",
+      "title": "Guía de jefes de Legacy Piece",
+      "subtitle": "Aprende a prepararte para los principales enfrentamientos contra jefes en Legacy Piece y comprende su papel en el progreso.",
+      "intro": "Las batallas contra jefes ofrecen combates desafiantes en los que puedes poner a prueba tus configuraciones, mejorar tus habilidades y obtener recompensas de progreso. Es importante prepararse con habilidades y equipamiento adecuados antes de enfrentarse a enemigos más fuertes.",
+      "headers": {
+        "boss": "Jefe",
+        "location": "Ubicación",
+        "level": "Nivel recomendado",
+        "drops": "Botines destacados"
+      },
+      "bosses": [
+        {
+          "name": "Jefe de la isla de inicio",
+          "location": "Isla de inicio",
+          "level": "Nv. 50",
+          "drops": "Fragmento de mapa, fragmentos"
+        },
+        {
+          "name": "Jefe de mar abierto",
+          "location": "Mar abierto",
+          "level": "Niv. 150",
+          "drops": "Plano de espada, cofre raro"
+        },
+        {
+          "name": "Jefe de la Fortaleza Costera",
+          "location": "Fortaleza Costera",
+          "level": "Niv. 250",
+          "drops": "Collar de diente de tiburón, dinero"
+        },
+        {
+          "name": "Jefe de la Región del Desierto",
+          "location": "Región del Desierto",
+          "level": "Niv. 400",
+          "drops": "Capa de escamas de arena, cajas"
+        },
+        {
+          "name": "Jefe mundial de endgame",
+          "location": "Mar Final",
+          "level": "Niv. 600",
+          "drops": "Capa oscura, cofre legendario"
+        }
+      ]
+    },
+    "legacyPieceUpdateNews": {
+      "eyebrow": "ÚLTIMAS ACTUALIZACIONES",
+      "title": "Noticias de actualización de Legacy Piece",
+      "subtitle": "Sigue los cambios del juego, las nuevas características y los anuncios importantes de los desarrolladores de Legacy Piece.",
+      "intro": "Legacy Piece recibe actualizaciones que mejoran la jugabilidad, añaden contenido y ajustan los sistemas existentes. Esta sección organiza los cambios principales para que los jugadores puedan entender rápidamente qué ha cambiado.",
+      "updates": [
+        {
+          "version": "Actualizaciones del juego",
+          "title": "Últimos lanzamientos",
+          "summary": "Se introducen nuevos contenidos, mejoras en la jugabilidad, cambios de equilibrio y ajustes de características a través de las actualizaciones de los desarrolladores que mantienen a Legacy Piece fresco."
+        },
+        {
+          "version": "Adiciones de contenido",
+          "title": "Nuevas características",
+          "summary": "Las actualizaciones pueden incluir nuevas habilidades, ubicaciones, mecánicas o mejoras en los sistemas de juego existentes de Legacy Piece."
+        },
+        {
+          "version": "Anuncios de los desarrolladores",
+          "title": "Noticias de la comunidad",
+          "summary": "Los anuncios oficiales de Legacy Piece proporcionan información sobre los próximos cambios, eventos y noticias relacionadas con el juego."
+        },
+        {
+          "version": "Ajustes de equilibrio",
+          "title": "Notas del parche",
+          "summary": "Los parches regulares refinan el equilibrio del combate, solucionan problemas y mantienen a Legacy Piece funcionando sin problemas en todos los dispositivos."
+        }
+      ]
+    },
+    "legacyPieceDiscordCommunity": {
+      "eyebrow": "COMUNIDAD",
+      "title": "Comunidad de Discord de Legacy Piece",
+      "subtitle": "Encuentra los canales oficiales de la comunidad de Legacy Piece para anuncios, discusiones y actualizaciones del juego.",
+      "intro": "La comunidad de Legacy Piece ofrece un lugar para que los jugadores sigan las noticias de los desarrolladores, discutan la jugabilidad, compartan experiencias y se mantengan conectados con otros jugadores a través de los canales oficiales a continuación.",
+      "channels": [
+        {
+          "name": "Servidor oficial de Discord",
+          "description": "Únete al Discord oficial de Legacy Piece para anuncios, lanzamientos de códigos y eventos de la comunidad.",
+          "cta": "Unirse a Discord",
+          "href": "https://discord.com/invite/legacypiece"
+        },
+        {
+          "name": "Página del juego en Roblox",
+          "description": "Juega a Legacy Piece directamente en Roblox y mantente al día con la última versión.",
+          "cta": "Juega en Roblox",
+          "href": "https://www.roblox.com/games/8657732325/Legacy-Piece"
+        },
+        {
+          "name": "Canales sociales de los desarrolladores",
+          "description": "Sigue los canales sociales oficiales de Legacy Piece para enterarte de cada nota de parche, avance y cambio de equilibrio en cuanto se publiquen.",
+          "cta": "Sigue las actualizaciones",
+          "href": "https://www.roblox.com/games/8657732325/Legacy-Piece"
+        },
+        {
+          "name": "Lanzamientos de códigos de la comunidad",
+          "description": "Sé el primero en canjear los nuevos códigos de Legacy Piece compartidos durante hitos y eventos de la comunidad.",
+          "cta": "Obtén códigos",
+          "href": "https://discord.com/invite/legacypiece"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Legacy Piece",
+    "questions": [
+      {
+        "question": "¿Qué es Legacy Piece?",
+        "answer": "Legacy Piece es un RPG de piratas de anime en Roblox inspirado en One Piece. Los jugadores exploran islas, luchan contra jefes, recolectan Devil Fruits y progresan a través de una aventura de mundo abierto en Roblox."
+      },
+      {
+        "question": "¿Dónde puedo jugar Legacy Piece?",
+        "answer": "Puedes jugar Legacy Piece directamente en Roblox a través de la página oficial del juego. El juego funciona en PC, Mac y dispositivos móviles que admiten Roblox."
+      },
+      {
+        "question": "¿Cómo canjeo códigos de Legacy Piece?",
+        "answer": "Para canjear códigos de Legacy Piece, abre el menú del juego, busca el icono de códigos o de Twitter, ingresa un código activo y confirma para reclamar recompensas gratuitas como fragmentos, cajas y dinero."
+      },
+      {
+        "question": "¿Qué son las frutas en Legacy Piece?",
+        "answer": "Las frutas en Legacy Piece son habilidades especiales que otorgan poderes de combate únicos. Cada fruta cambia tu forma de luchar, y la Fruits Tier List te ayuda a compararlas por su utilidad para progresar."
+      },
+      {
+        "question": "¿Con qué frecuencia se actualiza Legacy Piece?",
+        "answer": "Legacy Piece recibe actualizaciones periódicas que añaden nuevas frutas, jefes, islas y cambios de equilibrio. Los códigos activos también rotan durante las actualizaciones importantes y los hitos de la comunidad."
+      },
+      {
+        "question": "¿Es Legacy Piece gratuito?",
+        "answer": "Sí. Legacy Piece es gratuito en Roblox. Existen compras opcionales dentro del juego, pero todo el contenido principal, las frutas y las habilidades se pueden desbloquear jugando normalmente."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para jugar Legacy Piece?",
+    "description": "¡Únete a la comunidad de Legacy Piece en Discord para obtener códigos, guías, actualizaciones y participar en discusiones!",
+    "joinCommunity": "Únete a Discord",
+    "joinGame": "Juega en Roblox"
+  },
+  "footer": {
+    "title": "Wiki de Legacy Piece",
+    "description": "Tu centro de recursos completo para códigos de Legacy Piece, frutas, habilidades, jefes, guías de nivelación, armas y consejos de actualización para jugadores de Roblox.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "roblox": "Juego de Roblox",
+    "youtube": "Ver guía",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Legacy Piece Wiki. No afiliado con los desarrolladores de Legacy Piece o Roblox Corporation.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Legacy Piece",
+      "description": "Todos los códigos activos de Legacy Piece, recompensas y pasos de canje en un solo lugar.",
+      "metaTitle": "Códigos de Legacy Piece - Todos los códigos activos y recompensas (2026)",
+      "metaDescription": "Canjea los últimos códigos de Legacy Piece para obtener fragmentos, cajas, cofres y dinero gratis. Actualizado regularmente con nuevos códigos y registros de códigos expirados.",
+      "categoryLabel": "CÓDIGOS DE RECOMPENSA",
+      "whatIs": "¿Qué son los códigos de Legacy Piece?",
+      "whatIsDescription": "Los códigos de Legacy Piece son códigos de recompensa gratuitos lanzados por los desarrolladores durante las actualizaciones y los hitos de la comunidad. Canjearlos otorga fragmentos, cajas, dinero y otros objetos de progresión.",
+      "why": "¿Por qué canjear códigos?",
+      "whySteps": {
+        "step1Title": "Potenciadores de progresión gratuitos",
+        "step1Description": "Los códigos otorgan fragmentos, cajas y dinero que aceleran tu progresión en Legacy Piece.",
+        "step2Title": "Mantente actualizado",
+        "step2Description": "Nuevos códigos aparecen con cada actualización de Legacy Piece, por lo que volver a consultar regularmente te mantendrá un paso adelante.",
+        "step3Title": "Encuentra códigos expirados",
+        "step3Description": "Haz un seguimiento de qué códigos de Legacy Piece siguen activos y cuáles ya han expirado."
+      },
+      "featured": "Destacados y activos",
+      "all": "Todos los códigos"
+    },
+    "guide": {
+      "title": "Guías de Legacy Piece",
+      "description": "Guías completas de Legacy Piece que cubren los conceptos básicos para principiantes, nivelación, habilidades y estrategias avanzadas.",
+      "metaTitle": "Guías de Legacy Piece - Estrategias de principiante a avanzado",
+      "metaDescription": "Guías completas de Legacy Piece que cubren consejos para principiantes, rutas de nivelación, habilidades, jefes y tácticas de expertos para dominar el RPG de piratas de Roblox.",
+      "categoryLabel": "GUÍAS DEL JUEGO",
+      "whatIs": "¿Qué son las guías?",
+      "whatIsDescription": "Guías completas de Legacy Piece que cubren las mecánicas de juego, estrategias de nivelación y configuraciones de habilidades. Aprende todo, desde los primeros pasos hasta la progresión avanzada.",
+      "why": "¿Por qué leer guías?",
+      "whySteps": {
+        "step1Title": "Aprende las mecánicas principales",
+        "step1Description": "Entiende el combate, las frutas y las habilidades de Legacy Piece para evitar errores comunes de principiantes.",
+        "step2Title": "Progresión rápida",
+        "step2Description": "Sigue rutas de nivelación probadas para hacerte más fuerte y desbloquear nuevo contenido.",
+        "step3Title": "Domina estrategias",
+        "step3Description": "Desarrolla tácticas avanzadas para combates contra jefes, PvP y configuraciones de endgame."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las guías"
+    },
+    "fruits": {
+      "title": "Frutas de Legacy Piece",
+      "description": "Cada fruta de Legacy Piece clasificada, con sus habilidades, métodos de obtención y roles en el combate.",
+      "metaTitle": "Frutas de Legacy Piece - Lista de niveles, habilidades y ubicaciones",
+      "metaDescription": "Base de datos completa de frutas de Legacy Piece, incluyendo clasificaciones de niveles, descripciones de habilidades, métodos de obtención y rendimiento en combate para cada fruta.",
+      "categoryLabel": "FRUTAS DEL DIABLO",
+      "whatIs": "¿Qué son las frutas?",
+      "whatIsDescription": "Las frutas son habilidades especiales en Legacy Piece que otorgan poderes de combate únicos. Cada fruta cambia tu estilo de juego y tu efectividad tanto en PvE como en PvP.",
+      "why": "¿Por qué comparar frutas?",
+      "whySteps": {
+        "step1Title": "Elige la fruta correcta",
+        "step1Description": "Compara las frutas por su poder de combate antes de invertir recursos en una build.",
+        "step2Title": "Planifica la obtención",
+        "step2Description": "Aprende dónde y cómo obtener cada fruta de Legacy Piece.",
+        "step3Title": "Optimiza builds",
+        "step3Description": "Combina frutas con las habilidades y estilos de lucha adecuados para lograr el máximo efecto."
+      },
+      "featured": "Frutas de nivel superior",
+      "all": "Todas las frutas"
+    },
+    "abilities": {
+      "title": "Habilidades de Legacy Piece",
+      "description": "Guías de habilidades detalladas que cubren poderes de Frutas del Diablo, Haki, estilos de lucha y habilidades de progresión.",
+      "metaTitle": "Habilidades de Legacy Piece - Frutas del Diablo, Haki y estilos de lucha",
+      "metaDescription": "Domina cada habilidad de Legacy Piece, incluyendo poderes de Frutas del Diablo, Haki, estilos de lucha y movimientos definitivos con guías detalladas y consejos de builds.",
+      "categoryLabel": "HABILIDADES Y DESTREZAS",
+      "whatIs": "¿Qué son las habilidades?",
+      "whatIsDescription": "Las habilidades de Legacy Piece incluyen poderes de Frutas del Diablo, Haki, estilos de lucha y movimientos definitivos. Juntas definen tu rol de combate y tu ruta de progresión.",
+      "why": "¿Por qué dominar las habilidades?",
+      "whySteps": {
+        "step1Title": "Crea tu estilo de juego",
+        "step1Description": "Elige habilidades que se adapten a tu estilo de combate preferido en Legacy Piece.",
+        "step2Title": "Desbloquea la progresión",
+        "step2Description": "Progresa a través de las líneas de habilidades para desbloquear técnicas activas más fuertes.",
+        "step3Title": "Gana combates más difíciles",
+        "step3Description": "Combina habilidades de manera efectiva para derrotar a jefes y jugadores rivales."
+      },
+      "featured": "Habilidades esenciales",
+      "all": "Todas las habilidades"
+    },
+    "weapons": {
+      "title": "Armas de Legacy Piece",
+      "description": "Ubicaciones de armas, estadísticas, métodos de fabricación y fuentes de obtención en todo el mundo de Legacy Piece.",
+      "metaTitle": "Armas de Legacy Piece - Espadas, equipamiento y ubicaciones de obtención",
+      "metaDescription": "Base de datos completa de armas de Legacy Piece que cubre espadas, equipamiento, estadísticas, métodos de fabricación y ubicaciones de obtención de jefes para cada nivel de arma.",
+      "categoryLabel": "ARMAS Y EQUIPAMIENTO",
+      "whatIs": "¿Qué son las armas?",
+      "whatIsDescription": "Las armas de Legacy Piece incluyen espadas y equipamiento de combate obtenidos de jefes, fabricación y exploración. Cada arma ofrece diferentes estadísticas y estilos de combate.",
+      "why": "¿Por qué mejorar las armas?",
+      "whySteps": {
+        "step1Title": "Aumenta el poder de combate",
+        "step1Description": "Las armas más fuertes aumentan tu daño infligido en los combates de Legacy Piece.",
+        "step2Title": "Encuentra fuentes de obtención",
+        "step2Description": "Aprende qué jefes y zonas sueltan las armas que necesitas.",
+        "step3Title": "Comparar tiers de armas",
+        "step3Description": "Elige la mejor arma para tu nivel y build."
+      },
+      "featured": "Mejores armas",
+      "all": "Todas las armas"
+    },
+    "tier-list": {
+      "title": "Tier List de Legacy Piece",
+      "description": "Tier list de Legacy Piece clasificada por la comunidad que cubre frutas, habilidades, armas y builds.",
+      "metaTitle": "Tier List de Legacy Piece - Mejores frutas, habilidades y builds",
+      "metaDescription": "Tier list completa de Legacy Piece que clasifica frutas, habilidades, armas y builds para el meta actual para ayudarte a elegir las opciones más fuertes.",
+      "categoryLabel": "CLASIFICACIONES DE TIERS",
+      "whatIs": "¿Qué es la Tier List?",
+      "whatIsDescription": "La tier list de Legacy Piece clasifica frutas, habilidades, armas y builds según su rendimiento general en combate y progresión para la versión actual del juego.",
+      "why": "¿Por qué usar la tier list?",
+      "whySteps": {
+        "step1Title": "Elige opciones fuertes",
+        "step1Description": "Identifica las mejores frutas y habilidades para tu build de Legacy Piece.",
+        "step2Title": "Mantente al tanto del meta",
+        "step2Description": "Sigue cómo los cambios de equilibrio alteran las clasificaciones de tiers de Legacy Piece.",
+        "step3Title": "Planifica tu build",
+        "step3Description": "Combina opciones de primer nivel en una ruta de progresión coherente."
+      },
+      "featured": "Selecciones de primer nivel",
+      "all": "Tier List completa"
+    },
+    "locations": {
+      "title": "Ubicaciones de Legacy Piece",
+      "description": "Base de datos completa de ubicaciones de Legacy Piece que cubre todo el mapa, puntos de aparición de jefes, NPCs y lugares clave en todos los mares.",
+      "metaTitle": "Ubicaciones de Legacy Piece - Mapa, jefes y puntos de aparición de NPCs",
+      "metaDescription": "Explora cada ubicación de Legacy Piece, incluyendo el mapa mundial completo, puntos de aparición de jefes, entrenadores NPC y lugares clave en todas las islas y mares.",
+      "categoryLabel": "MAPA Y UBICACIONES",
+      "whatIs": "¿Qué son las ubicaciones?",
+      "whatIsDescription": "Las ubicaciones de Legacy Piece cubren cada isla, mar, punto de aparición de jefes y NPC en el mapa. Saber dónde encontrar jefes, entrenadores y recursos te ayuda a planificar una ruta de progresión eficiente.",
+      "why": "¿Por qué explorar las ubicaciones?",
+      "whySteps": {
+        "step1Title": "Encuentra jefes rápido",
+        "step1Description": "Localiza cada punto de aparición de jefes de Legacy Piece y el nivel recomendado antes de enfrentarte a ellos.",
+        "step2Title": "Descubre NPCs y entrenadores",
+        "step2Description": "Encuentra NPCs que enseñan habilidades, venden equipamiento y desbloquean nuevo contenido de Legacy Piece.",
+        "step3Title": "Planifica tu ruta",
+        "step3Description": "Usa el mapa de Legacy Piece para trazar una ruta de progresión eficiente a través de cada mar."
+      },
+      "featured": "Ubicaciones clave",
+      "all": "Todas las ubicaciones"
+    }
   }
 }
