@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Habilidades de Legacy Piece: Los mejores sistemas de poder y habilidades de combate",
+  description: "Domina las mecánicas de combate en Legacy Piece. Descubre cómo los poderes de las Frutas del Diablo, las habilidades de espada y los estilos de combate dan forma a la build definitiva de tu personaje.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0b2239/fff?text=Abilities+Guide",
+  date: "2026-07-07",
+  author: "Equipo de la Wiki de Legacy Piece"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Habilidades de Legacy Piece**: El sistema de combate central que consiste en Frutas del Diablo, estilos de espada y técnicas de lucha.
+- **Frutas del Diablo**: Poderes físicos y elementales de alto impacto que definen tu estilo de juego activo.
+- **Habilidades de espada**: Capacidades de armas a corta distancia ideales para un combate confiable en PvE y contra jefes.
+- **Habilidades de combate**: Movimientos esenciales de utilidad y desplazamiento que unen tus combos ofensivos.
+- **Sinergia de la build**: Combinar estilos compatibles produce el mayor rendimiento de daño y supervivencia.
+</Callout>
+
+<Section icon={Swords} title="Resumen de las habilidades de Legacy Piece">
+
+El bucle de combate principal de Legacy Piece gira en torno al diseño de una build altamente sinérgica. Las **habilidades de Legacy Piece** se dividen en tres categorías principales, cada una con un propósito distinto en el combate, la progresión y los encuentros con jefes. Seleccionar la combinación correcta de habilidades determina qué tan eficientemente puedes completar misiones y derrotar a oponentes de alto nivel.
+
+### Categorías del sistema de combate
+
+Para tener éxito en tu aventura pirata, debes comprender cómo interactúan estos tres sistemas:
+
+1. **Habilidades de Fruta del Diablo**: Poderes físicos y elementales de alto impacto.
+2. **Habilidades de espada**: Ataques cuerpo a cuerpo de alta velocidad y técnicas de armas.
+3. **Habilidades de combate**: Estilos de lucha universales que ofrecen combos confiables y utilidad.
+
+| Categoría | Uso principal | Rango de combate | Velocidad de progresión |
+| :--- | :--- | :--- | :--- |
+| **Frutas del Diablo** | Daño masivo, área (AoE) | Medio a largo | Rápida |
+| **Habilidades de espada** | DPS a un solo objetivo | Corto a medio | Moderada |
+| **Habilidades de combate** | Iniciadores de combo, Utilidad | Corto | Equilibrada |
+
+<Callout type="tip" title="La sinergia es la clave">
+No dependas únicamente de un tipo de habilidad. Las builds más fuertes combinan el control de masas a larga distancia de las Frutas del Diablo con la rápida ejecución a corta distancia de las Habilidades de espada.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Habilidades de Fruta del Diablo y clasificación por niveles">
+
+Las Frutas del Diablo otorgan poderes sobrenaturales a costa de tu capacidad para nadar. En Legacy Piece, estas frutas se clasifican por rareza y ofrecen las **habilidades de Legacy Piece** más espectaculares visualmente en el juego. 
+
+### Clasificaciones de poder de las frutas
+
+Las frutas se clasifican según su utilidad general, rendimiento de daño y capacidades de movimiento durante la progresión.
+
+<CardGrid cols={3}>
+  <Card title="Nivel S: Nivel superior">
+    - **Fruta de la Luz (Light)**: Movilidad inigualable y ataques rápidos a distancia.
+    - **Fruta del Dragón (Dragon)**: Rendimiento de daño extremo y poderoso escalado en el juego tardío.
+  </Card>
+  <Card title="Nivel A: Excelentes opciones">
+    - **Fruta Mochi**: Excelente potencial de combo y preparaciones ofensivas.
+    - **Fruta del Terremoto (Quake)**: Daño masivo en área de efecto.
+    - **Fruta del Magma (Magma)**: Alto daño a lo largo del tiempo, perfecta para jefes.
+  </Card>
+  <Card title="Nivel B: Opciones equilibradas">
+    - **Fruta del Hielo (Ice)**: Excelente control de masas y mecánicas de congelación al inicio del juego.
+    - **Fruta del Fuego (Fire)**: Daño por quemadura confiable y equilibrado para subir de nivel.
+    - **Fruta de la Oscuridad (Dark)**: Utilidad flexible y control de masas.
+  </Card>
+</CardGrid>
+
+### Métricas de rendimiento de las frutas
+
+| Nombre de la fruta | Nivel de rareza | Mejor modo de combate | Fortaleza clave |
+| :--- | :--- | :--- | :--- |
+| **Luz (Light)** | Nivel S | PvP y farmeo rápido | Alta movilidad, precisión a distancia |
+| **Dragón (Dragon)** | Nivel S | Raids de jefes y juego tardío | Área masiva (AoE), alto escalado de vida |
+| **Mochi** | Nivel A | Combos PvP | Bloqueo por aturdimiento, alto rendimiento ofensivo |
+| **Terremoto (Quake)** | Nivel A | Limpieza de enemigos PvE | Rupturas del suelo, daño de múltiples golpes |
+| **Magma** | Nivel A | Caza de jefes | Daño de derretimiento, hitboxes persistentes |
+| **Hielo (Ice)** | Nivel B | Progresión temprana | Utilidad de congelación, caminar sobre el agua |
+| **Fuego (Fire)** | Nivel B | Nivelación inicial | Quemadura constante, habilidades fáciles de acertar |
+| **Oscuridad (Dark)** | Nivel B | Builds híbridas | Atracción por gravedad, capacidades de preparación |
+
+<Callout type="warning" title="Peligro de ahogamiento">
+Comer una Fruta del Diablo te hace muy vulnerable al agua profunda. Asegúrate de comprar un barco confiable o desbloquear habilidades de movilidad antes de explorar islas lejanas con una fruta activa.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estilos de combate con espada y cuerpo a cuerpo">
+
+Si prefieres un enfoque basado en armas o deseas conservar tu capacidad para nadar libremente, centrarte en las Habilidades de espada y los Estilos de combate marcial es la ruta ideal. Estas habilidades no sufren penalizaciones por agua y proporcionan un increíble daño físico a un solo objetivo.
+
+### Opciones de combate cuerpo a cuerpo
+
+- **Habilidades de espada**: Se centran en técnicas de corte precisas, perfectas para romper la guardia del enemigo y causar daño explosivo a los jefes.
+- **Habilidades de combate**: Estilos de lucha cuerpo a cuerpo que priorizan golpes rápidos, empujones y desvíos defensivos para mantener a raya a los enemigos.
+
+### Comparación de estilos cuerpo a cuerpo
+
+| Estilo de lucha | Enfoque de combate | Costo de recursos | Mejor fruta compañera |
+| :--- | :--- | :--- | :--- |
+| **Estilo de una espada** | Cortes de precisión, ruptura de guardia | Estamina moderada | Fruta del Hielo (Congelar y cortar) |
+| **Estilo de dos espadas** | Golpes rápidos múltiples, alto DPS | Estamina alta | Fruta de la Luz (Teletransporte y golpe) |
+| **Combate básico** | Desvío, combos rápidos | Estamina baja | Fruta de la Oscuridad (Atraer y golpear) |
+
+<Callout type="success" title="Gestión de la estamina">
+Los estilos cuerpo a cuerpo consumen una cantidad significativa de estamina. Prioriza mejorar tu estadística de Estamina junto con tus atributos de Espada o Fuerza para mantener cadenas de combate largas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ruta de progresión de habilidades paso a paso">
+
+Desbloquear y dominar tus deseadas **habilidades de Legacy Piece** requiere una ruta de progresión estructurada. Sigue estos pasos para maximizar tu eficiencia en combate desde un personaje nuevo hasta convertirte en una potencia del juego tardío.
+
+<Steps>
+  <Step num="1" title="Creación de personaje y conceptos básicos">
+    Personaliza tu personaje y completa las misiones del tutorial. Céntrate en aprender las mecánicas básicas de combate como esquivar, bloquear y cadenas de ataques ligeros.
+  </Step>
+  <Step num="2" title="Adquiere tu primer estilo de combate">
+    Visita a los entrenadores del inicio del juego para comprar tu primer estilo básico de espada o estilo de lucha. Esto te proporcionará tus primeras habilidades activas que no dependen de drops raros.
+  </Step>
+  <Step num="3" title="Caza de Frutas del Diablo">
+    Busca debajo de los árboles, revisa los puntos de aparición o ahorra moneda del juego para obtener una Fruta del Diablo inicial (como la de Hielo o Fuego) para aumentar drásticamente tu velocidad de farmeo.
+  </Step>
+  <Step num="4" title="Optimiza los puntos de atributos">
+    Asigna tus puntos de estadísticas para que coincidan con tu fuente de daño principal. Si usas una fruta, asigna puntos a Maestría de Fruta; si usas espadas, prioriza la Maestría de Espada.
+  </Step>
+  <Step num="5" title="Desafía a jefes de alto nivel">
+    Combina tus habilidades completamente desbloqueadas para desafiar a los jefes. Usa habilidades de control de masas para aturdirlos, seguidas de tus ataques cuerpo a cuerpo o elementales de mayor daño.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Restablecer estadísticas">
+Si decides cambiar de una build de espada a una build de fruta, busca códigos promocionales activos o NPCs en el juego que ofrezcan restablecimientos de estadísticas para evitar arruinar la eficiencia de tu build.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hitos definitivos del personaje">
+
+Para asegurarte de que tu personaje esté completamente optimizado para el meta actual, intenta completar esta lista de verificación de progresión.
+
+<Checklist
+  id="ability-milestones"
+  title="Objetivos de progresión:"
+  items={[
+    "Alcanza la maestría máxima en tu arma principal o estilo de lucha",
+    "Obtiene al menos una Fruta del Diablo de nivel S o nivel A",
+    "Desbloquea todas las habilidades activas para tu estilo de espada equipado",
+    "Equilibra tus atributos para soportar el lanzamiento continuo de habilidades sin quedarte sin estamina",
+    "Derrota a un jefe de isla importante usando una rotación de combate completa"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son las mejores habilidades de Legacy Piece para principiantes?",
+    answer: "Para los principiantes, se recomiendan los estilos básicos de espada combinados con frutas elementales del inicio del juego como la de Hielo o Fuego. Proporcionan un daño confiable, control de masas y no requieren grandes inversiones de estadísticas para ser efectivas."
+  },
+  {
+    question: "¿Puedo usar habilidades de Fruta del Diablo y habilidades de espada simultáneamente?",
+    answer: "Sí. Puedes equipar tanto una Fruta del Diablo como una espada. Sin embargo, debes administrar tus puntos de atributos con cuidado, ya que dividir tus estadísticas de manera demasiado equitativa entre Maestría de Fruta y Maestría de Espada puede reducir tu rendimiento de daño general."
+  },
+  {
+    question: "¿Cómo obtengo frutas raras de nivel S como la de Luz y la del Dragón?",
+    answer: "Las frutas de nivel S se pueden encontrar debajo de los árboles alrededor del mapa, comprar al vendedor de frutas usando la moneda del juego, u obtener como recompensas raras de batallas contra jefes de alto nivel y otras actividades."
+  },
+  {
+    question: "¿Ahogarse hace que pierda el poder de mi Fruta del Diablo permanentemente?",
+    answer: "No. Ahogarse en el agua agotará tu salud y derrotará a tu personaje, pero reaparecerás con tus habilidades de Fruta del Diablo completamente intactas."
+  }
+]} />
+
+</Section>

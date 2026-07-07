@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Habilidades de Legacy Piece: Melhores Sistemas de Poder e Estilos de Combate",
+  description: "Domine as mecânicas de combate em Legacy Piece. Descubra como os poderes de Akuma no Mi (Devil Fruits), habilidades de Espada e estilos de Combate moldam a build definitiva do seu personagem.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0b2239/fff?text=Abilities+Guide",
+  date: "2026-07-07",
+  author: "Equipe Wiki do Legacy Piece"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Habilidades de Legacy Piece**: O sistema de combate principal composto por Akuma no Mi (Devil Fruits), estilos de Espada e técnicas de Luta.
+- **Akuma no Mi (Devil Fruits)**: Poderes elementais e físicos de alto impacto que definem seu estilo de jogo ativo.
+- **Habilidades de Espada**: Capacidades de armas de curto alcance ideais para combate PvE e contra chefes.
+- **Habilidades de Combate**: Movimentos essenciais de mobilidade e utilidade que unem seus combos ofensivos.
+- **Sinergia de Build**: Combinar estilos compatíveis gera o maior dano e sobrevivência.
+</Callout>
+
+<Section icon={Swords} title="Visão Geral das Habilidades de Legacy Piece">
+
+O ciclo de combate principal de Legacy Piece gira em torno de projetar uma build altamente sinérgica. As **habilidades de Legacy Piece** são divididas em três categorias principais, cada uma servindo a um propósito distinto no combate, na progressão e nos encontros com chefes. Selecionar a combinação certa de habilidades determina a eficiência com que você pode concluir missões e derrotar oponentes de nível alto.
+
+### Categorias do Sistema de Combate
+
+Para ter sucesso em sua aventura pirata, você deve entender como esses três sistemas interagem:
+
+1. **Habilidades de Akuma no Mi**: Poderes elementais e físicos de alto impacto.
+2. **Habilidades de Espada**: Golpes corpo a corpo de alta velocidade e técnicas de armas.
+3. **Habilidades de Combate**: Estilos de luta universais que oferecem combos confiáveis e utilidade.
+
+| Categoria | Uso Principal | Alcance de Combate | Velocidade de Progressão |
+| :--- | :--- | :--- | :--- |
+| **Akuma no Mi** | Dano pesado, AoE | Médio a Longo | Rápida |
+| **Habilidades de Espada** | DPS de alvo único | Curto a Médio | Moderada |
+| **Habilidades de Combate** | Iniciadores de combo, Utilidade | Curto | Equilibrada |
+
+<Callout type="tip" title="Sinergia é a Chave">
+Não dependa apenas de um tipo de habilidade. As builds mais fortes combinam o controle de grupo de longo alcance das Akuma no Mi com a execução rápida em combate fechado das Habilidades de Espada.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Habilidades de Akuma no Mi e Classificação de Tier">
+
+As Akuma no Mi concedem poderes sobrenaturais ao custo de sua capacidade de nadar. Em Legacy Piece, essas frutas são categorizadas por raridade e oferecem as **habilidades de Legacy Piece** mais visualmente espetaculares do jogo.
+
+### Classificações de Poder das Frutas
+
+As frutas são classificadas com base em sua utilidade geral, dano causado e capacidades de movimentação durante a progressão.
+
+<CardGrid cols={3}>
+  <Card title="Tier S: Nível Máximo">
+    - **Fruta da Luz (Light)**: Mobilidade incomparável e ataques rápidos à distância.
+    - **Fruta do Dragão (Dragon)**: Alto dano e excelente escalamento no late-game.
+  </Card>
+  <Card title="Tier A: Excelentes Escolhas">
+    - **Fruta da Mochi (Mochi)**: Ótimo potencial de combo e configurações ofensivas.
+    - **Fruta do Terremoto (Quake)**: Dano massivo em área (AoE).
+    - **Fruta do Magma (Magma)**: Alto dano contínuo (DoT), perfeito para chefes.
+  </Card>
+  <Card title="Tier B: Opções Equilibradas">
+    - **Fruta do Gelo (Ice)**: Ótimo controle de grupo e mecânica de congelamento no early-game.
+    - **Fruta do Fogo (Fire)**: Dano de queimadura confiável e equilibrado para subir de nível.
+    - **Fruta da Escuridão (Dark)**: Utilidade flexível e controle de grupo.
+  </Card>
+</CardGrid>
+
+### Métricas de Desempenho das Frutas
+
+| Nome da Fruta | Tier de Raridade | Melhor Modo de Combate | Principal Força |
+| :--- | :--- | :--- | :--- |
+| **Luz (Light)** | Tier S | PvP e Farm Rápido | Alta mobilidade, Precisão à distância |
+| **Dragão (Dragon)** | Tier S | Raids de Chefe e Late-game | AoE massivo, Alto escalamento de vida |
+| **Mochi** | Tier A | Combos PvP | Travamento por atordoamento, Alto dano ofensivo |
+| **Terremoto (Quake)** | Tier A | Limpeza de Mobs PvE | Rupturas no solo, Dano de múltiplos acertos |
+| **Magma** | Tier A | Caça a Chefes | Dano de derretimento, Hitboxes persistentes |
+| **Gelo (Ice)** | Tier B | Progressão Inicial | Utilidade de congelamento, Caminhar sobre a água |
+| **Fogo (Fire)** | Tier B | Subida de Nível Inicial | Queimadura consistente, Habilidades fáceis de acertar |
+| **Escuridão (Dark)** | Tier B | Builds Híbridas | Puxões de gravidade, Capacidade de setup |
+
+<Callout type="warning" title="Perigo de Afogamento">
+Comer uma Akuma no Mi torna você altamente vulnerável à água profunda. Certifique-se de comprar um navio confiável ou desbloquear habilidades de mobilidade antes de explorar ilhas distantes com uma fruta ativa.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estilos de Luta de Espada e Combate">
+
+Se você prefere uma abordagem baseada em armas ou quer preservar sua capacidade de nadar livremente, focar em Habilidades de Espada e Estilos de Combate Marcial é o caminho ideal. Essas habilidades não sofrem penalidades na água e fornecem um dano físico incrível de alvo único.
+
+### Opções de Combate Corpo a Corpo
+
+- **Habilidades de Espada**: Foca em técnicas precisas de corte, perfeitas para quebrar a guarda inimiga e causar dano explosivo em chefes.
+- **Habilidades de Combate**: Estilos de luta de mãos vazias que priorizam golpes rápidos, repulsões e defesas (parries) para manter os inimigos afastados.
+
+### Comparação de Estilos Corpo a Corpo
+
+| Estilo de Luta | Foco de Combate | Custo de Recurso | Melhor Fruta de Acompanhamento |
+| :--- | :--- | :--- | :--- |
+| **Estilo de Uma Espada** | Cortes precisos, Quebra de guarda | Estamina Moderada | Fruta do Gelo (Congelar e Cortar) |
+| **Estilo de Duas Espadas** | Golpes rápidos múltiplos, Alto DPS | Estamina Alta | Fruta da Luz (Teletransportar e Golpear) |
+| **Combate Básico** | Deflexão, Combos rápidos | Estamina Baixa | Fruta da Escuridão (Puxar e Socar) |
+
+<Callout type="success" title="Gerenciamento de Estamina">
+Estilos corpo a corpo consomem muita estamina. Priorize a melhoria do seu atributo de Estamina junto com seus atributos de Espada ou Força para sustentar longas cadeias de combate.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rota de Progressão de Habilidades Passo a Passo">
+
+Desbloquear e dominar as **habilidades de Legacy Piece** desejadas requer um caminho de progressão estruturado. Siga estas etapas para maximizar sua eficiência de combate, desde um personagem novo até uma potência no late-game.
+
+<Steps>
+  <Step num="1" title="Criação de Personagem e Básico">
+    Personalize seu personagem e complete as missões do tutorial. Foque em aprender mecânicas básicas de combate como esquivar, bloquear e cadeias de ataques leves.
+  </Step>
+  <Step num="2" title="Adquira seu Primeiro Estilo de Combate">
+    Visite os treinadores do início do jogo para comprar seu primeiro Estilo de Espada ou Estilo de Luta básico. Isso fornece suas primeiras habilidades ativas que não dependem de drops raros.
+  </Step>
+  <Step num="3" title="Procure por Akuma no Mi">
+    Procure debaixo de árvores, verifique os locais de surgimento ou economize a moeda do jogo para obter uma Akuma no Mi inicial (como Gelo ou Fogo) para aumentar drasticamente sua velocidade de farm.
+  </Step>
+  <Step num="4" title="Otimize os Pontos de Atributos">
+    Aloque seus pontos de atributos para corresponder à sua principal fonte de dano. Se estiver usando uma fruta, invista pontos em Maestria de Fruta; se estiver usando espadas, priorize Maestria em Espada.
+  </Step>
+  <Step num="5" title="Desafiando Chefes de Nível Alto">
+    Combine suas habilidades totalmente desbloqueadas para desafiar chefes. Use habilidades de controle de grupo para atordoá-los, seguidas por seus ataques corpo a corpo ou elementais de maior dano.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Resetando Atributos">
+Se decidir mudar de uma build de Espada para uma build de Fruta, fique atento a códigos promocionais ativos ou NPCs no jogo que oferecem resets de atributos para evitar arruinar a eficiência da sua build.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Marcos Finais do Personagem">
+
+Para garantir que seu personagem esteja totalmente otimizado para o meta atual, tente completar esta lista de verificação de progressão.
+
+<Checklist
+  id="ability-milestones"
+  title="Objetivos de Progressão:"
+  items={[
+    "Alcançar o nível máximo de maestria em sua arma principal ou estilo de luta",
+    "Obter pelo menos uma Akuma no Mi de Tier S ou Tier A",
+    "Desbloquear todas as habilidades ativas para o seu estilo de espada equipado",
+    "Equilibrar seus atributos para suportar a conjuração contínua de habilidades sem ficar sem estamina",
+    "Derrotar um chefe de ilha principal usando uma rotação de combate completa"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Quais são as melhores habilidades de Legacy Piece para iniciantes?",
+    answer: "Para iniciantes, recomenda-se combinar Estilos de Espada básicos com frutas elementais do início do jogo, como Gelo ou Fogo. Elas fornecem dano confiável, controle de grupo e não exigem altos investimentos em atributos para serem eficazes."
+  },
+  {
+    question: "Posso usar habilidades de Akuma no Mi e habilidades de Espada simultaneamente?",
+    answer: "Sim. Você pode equipar tanto uma Akuma no Mi quanto uma Espada. No entanto, deve gerenciar seus pontos de atributos com cuidado, pois dividir seus atributos de forma muito equilibrada entre Maestria de Fruta e Maestria de Espada pode reduzir seu dano geral."
+  },
+  {
+    question: "Como obtenho frutas raras de Tier S, como Luz e Dragão?",
+    answer: "Frutas de Tier S podem ser encontradas surgindo sob árvores pelo mapa, compradas do vendedor de frutas usando a moeda do jogo, ou obtidas como recompensas raras em lutas contra chefes de nível alto e atividades."
+  },
+  {
+    question: "Se eu me afogar, perco o poder da minha Akuma no Mi permanentemente?",
+    answer: "Não. Afogar-se na água esgotará sua vida e derrotará seu personagem, mas você renascerá com suas habilidades de Akuma no Mi completamente intactas."
+  }
+]} />
+
+</Section>

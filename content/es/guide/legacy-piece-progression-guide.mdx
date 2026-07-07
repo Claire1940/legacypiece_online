@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de progresión de Legacy Piece: Mejores rutas de nivelación y builds",
+  description: "Domina la guía de progresión de Legacy Piece. Descubre las rutas de nivelación más rápidas, las mejores frutas del diablo, drops de jefes y consejos esenciales para principiantes.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0b2239/fff?text=Legacy+Piece+Progression+Guide",
+  date: "2026-07-07",
+  author: "Equipo de la Wiki de Legacy Piece",
+  keywords: "Legacy Piece, progresión, guía, nivelación, frutas del diablo, jefes, Haki"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo Principal**: Sigue esta guía estructurada de progresión de Legacy Piece para subir de nivel eficientemente desde la Isla de Inicio hasta las zonas de jefes de alto nivel.
+- **Mejor Ruta Inicial**: Concéntrate en los ciclos de misiones en la Isla de Alvida y Shells Town antes de aventurarte en el Grand Line.
+- **Mejor Elección de Fruta**: Prioriza las frutas Light (Luz) o Magma para una alta movilidad y daño de área rápido.
+- **Enfoque de Estadísticas Esencial**: Asigna puntos principalmente a Melee/Espada y Defensa durante los niveles iniciales para asegurar la supervivencia.
+</Callout>
+
+<Section icon={Sparkles} title="Creación de Personaje y Selección de Raza">
+
+La creación del personaje establece la base de todo tu viaje. Aunque elegir tu apariencia es cosmético, girar tu raza es la decisión más crítica que tomarás. Tu raza inicial otorga mejoras pasivas permanentes que impactan la eficiencia en combate, la velocidad de movimiento y la regeneración de salud.
+
+Evaluar las razas disponibles te ayuda a alinear tu elección con tu estilo de juego preferido. Algunas razas destacan en el combate cuerpo a cuerpo, mientras que otras ofrecen mejoras de utilidad y desplazamiento que aceleran los viajes.
+
+| Raza | Mejoras Principales | Calificación de Progresión |
+| --- | --- | --- |
+| **Humano** | Aumento de Exp, Estadísticas equilibradas | ★★★☆☆ |
+| **Fishman** | Velocidad de nado, Resistencia al daño de agua | ★★★★★ |
+| **Mink** | Aumento de estamina, Aturdimiento eléctrico | ★★★★☆ |
+| **Skypian** | Habilidad de planeo, Altura de salto | ★★★☆☆ |
+
+<Callout type="tip" title="Relanzamiento de Raza">
+Usa códigos promocionales activos para asegurar giros gratis pronto. Relanzar para obtener Fishman o Mink mejora significativamente tu desplazamiento y eficiencia de combate al principio del juego.
+</Callout>
+
+Si no obtienes la raza deseada en el primer intento, no te preocupes. El juego ofrece frecuentemente oportunidades para relanzar. Concéntrate en maximizar las fortalezas naturales de tu raza en lugar de forzar un estilo de juego que contradiga tus mejoras pasivas. Por ejemplo, los jugadores Fishman deberían priorizar el combate basado en el mar y la exploración.
+
+</Section>
+
+<Section icon={Map} title="Ruta de Nivelación Inicial (Niveles 1-50)">
+
+Progresar a través de los niveles iniciales requiere un enfoque estructurado para minimizar el tiempo de viaje y maximizar las ganancias de experiencia. El mar inicial consta de varias islas distintas, cada una adaptada a rangos de nivel específicos. Farmear enemigos sin misiones activas es muy ineficiente. Siempre localiza a los dadores de misiones locales inmediatamente al llegar a una nueva isla.
+
+<CardGrid cols={3}>
+  <Card title="Isla de Inicio (Niveles 1-10)">
+    - Concéntrate en las misiones básicas de bandidos.
+    - Aprende las mecánicas de combate y esquive.
+    - Ahorra Beli para tu primera arma.
+  </Card>
+  <Card title="Isla de Alvida (Niveles 10-25)">
+    - Derrota a los guardias de Alvida para obtener experiencia rápida.
+    - Desafía al jefe Alvida para obtener equipo inicial.
+    - Mejora las estadísticas de defensa para sobrevivir a golpes fuertes.
+  </Card>
+  <Card title="Shells Town (Niveles 25-50)">
+    - Completa misiones de la Marina para obtener altas recompensas de oro.
+    - Lucha contra Morgan para obtener objetos iniciales poderosos.
+    - Comienza a buscar tu primera Fruta del Diablo.
+  </Card>
+</CardGrid>
+
+| Isla | Rango de Nivel | Misiones y Objetivos Clave |
+| --- | --- | --- |
+| **Isla de Inicio** | 1-10 | Derrotar bandidos, Misiones de entrega |
+| **Isla de Alvida** | 10-25 | Jefe Alvida, Combates de guardias |
+| **Shells Town** | 25-50 | Jefe Morgan, Derrotar marinos |
+
+<Callout type="warning" title="Seguridad PvP">
+Shells Town es un punto de encuentro frecuente para jugadores de alto nivel que buscan encuentros PvP. Mantén tu modo de combate desactivado si quieres realizar misiones sin interrupciones.
+</Callout>
+
+Para optimizar tu ruta, completa todas las misiones disponibles en una isla antes de pasar a la siguiente. Agruparse con otros jugadores puede acelerar significativamente la derrota de jefes, ya que el crédito de la misión se comparte entre los miembros del grupo que contribuyen a la pelea.
+
+</Section>
+
+<Section icon={Swords} title="Progresión de Combate y Habilidades">
+
+Tu build de combate depende en gran medida de la sinergia entre tu Fruta del Diablo, armas y estilos de lucha. Las Frutas del Diablo otorgan poderosas habilidades activas elementales o físicas, mientras que las espadas y las artes marciales proporcionan opciones fiables de combate cuerpo a cuerpo. Equilibrar la asignación de tus puntos de estadísticas entre estas categorías determina tu efectividad general en combate.
+
+| Fruta | Tipo | Enfoque de Combate | Calificación de Nivel |
+| --- | --- | --- | --- |
+| **Light** | Logia | Distancia / Alta movilidad | Nivel S (★★★★★) |
+| **Dragon** | Zoan | Alto daño de área / Juego tardío | Nivel S (★★★★★) |
+| **Magma** | Logia | Alto daño / Efecto de quemadura | Nivel A (★★★★☆) |
+| **Mochi** | Paramecia | Ataques combinados / Control de masas | Nivel A (★★★★☆) |
+| **Fire** | Logia | Distancia equilibrada / Quemadura | Nivel B (★★★☆☆) |
+| **Ice** | Logia | Aturdimiento por congelación / Soporte cuerpo a cuerpo | Nivel B (★★★☆☆) |
+
+<Callout type="success" title="Sinergia de Habilidades">
+Las frutas Logia (como Light y Magma) otorgan inmunidad elemental contra NPCs de bajo nivel. Esto las convierte en la mejor opción absoluta para subir de nivel rápido.
+</Callout>
+
+Para los jugadores que se centran en el uso de la espada, subir de nivel tu maestría de arma es tan importante como mejorar tus estadísticas. La maestría de arma desbloquea nuevas habilidades y aumenta el daño de tus ataques básicos. Combina estas con una fruta de alta movilidad para dominar tanto los encuentros PvE como PvP.
+
+</Section>
+
+<Section icon={Target} title="Progresión del Juego Medio a Tardío (Niveles 50-99+)">
+
+Llegar a la fase media-tardía del juego cambia el enfoque de las misiones simples al farmeo de jefes y la optimización. Los jefes sueltan equipo raro, accesorios y armas que proporcionan aumentos masivos de estadísticas. Además, desbloquear sistemas avanzados como el Haki se vuelve obligatorio para dañar a los enemigos del juego tardío y eludir las inmunidades físicas.
+
+<Steps>
+  <Step num="1" title="Desbloquear Haki">
+    Localiza la isla oculta del entrenador de Haki y completa las pruebas para desbloquear el Haki Busoshoku (Armamiento) y Kenbunshoku (Observación).
+  </Step>
+  <Step num="2" title="Farmear Orange Town">
+    Objetivo niveles 50-75. Farmea al jefe Buggy y su tripulación para asegurar accesorios y armas de juego medio-temprano.
+  </Step>
+  <Step num="3" title="Farmear Baratie">
+    Objetivo niveles 75-99. Derrota a Don Krieg y sus comandantes. Esta zona proporciona las tasas de experiencia más altas antes de entrar en los mares del juego tardío.
+  </Step>
+  <Step num="4" title="Adquirir Armas Legendarias">
+    Farmea jefes mundiales de alto nivel repetidamente para asegurar drops legendarios, asegurando que tu build esté lista para el contenido final.
+  </Step>
+</Steps>
+
+| Nombre del Jefe | Ubicación | Drops Clave | Tasa de Drop |
+| --- | --- | --- | --- |
+| **Buggy** | Orange Town | Capa de Buggy, Cuchillo de Buggy | Baja |
+| **Arlong** | Arlong Park | Espada Kiribachi | Media |
+| **Don Krieg** | Baratie | Armadura de Krieg, Escudo | Baja |
+
+<Callout type="info" title="Requisitos de Haki">
+Desbloquear el Haki requiere completar una línea de misiones específica ubicada en una isla oculta. Asegúrate de tener al menos 50,000 Beli ahorrados antes de intentar la prueba.
+</Callout>
+
+Durante los encuentros con jefes, aprende a reconocer los patrones de ataque y las animaciones de preparación. Esquivar y parar perfectamente salvará tu salud y te permitirá contraatacar durante las ventanas de enfriamiento del jefe. Se recomienda encarecidamente la coordinación en grupo para jefes como Don Krieg.
+
+</Section>
+
+<Section icon={Trophy} title="Listas de Verificación e Hitos de Progresión">
+
+Para asegurarte de que vas por el camino correcto, utiliza estos hitos para evaluar la progresión de tu personaje. Completar estos objetivos garantiza que tu build esté optimizada para las próximas actualizaciones de contenido y desafíos de alto nivel.
+
+<Checklist
+  id="progression-goals"
+  title="Hitos Esenciales:"
+  items={[
+    "Alcanzar el nivel 99 y maximizar las estadísticas de arma principal.",
+    "Obtener una Fruta del Diablo de nivel S o A.",
+    "Desbloquear tanto el Haki de Armamento como el de Observación.",
+    "Derrotar a todas las Bestias Marinas y jefes mundiales al menos una vez.",
+    "Equipar accesorios de grado legendario para una defensa máxima."
+  ]}
+/>
+
+<Callout type="tip" title="Rutina Diaria">
+Concéntrate primero en las misiones diarias y las rotaciones de jefes. Proporcionan la mejor relación experiencia-tiempo en comparación con el farmeo estándar de enemigos comunes.
+</Callout>
+
+Haz un seguimiento de tu inventario y vende los drops de jefes duplicados para acumular Beli. Necesitarás cantidades sustanciales de moneda para comprar estilos de lucha avanzados, mejoras de barcos y objetos consumibles más adelante en el juego.
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+Esta sección aborda consultas comunes sobre builds de personajes, rutas de nivelación y sistemas de progresión.
+
+<Callout type="info" title="Recursos de la Comunidad">
+Revisa siempre el Discord oficial y la página del grupo de Roblox para obtener códigos activos. Estos códigos proporcionan reinicios de estadísticas gratuitos, que son vitales si quieres cambiar tu build.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la forma más rápida de subir de nivel en Legacy Piece?",
+    answer: "Sigue la progresión de misiones isla por isla, usa frutas Logia para daño de área y siempre forma equipo para las peleas de jefes."
+  },
+  {
+    question: "¿Cómo reinicio mis estadísticas en Legacy Piece?",
+    answer: "Puedes usar códigos promocionales activos para reinicios de estadísticas gratuitos o comprarlos usando Beli de NPCs específicos del juego."
+  },
+  {
+    question: "¿Qué raza es la mejor para la guía de progresión de Legacy Piece?",
+    answer: "Fishman es muy recomendable debido a su velocidad de nado y resistencia al agua, lo que hace que los viajes por mar y el salto entre islas sean mucho más rápidos."
+  },
+  {
+    question: "¿Dónde consigo las mejores espadas?",
+    answer: "Los jefes principales como Arlong y Don Krieg sueltan espadas poderosas. Farmea a estos jefes repetidamente para asegurar sus drops raros."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de Yuta en Legacy Piece: Ubicación de NPC, Pasos de Misión y Recompensas",
+  description: "Domina la línea de misiones de Yuta en Legacy Piece con nuestra guía de 2026. Conoce su ubicación secreta, los requisitos de la misión y cómo desbloquear el estilo de combate Mímica.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/e2e8f0?text=Yuta+Quest+Guide",
+  date: "2026-07-07",
+  author: "Equipo de la Wiki de Legacy Piece"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía de Yuta en Legacy Piece**: Este NPC especializado otorga acceso a estilos de combate únicos y recompensas de progresión de alto nivel.
+- **Ubicación**: Se encuentra en la oculta **Isla de la Congelación** (Frostbite Isle), escondido detrás de la cordillera montañosa del norte.
+- **Requisito Clave**: Los jugadores deben tener al menos **Nivel 350** y poseer 50,000 Beli para iniciar el diálogo.
+- **Recompensa Principal**: Desbloquea la **Habilidad de Mímica**, permitiendo a los jugadores replicar brevemente el conjunto de habilidades del enemigo.
+- **Consejo Crítico**: Asegúrate de que tu Maestría en Espadas o Frutas sea de al menos Grado A antes de intentar la prueba de combate final.
+</Callout>
+
+<Section icon={Map} title="Encontrar a Yuta: Ubicación Secreta y Navegación">
+
+Localizar a Yuta es el primer obstáculo para muchos aventureros en el vasto mundo de Legacy Piece. A diferencia de los dadores de misiones estándar que se encuentran en el centro de las ciudades iniciales, Yuta es un NPC especializado diseñado para la progresión a mitad y final del juego. Con las actualizaciones de 2026, su ubicación permanece fija en la **Isla de la Congelación** (Frostbite Isle), una región conocida por su clima hostil y la aparición de enemigos de alto nivel.
+
+Para llegar a Yuta, debes navegar hacia el punto más septentrional del mapa. Una vez que atraques en la Isla de la Congelación, pasa de largo la aldea principal y busca la entrada de una cueva estrecha parcialmente oculta por pinos cubiertos de nieve. Este sendero conduce a una meseta apartada donde reside Yuta.
+
+| Característica de Ubicación | Descripción | Pista de Navegación |
+| :--- | :--- | :--- |
+| **Isla Principal** | Isla de la Congelación (Frostbite Isle) | Al norte de la Isla de Shells |
+| **Punto de Referencia** | El Mirador Helado (The Frozen Overlook) | Detrás de los enemigos de nivel 300 |
+| **Entrada de la Cueva** | Grieta Oculta | Busca el musgo azul brillante |
+| **Coordenadas del NPC** | X: -4500, Z: 8200 | Usa la herramienta Brújula para mayor precisión |
+
+<Callout type="tip" title="Consejo de Navegante Pro">
+Si posees la **Fruta de Luz** o cualquier habilidad de alta movilidad, vuela directamente sobre los picos del norte para esquivar a los enemigos Yeti de nivel 300. Esto te ahorrará una cantidad significativa de tiempo y salud antes de comenzar la conversación con Yuta.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Requisitos y Preparación Previa a la Misión">
+
+Antes de que Yuta se digne a reconocer tu presencia, tu personaje debe cumplir con ciertos umbrales de poder y riqueza. Legacy Piece utiliza un \"Sistema de Respeto\" para sus NPC de élite, lo que significa que los jugadores de bajo nivel simplemente recibirán un mensaje genérico de rechazo.
+
+Prepararse para la línea de misiones de la **guía de yuta en legacy piece** requiere un equilibrio entre subir de nivel a base de esfuerzo y acumular recursos. No puedes apresurar este encuentro; intentar la misión sin la build adecuada resultará en una rápida derrota durante la fase de la prueba de combate.
+
+**Requisitos Esenciales:**
+- **Nivel del Personaje**: 350+ (Requisito estricto)
+- **Moneda**: 50,000 Beli (Tarifa no reembolsable)
+- **Reputación**: Neutral o Superior (Tanto Piratas como Marines pueden acceder a Yuta)
+- **Inventario**: Al menos 5 **Fragmentos de Espíritu** (Obtenidos como botín de Jefes)
+
+| Requisito | Tipo | Por Qué Importa |
+| :--- | :--- | :--- |
+| **Nivel 350** | Barrera de Poder | Garantiza que puedas sobrevivir a los enemigos de la prueba |
+| **50,000 Beli** | Recurso | Pago por el entrenamiento secreto |
+| **5 Fragmentos de Espíritu** | Material | Utilizados para fabricar el Catalizador de Mímica |
+| **Maestría de Grado A** | Habilidad | Determina la potencia de la recompensa |
+
+<Callout type="warning" title="Advertencia de Recursos">
+No gastes tus Fragmentos de Espíritu en Cajas o Cofres antes de conocer a Yuta. Estos fragmentos son botines raros de jefes como la Bestia Marina o el Rey de la Montaña, y farmearlos de nuevo puede tomar horas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Paso a Paso de la Misión de Yuta">
+
+Una vez que cumplas con los requisitos previos, la línea de misiones real consta de tres fases distintas. Esta guía paso a paso asegura que no te saltes ningún activador de diálogo crítico que pudiera reiniciar tu progreso.
+
+<Steps>
+  <Step num="1" title="El Contrato Inicial">
+    Habla con Yuta en el Mirador Helado. Entrégale los 50,000 Beli y los 5 Fragmentos de Espíritu. Te encomendará la tarea de \"Purificar los Espíritus\" de la isla.
+  </Step>
+  <Step num="2" title="El Exterminio de Yetis">
+    Derrota a 25 **Yetis de Élite** (Nivel 325) dispersos por la meseta. Estos enemigos tienen mucha vida y pueden aturdirte con golpes en el suelo. Usa ataques a distancia si es posible.
+  </Step>
+  <Step num="3" title="El Combate Espejo">
+    Regresa con Yuta. Te teletransportará a una arena privada donde deberás luchar contra un **Clon de Sombra** de ti mismo. El clon utilizará tu equipamiento y habilidades exactas actuales.
+  </Step>
+  <Step num="4" title="Sintonización Final">
+    Tras derrotar a tu clon, habla con Yuta una última vez. Realizará un ritual que desbloqueará permanentemente la ranura de **Mímica** en tu menú de habilidades.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Estrategia de Combate">
+Durante el Combate Espejo en el Paso 3, el clon de IA es agresivo pero predecible. Desequípate tu arma más poderosa justo antes de que comience la pelea, y luego vuélvetela a equipar una vez que aparezca el clon. ¡El clon se quedará atrapado usando el equipamiento más débil!
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Análisis de Recompensa: El Estilo Mímica">
+
+La razón principal por la que los jugadores buscan la **guía de yuta en legacy piece** es el estilo de combate Mímica. Este es un \"Subestilo\" único que no ocupa tu ranura principal de Fruta o Espada, lo que lo hace increíblemente versátil tanto para PvP como para PvE.
+
+<CardGrid cols={3}>
+  <Card title="Utilidad en PvP">
+    - **Contrajuego**: Copia las habilidades definitivas del enemigo
+    - **Juegos Mentales**: Despliega movimientos idénticos
+    - **Adaptabilidad**: Cambia de estilo a mitad del combate
+  </Card>
+  <Card title="Farming en PvE">
+    - **Eficiencia**: Usa los movimientos de los Jefes contra ellos mismos
+    - **Potencial de Área**: Imita hechizos de gran daño
+    - **Sostenibilidad**: Copia habilidades de curación
+  </Card>
+  <Card title="Escalado de Estadísticas">
+    - **Vínculo de Maestría**: Escala con tu estadística más alta
+    - **Sin Necesidad de Fruta**: Funciona para builds puras de Espada
+    - **Bajo Coste de Maná**: Altamente spammeable
+  </Card>
+</CardGrid>
+
+| Nombre de la Habilidad | Enfriamiento | Efecto |
+| :--- | :--- | :--- |
+| **Golpe Espejo** | 12 Segundos | Copia el último movimiento recibido y refleja el 50% del daño |
+| **Robo de Identidad** | 45 Segundos | Obtén las mejoras pasivas del enemigo durante 10 segundos |
+| **Vacío del Eco** | 90 Segundos | Reinicia el enfriamiento de tu último movimiento de Fruta utilizado |
+
+<Callout type="info" title="Sinergia de Habilidades">
+Mímica funciona excepcionalmente bien con la **Fruta de Luz**. Puedes usar la gran velocidad de la Luz para acercarte, activar Robo de Identidad para robar la mejora de defensa de un Jefe y luego retirarte de forma segura usando el Vuelo de Luz.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mejores Builds para el Estilo Mímica de Yuta">
+
+Para maximizar el potencial del entrenamiento de Yuta, necesitas una build que complemente la naturaleza reactiva de la Mímica. Dado que la Mímica depende de las acciones de tu oponente, tener una alta supervivencia es clave para durar lo suficiente como para \"robar\" sus mejores movimientos.
+
+**Distribución Recomendada de Estadísticas:**
+- **Cuerpo a cuerpo/Espada**: 40% (Daño principal)
+- **Defensa**: 35% (Para sobrevivir mientras copias)
+- **Energía (Stamina)**: 15% (Para spammear movimientos)
+- **Fruta**: 10% (Opcional, para utilidad)
+
+<Checklist
+  id="yuta-build-goals"
+  title="Lista de Verificación de Optimización:"
+  items={[
+    "Equipa la Capa Congelada para obtener un 10% de reducción de enfriamiento",
+    "Alcanza el Nivel de Maestría en Espada 200 para el máximo escalado de Golpe Espejo",
+    "Asigna 'Robo de Identidad' a un acceso rápido de fácil alcance",
+    "Practica la mecánica de 'Bloqueo Perfecto' para activar las bonificaciones de Vacío del Eco",
+    "Lleva al menos 3 Pociones de Energía para encuentros prolongados con Jefes"
+  ]}
+/>
+
+| Tipo de Build | Enfoque | Ideal Para |
+| :--- | :--- | :--- |
+| **El Imitador** | Alta Defensa / Energía | Duelos PvP y Subir de Rango |
+| **Caballero del Eco** | Maestría en Espada / Velocidad | Farming Rápido de Jefes |
+| **Mago del Vacío** | Maestría en Fruta / Maná | Incursiones a Gran Escala |
+
+<Callout type="tip" title="Nota sobre la Maestría">
+La maestría de Mímica aumenta un 1% cada vez que reflejas daño con éxito. La forma más rápida de subirla de nivel es dejar que los enemigos de bajo nivel te golpeen mientras Golpe Espejo está activo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes sobre Yuta en Legacy Piece">
+
+<FAQ items={[
+  {
+    question: "¿Puedo repetir la misión de Yuta si fallo el Combate Espejo?",
+    answer: "Sí, puedes volver a desafiar al Clon de Sombra tantas veces como sea necesario. Sin embargo, si abandonas la isla, es posible que tengas que pagar una tarifa de 'reingreso' de 5,000 Beli a Yuta."
+  },
+  {
+    question: "¿Funciona Mímica en Jefes como la Bestia Marina?",
+    answer: "Parcialmente. Puedes copiar el aliento de agua básico de la Bestia Marina, pero no puedes copiar su habilidad definitiva masiva 'Tsunami' debido a las limitaciones de tamaño de la animación."
+  },
+  {
+    question: "¿Es el estilo de Yuta mejor que la Fruta del Dragón?",
+    answer: "Sirven para propósitos diferentes. La Fruta del Dragón ofrece poder puro, mientras que la Mímica de Yuta ofrece flexibilidad táctica. La mayoría de los jugadores de alto nivel utilizan una combinación de ambos."
+  },
+  {
+    question: "¿Dónde puedo encontrar Fragmentos de Espíritu para la misión?",
+    answer: "Los Fragmentos de Espíritu son botines raros (aprox. 5% de probabilidad) de cualquier Jefe superior al Nivel 200. La forma más eficiente de farmearlos es derrotando repetidamente al Jefe Buggy o al Rey Gorila."
+  }
+]} />
+
+<Callout type="success" title="Veredicto Final">
+La **guía de yuta en legacy piece** es esencial para cualquier jugador que busque adentrarse en el meta de 2026. Aunque la misión es desafiante, la utilidad del estilo Mímica no tiene rival en el juego de alto nivel.
+</Callout>
+
+</Section>

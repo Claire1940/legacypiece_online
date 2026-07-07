@@ -1,0 +1,147 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mapa de Legacy Piece: Requisitos de Nível de Todas as Ilhas e Localizações de Chefes",
+  description: "Navegue pelos mares de Legacy Piece com nosso guia completo de mapa. Saiba os requisitos de nível de cada ilha, localizações de chefes e treinadores exclusivos.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0b2239/fff?text=Legacy+Piece+Map+Guide",
+  date: "2026-07-07",
+  author: "Equipe da Wiki de Legacy Piece"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Mecânica Principal**: Legacy Piece não possui um mapa no HUD do jogo, o que significa que você deve confiar nas direções da bússola e no texto da região local.
+- **Fluxo de Progressão**: Navegue sequencialmente pelas ilhas com base em limites estritos de nível para evitar zonas de inimigos de nível alto.
+- **Marcos Importantes**: Priorize desbloquear o Haki no nível 45 na Ilha do Haki e o 1SS (Estilo de 1 Espada) na ilha do treinador designada.
+- **Pontos de Spawn**: Sempre interaja com NPCs de spawn locais em ilhas recém-descobertas para garantir seu progresso.
+</Callout>
+
+<Section icon={Map} title="Mapa de Legacy Piece: Navegando pelo Primeiro Mar">
+
+Navegar pelo vasto oceano de **Legacy Piece** pode ser incrivelmente desafiador devido à ausência de um mapa tradicional no HUD do jogo. Para navegar com sucesso do seu ponto de partida na Ilha Fusha até territórios de fim de jogo como o Parque Arlong, você deve seguir as faixas de nível recomendadas. Aventure-se em águas de nível alto prematuramente resultará em derrotas rápidas por NPCs hostis e poderosos.
+
+Abaixo está a sequência definitiva de ilhas no Primeiro Mar, mapeada pelos níveis recomendados de personagem.
+
+| Nome da Ilha | Faixa de Nível | Chefe Principal (NPC) | Objetivo Principal |
+| :--- | :--- | :--- | :--- |
+| **Ilha Fusha** | 1-15 | Higuma, o Bandido | Missões iniciais, tutoriais básicos de combate |
+| **Ilha Alvida** | 15-25 | Alvida da Clava de Ferro | Progressão inicial de nível médio, melhorias de defesa |
+| **Shells Town** | 25-40 | Morgan Mão de Machado | Missões de EXP alta, linha de missões do Zoro |
+| **Ilha Shimotsuki** | 40-50 | Yeti | Melhorias de armas, drops da Lâmina Congelada (Frost Blade) |
+| **Ilha do Haki** | 45+ | Nenhum | Aprender a técnica do Haki |
+| **Orange Town** | 50-65 | Buggy, o Palhaço | Progressão de meio de jogo, farm de acessórios |
+| **Baratie** | 65-80 | Don Krieg | Farm de armas avançadas, comida de alto nível |
+| **Ilha Mink** | 80-95 | Wolfam | Escalonamento de fim de jogo, estilo de luta único |
+| **Parque Arlong** | 95-99 | Arlong Tubarão | Progressão de fim de jogo, armas de alto nível |
+
+<Callout type="warning" title="Segurança ao Navegar">
+Não tente ignorar os limites de nível recomendados. Inimigos em ilhas de nível superior escalam drasticamente em dano e vida, tornando o farm inicial nesses locais altamente ineficiente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Drops de Chefes e Requisitos de Combate">
+
+Cada ilha principal no **mapa de legacy piece** apresenta um chefe único que dropa armas ou acessórios exclusivos. Farmar esses chefes é essencial para melhorar a build do seu personagem.
+
+| Nome do Chefe | Localização da Ilha | Quantidade de Vida | Drops Exclusivos | Taxa de Drop |
+| :--- | :--- | :--- | :--- | :--- |
+| **Higuma** | Ilha Fusha | 285 HP | Katana do Higuma | 35% |
+| **Alvida** | Ilha Alvida | 480 HP | Chapéu da Alvida / Clava de Ferro | 15% / 10% |
+| **Morgan Mão de Machado** | Shells Town | 550 HP | Mandíbula de Metal / Mão de Machado | 10% / 5% |
+| **Yeti** | Ilha Shimotsuki | 850 HP | Capa Congelada / Lâmina Congelada | 9% / 3% |
+| **Buggy, o Palhaço** | Orange Town | 685 HP | Chapéu do Buggy / Facas do Buggy | 10% / 4% |
+| **Don Krieg** | Baratie | 750 HP | Daisenso | 2% |
+| **Arlong Tubarão** | Parque Arlong | 850 HP | Kiribachi | 1% |
+
+<CardGrid cols={3}>
+  <Card title="Builds Corpo a Corpo">
+    Busque a **Lâmina Congelada** (Frost Blade) do Yeti (Ilha Shimotsuki) ou a **Kiribachi** do Arlong (Parque Arlong) para maximizar seu dano físico baseado em espada.
+  </Card>
+  <Card title="Builds de Defesa">
+    Farme o **Chapéu da Alvida** ou a **Capa Congelada** no início do jogo para aumentar sua vida total e resistência a danos durante batalhas difíceis contra chefes.
+  </Card>
+  <Card title="Usuários de Fruta">
+    Priorize a velocidade de nivelamento em ilhas de alta densidade como **Orange Town** e **Baratie** para desbloquear suas habilidades de maestria de Akuma no Mi mais rápido.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Otimização da Taxa de Drop">
+As taxas de drop dos chefes são fixas, mas você pode acelerar os ciclos de farm definindo seu ponto de spawn diretamente na ilha do chefe e trocando de servidor (server-hop) para encontrar spawns ativos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rota de Nivelamento Passo a Passo">
+
+Para subir de nível eficientemente sem se perder, siga este caminho de navegação estruturado pelo Primeiro Mar.
+
+<Steps>
+  <Step num="1" title="Ilha Fusha (Níveis 1-15)">
+    Conclua as missões introdutórias de Woop Slap e Makino. Derrote o Bandido Higuma até atingir o nível 15.
+  </Step>
+  <Step num="2" title="Ilha Alvida (Níveis 15-25)">
+    Navegue para o leste a partir da ponta sul da Ilha Fusha. Fale com Koby e complete as missões de entrega da Mary enquanto farma a Alvida.
+  </Step>
+  <Step num="3" title="Shells Town (Níveis 25-40)">
+    Siga para o nordeste da Ilha Alvida. Complete a linha de missões de várias partes do Zoro para ganhar grandes quantidades de EXP.
+  </Step>
+  <Step num="4" title="Ilha Shimotsuki (Níveis 40-50)">
+    Viaje para o norte para chegar às margens nevadas de Shimotsuki. Complete a linha de missões de 4 partes do Ferreiro e derrote o Yeti.
+  </Step>
+  <Step num="5" title="Ilha do Haki (Nível 45+)">
+    Faça um desvio rápido para a Ilha do Haki. Complete o teste do Treinador de Haki e pague 2.500 Beli para desbloquear o Haki do Armamento (Busoshoku Haki).
+  </Step>
+</Steps>
+
+<Callout type="success" title="Marco Desbloqueado">
+Desbloquear o Haki no nível 45 é um divisor de águas. Ele permite que você cause dano a usuários de Akuma no Mi do tipo Logia e aumenta sua produção geral de dano físico.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Verificação de Navegação para Piratas">
+
+Antes de embarcar em longas viagens pelo mar aberto, certifique-se de ter verificado os seguintes preparativos essenciais:
+
+<Checklist
+  id="navigation-prep"
+  title="Lista de Preparativos para a Viagem:"
+  items={[
+    "Interaja com o NPC de Ponto de Spawn local na sua ilha atual para garantir seu progresso.",
+    "Compre um veleiro confiável com o NPC Construtor de Navios (Shipwright) local.",
+    "Certifique-se de ter pelo menos 2.500 Beli guardados antes de atingir o nível 45 para o treinamento de Haki.",
+    "Equipe uma Akuma no Mi de alta mobilidade como a da Luz (Light) se planeja pular longas viagens de barco."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ do Mapa de Legacy Piece">
+
+<FAQ items={[
+  {
+    question: "Existe um item de mapa no jogo em Legacy Piece?",
+    answer: "Não, Legacy Piece não possui um mapa no HUD do jogo ou um item de mapa. Os jogadores devem confiar nas direções da bússola, pontos de referência das ilhas e mapas criados pela comunidade para navegar pelos mares."
+  },
+  {
+    question: "Como faço para aprender o Haki e qual nível é necessário?",
+    answer: "Você pode aprender o Haki na Ilha do Haki assim que atingir o nível 45. Você deve completar uma missão curta para o NPC Treinador de Haki e pagar uma taxa de 2.500 Beli."
+  },
+  {
+    question: "Qual é a melhor maneira de viajar rápido entre as ilhas?",
+    answer: "Embora não haja um sistema de viagem rápida instantânea, você pode definir pontos de spawn em qualquer ilha que visitar. Usar Akuma no Mi de alta mobilidade como a da Luz (Light) ou comprar barcos mais rápidos reduzirá significativamente o tempo de viagem."
+  },
+  {
+    question: "Onde posso encontrar o Treinador do Estilo de Espada?",
+    answer: "O treinador de 1SS (Estilo de 1 Espada) está localizado na Ilha 1SS, que é uma ilha utilitária especial separada das ilhas principais de progressão de nível."
+  }
+]} />
+
+</Section>

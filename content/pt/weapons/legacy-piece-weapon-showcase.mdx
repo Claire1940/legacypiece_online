@@ -1,0 +1,170 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Showcase de Armas do Legacy Piece: Tier List e Localizações",
+  description: "Descubra as melhores armas no Legacy Piece. Nosso showcase de armas cobre localizações, taxas de queda (drop rates) e classificações de desempenho em combate para o meta de 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0b2239/fff?text=Weapon+Showcase+Guide",
+  date: "2026-07-07",
+  author: "Equipe da Wiki do Legacy Piece"
+}
+
+<Callout type="info" title="Guia Rápido">
+- Este **showcase de armas do Legacy Piece** detalha as melhores espadas, suas taxas de queda e principais usos em combate.
+- Armas de alto nível como a **Bisento** and **Dark Blade** dominam o meta atual de PvP e PvE.
+- Drops de chefes exigem farmar ilhas específicas, com taxas de queda variando de **1% a 10%**.
+- Melhore sua eficácia em combate combinando armas com habilidades complementares de **Devil Fruit**.
+</Callout>
+
+<Section icon={Trophy} title="Tier List e Classificações de Armas">
+
+Escolher a arma certa dita sua eficiência de combate nos mares abertos. O meta atual favorece fortemente armas que oferecem um equilíbrio de controle de grupo (CC), alto escalonamento de dano e iniciadores rápidos de combo. Esta tier list classifica as armas mais proeminentes com base em sua versatilidade tanto no farm PvE quanto em confrontos PvP.
+
+| Arma | Tier | Fonte Primária | Classificação de Combate |
+| :--- | :--- | :--- | :--- |
+| **Dark Blade** | S | Gamepass / Drop de Raid | ★★★★★ |
+| **Bisento** | S | Drop de Chefe (Baratie) | ★★★★★ |
+| **Kiribachi** | A | Drop de Chefe (Arlong Park) | ★★★★☆ |
+| **Soul Cane** | A | Baú Oculto / Chefe | ★★★★☆ |
+| **Iron Mace** | B | Drop de Chefe (Ilha Alvida) | ★★★☆☆ |
+| **Katana** | C | Mercador da Ilha Inicial | ★★☆☆☆ |
+
+<CardGrid cols={3}>
+  <Card title="Dark Blade (Tier S)">
+    - **Velocidade de ataque rápida**
+    - Alto escalonamento de dano
+    - Iniciadores de combo excepcionais para PvP
+  </Card>
+  <Card title="Bisento (Tier S)">
+    - **Alcance de área (AoE) massivo**
+    - Ataques com alto empurrão (knockback)
+    - Melhor arma para farmar hordas de inimigos
+  </Card>
+  <Card title="Kiribachi (Tier A)">
+    - **Ótimo dano de sangramento**
+    - Forte escalonamento para o meio do jogo
+    - Drop de chefe acessível
+  </Card>
+</CardGrid>
+
+Armas de Tier S fornecem conjuntos de habilidades únicos que podem quebrar bloqueios inimigos ou cobrir grandes áreas, tornando-as ideais para raids de alto nível. Armas de Tier A são excelentes alternativas que funcionam excepcionalmente bem em builds específicas, particularmente quando combinadas com Devil Fruits de alta mobilidade como Luz (Light) ou Fogo (Fire). Armas de Tier B e Tier C servem como degraus de progressão para novos jogadores.
+
+<Callout type="tip" title="Dica de Mestre">
+Não se apresse para obter armas de Tier S no início. A Kiribachi ou mesmo uma Iron Mace bem aprimorada podem facilmente carregar você durante o processo de nivelamento no meio do jogo, sem exigir horas de farm repetitivo de chefes.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Como Obter Todas as Armas">
+
+As armas em Legacy Piece são obtidas através de três métodos principais: comprando-as de mercadores nas ilhas, derrotando chefes específicos ou completando eventos mundiais raros. Os drops de chefes estão sujeitos ao gerador de números aleatórios (RNG), o que significa que você pode precisar derrotar um chefe várias vezes para garantir sua arma.
+
+| Arma | Chefe / Fonte | Localização da Ilha | Taxa de Queda Estimada |
+| :--- | :--- | :--- | :--- |
+| **Katana** | Mercador de Armas | Ilha Inicial | 100% (Compra) |
+| **Iron Mace** | Chefe Alvida | Ilha da Alvida | 8% - 10% de Drop |
+| **Kiribachi** | Chefe Arlong | Arlong Park | 5% de Drop |
+| **Bisento** | Barba Branca | Ilha Baratie | 1% - 2% de Drop |
+| **Soul Cane** | Chefe Brook | Segundo Mar / Evento | 3% de Drop |
+
+Para farmar essas armas de forma eficiente, os jogadores devem formar grupos para acelerar o tempo de eliminação dos chefes. Os chefes têm tempos de ressurgimento definidos, variando normalmente de 10 a 20 minutos, dependendo do servidor. Mudar de servidor (server hopping) continua sendo a estratégia mais eficaz para jogadores solo que buscam minimizar o tempo de inatividade entre os confrontos.
+
+<Callout type="success" title="Aumentos de Taxa de Queda">
+Fique atento aos códigos ativos dos desenvolvedores ou eventos de fim de semana que concedem aumentos na taxa de drop. Farmar armas lendárias como a Bisento durante esses períodos reduz significativamente o tempo de grind.
+</Callout>
+
+Ao desafiar chefes de alto nível como Arlong ou Barba Branca, certifique-se de definir seu ponto de spawn na ilha local. Isso minimiza o tempo de viagem caso seu personagem seja derrotado durante o combate.
+
+</Section>
+
+<Section icon={Swords} title="Habilidades de Armas e Maestria">
+
+As armas não são apenas bastões de atributos; elas apresentam conjuntos de habilidades únicos que são desbloqueados conforme você aumenta seu nível de Maestria de Arma. A Maestria é obtida ao atingir inimigos e garantir os golpes finais usando a arma. 
+
+<Steps>
+  <Step num="1" title="Equipar e Usar">
+    Equipe a arma escolhida e use ataques básicos com o clique esquerdo (M1s) para derrotar inimigos próximos ao seu nível.
+  </Step>
+  <Step num="2" title="Desbloquear Habilidades Básicas">
+    Alcance o Nível de Maestria 25 para desbloquear sua primeira habilidade ativa (geralmente vinculada à tecla Z).
+  </Step>
+  <Step num="3" title="Desbloquear Habilidades Avançadas">
+    Continue treinando até o Nível de Maestria 75+ para desbloquear finalizadores de combo de alto dano (vinculados às teclas X e C).
+  </Step>
+  <Step num="4" title="Sinergia com Haki">
+    Ative o Haki do Armamento para revestir sua arma, aumentando o dano base e ignorando defesas elementares.
+  </Step>
+</Steps>
+
+Armas diferentes escalam com atributos diferentes. Espadas escalam diretamente com seu atributo de Espada (Sword), enquanto armas como a Iron Mace podem escalar com Força (Strength) ou perfis de armas especializados.
+
+| Tipo de Build | Atributo Principal | Arma Recomendada | Melhor Sinergia de Fruta |
+| :--- | :--- | :--- | :--- |
+| **Espadachim Puro** | Espada (Máx) | Dark Blade / Bisento | Spin / Chop (Defesa) |
+| **Lutador Híbrido** | Espada / Fruta | Kiribachi / Soul Cane | Light / Magma |
+| **Lutador Tank** | Defesa / Força | Iron Mace | Quake / Diamond |
+
+<Callout type="info" title="Retenção de Maestria">
+A Maestria de Arma é permanente. Se você mudar para uma arma diferente e depois retornar à anterior, suas habilidades desbloqueadas e o nível de maestria permanecerão intactos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rotas de Farm e Progressão de Armas">
+
+Para otimizar sua jornada, você deve seguir um caminho de progressão estruturado. Tentar obter armas de fim de jogo muito cedo reduzirá sua velocidade geral de nivelamento devido às baixas taxas de drop e mecânicas difíceis de chefes.
+
+<Checklist
+  id="weapon-progression"
+  title="Marcos de Armas Ideais:"
+  items={[
+    "Compre a Katana Inicial imediatamente ao nascer (spawn).",
+    "Alcance o Nível 20 e farme a Alvida para obter a Iron Mace.",
+    "Transicione para o Arlong Park no Nível 50+ para farmar a Kiribachi.",
+    "Obtenha o Haki do Armamento para aumentar sua produção de dano com a espada.",
+    "Junte-se a raids de alto nível ou farme o Barba Branca no Baratie para obter a Bisento."
+  ]}
+/>
+
+Ao farmar chefes, priorize aprender seus padrões de ataque. A maioria dos chefes tem pistas visuais claras antes de liberar habilidades de alto dano. Utilizar mecânicas de esquiva (tecla F ou dash) é crucial para sobreviver a confrontos solo.
+
+<Callout type="warning" title="Gerenciamento de Estamina">
+Usar habilidades de armas consome estamina. Certifique-se de alocar pontos no seu atributo de Estamina para evitar ficar sem energia no meio do combo durante lutas intensas contra chefes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+Entender as nuances do sistema de armas ajudará você a evitar erros comuns durante sua progressão. Aqui estão as respostas para as perguntas mais frequentes sobre armas no jogo.
+
+<FAQ items={[
+  {
+    question: "Onde posso encontrar um showcase completo de armas do Legacy Piece?",
+    answer: "Você pode ver showcases de armas no jogo testando armas na arena de treino ou observando membros da comunidade utilizando armas de tier S em partidas PvP."
+  },
+  {
+    question: "Posso usar duas armas ao mesmo tempo (dual-wield) no Legacy Piece?",
+    answer: "Não, o uso de duas armas não é suportado, a menos que você esteja usando um conjunto de armas específico projetado como um item de arma dupla (como katanas duplas específicas)."
+  },
+  {
+    question: "O dano da arma escala com os atributos de Devil Fruit?",
+    answer: "Não, as habilidades de armas escalam estritamente com seus atributos de Espada (Sword) ou Força (Strength), dependendo da categoria da arma. As habilidades de Fruta escalam com o atributo de Fruta (Fruit)."
+  },
+  {
+    question: "Qual é a maneira mais rápida de subir o nível de Maestria de Arma?",
+    answer: "O método mais rápido é lutar contra chefes de muita vida ou hordas de inimigos agrupados enquanto usa suas habilidades de arma para causar dano e garantir o golpe final."
+  }
+]} />
+
+<Callout type="tip" title="Veredito Final">
+Selecione uma arma que combine com seu estilo de jogo preferido. Embora as armas de tier S ofereçam vantagens estatísticas, a habilidade do jogador, o espaçamento e o tempo do Haki determinam, em última análise, o resultado das batalhas.
+</Callout>
+
+</Section>

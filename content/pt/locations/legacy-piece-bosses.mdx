@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Flame } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Chefes do Legacy Piece: Localizações, Recompensas e Estratégias de Combate",
+  description: "Domine os chefes do Legacy Piece com nosso guia sobre locais de spawn, drops raros e táticas de combate. Aprenda a derrotar NPCs fortes e resgatar saques lendários.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0b2239/fff?text=Legacy+Piece+Bosses+Guide",
+  date: "2026-07-07",
+  author: "Equipe Wiki do Legacy Piece"
+}
+
+<Callout type="info" title="Guia Rápido">
+- Os **chefes do Legacy Piece** são essenciais para obter recompensas de alto nível, como Fragmentos (Shards), Caixas (Crates) e armas raras.
+- **Mecânicas de Spawn**: Os chefes geralmente surgem em locais específicos das ilhas ou através de eventos mundiais; fique de olho nos registros de atualização "addedbosspawn!".
+- **Estratégia de Combate**: Utilize frutas elementares como **Light** para mobilidade ou **Magma** para alto DPS ao enfrentar oponentes NPCs avançados.
+- **Prioridade de Saque**: Foque nos chefes que dropam **Espadas** e **Núcleos de Poder (Power Cores)** para melhorar significativamente a build do seu personagem.
+- **Preparação**: Certifique-se de que seu nível corresponde à dificuldade da ilha antes de lutar para evitar uma derrota rápida.
+</Callout>
+
+<Section icon={Target} title="Entendendo as Mecânicas dos Chefes do Legacy Piece">
+
+No vasto mundo do Legacy Piece, os chefes representam o desafio definitivo para qualquer aspirante a pirata. Eles não são apenas versões mais fortes de NPCs comuns; possuem conjuntos de movimentos únicos, maior quantidade de vida e a capacidade de dropar itens exclusivos que não podem ser encontrados em nenhum outro lugar. A partir das atualizações de 2026, o sistema de chefes foi refinado para oferecer tanto encontros amigáveis para jogadores solo quanto raides mundiais massivas que exigem cooperação da comunidade.
+
+Para ter sucesso, os jogadores devem entender a distinção entre Chefes Inimigos padrão e Oponentes NPCs Fortes. Embora ambos forneçam recompensas de progressão, seus ciclos de spawn e escala de dificuldade diferem significativamente.
+
+| Categoria do Chefe | Nível de Dificuldade | Recompensas Principais | Tipo de Spawn |
+| :--- | :--- | :--- | :--- |
+| **Chefes Mundiais** | Muito Alto (S) | Espadas Lendárias, Fragmentos | Intervalo de Tempo |
+| **Chefes de Ilha** | Moderado (A-B) | Frutas Raras, Dinheiro, XP | Ativado por Missão |
+| **NPCs Fortes** | Escalonado (C) | Itens de Progressão, Caixas | Localização Estática |
+| **Chefes de Evento** | Varia | Cosméticos de Edição Limitada | Sazonal/Atualização |
+
+<Callout type="tip" title="Dica Pro: A Vantagem da Atualização">
+Sempre verifique os registros de servidor mais recentes. Códigos como **addedbosspawn!** geralmente coincidem com ajustes na vida dos chefes ou com a introdução de novos encontros lendários. Manter-se atualizado garante que você não use táticas desatualizadas contra inimigos fortalecidos.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Principais Localizações de Chefes e Requisitos">
+
+Navegar pelos mares para encontrar **chefes do legacy piece** exige atenção aos requisitos de nível da ilha. Enfrentar um chefe cedo demais resultará em uma viagem rápida de volta ao seu ponto de spawn. Cada ilha principal do jogo abriga pelo menos um encontro de chefe significativo que serve como um \"guardião\" para a próxima etapa da sua aventura.
+
+<CardGrid cols={3}>
+  <Card title="Chefe da Ilha Inicial">
+    - **Req. de Nível**: 1-15
+    - **Foco**: Combate Básico
+    - **Drop Principal**: Caixas Iniciais
+  </Card>
+  <Card title="Chefe do Posto Avançado do Deserto">
+    - **Req. de Nível**: 30-50
+    - **Foco**: Resistências Elementares
+    - **Drop Principal**: Núcleos de Poder
+  </Card>
+  <Card title="Comandante da Base da Marinha">
+    - **Req. de Nível**: 75+
+    - **Foco**: Técnicas de Espada
+    - **Drop Principal**: Sabres Raros
+  </Card>
+</CardGrid>
+
+Ao caçar esses inimigos, lembre-se de que alguns chefes só aparecem em momentos específicos do dia ou após um certo número de NPCs menores terem sido derrotados na ilha. Essa mecânica de \"contagem de eliminações\" evita que os jogadores simplesmente fiquem acampando nos spawns de chefes sem interagir com o ecossistema local.
+
+| Nome da Ilha | Nome do Chefe | Nível Recomendado | Estilo de Combate |
+| :--- | :--- | :--- | :--- |
+| **Ilha Inicial** | Líder dos Bandidos | 10 | Corpo a Corpo / Físico |
+| **Shell Town** | Capitão Corrupto | 25 | Espada / À Distância |
+| **Orange Village** | Mestre do Circo | 45 | Fruta / Caos |
+| **Baratie** | Pirata Fantasma | 60 | Alta Velocidade / Corpo a Corpo |
+
+<Callout type="warning" title="Aviso de Nível">
+Não tente enfrentar chefes com mais de 10 níveis acima do seu personagem atual. A escala de dano no Legacy Piece torna as diferenças de nível extremamente punitivas, independentemente da habilidade da sua Fruta.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estratégias de Combate para Encontros com Chefes">
+
+Derrotar os **chefes do legacy piece** exige mais do que apenas esmagar botões. Você deve dominar a sinergia entre as habilidades da sua Akuma no Mi (Devil Fruit), técnicas de Espada e manobras básicas de combate. Cada chefe tem uma \"fase de fúria\" onde a velocidade de ataque aumenta e os tempos de recarga diminuem.
+
+**Destaques do Vídeo:**
+- Demonstração da tática de esquiva e movimentação para chefes da Marinha.
+- Rotações ideais de habilidades para DPS máximo usando as frutas Magma e Light.
+- Como fazer kite (atrair e recuar) com chefes para evitar ataques em área (AOE) de alto dano.
+
+<YouTubeEmbed videoId="8657732325" title="Guia de Combate contra Chefes do Legacy Piece" />
+
+Para maximizar sua eficiência, siga esta progressão tática durante qualquer encontro de grande porte:
+
+<Steps>
+  <Step num="1" title="Reconhecimento de Padrões">
+    Observe o chefe nos primeiros 30 segundos. A maioria dos chefes segue um combo de 3 acertos seguido por uma habilidade de área (AOE) pesada. Aprenda as pistas visuais para esses golpes pesados.
+  </Step>
+  <Step num="2" title="Encadeamento de Habilidades">
+    Comece com as habilidades de longo alcance da sua Fruta (como os feixes da Light) para desgastar o escudo deles. Assim que o escudo for quebrado, aproxime-se com habilidades de Espada para causar um dano explosivo massivo.
+  </Step>
+  <Step num="3" title="Gerenciamento de Estamina">
+    Nunca deixe sua barra de estamina zerar. Mantenha sempre o suficiente para pelo menos duas esquivas. Se estiver com pouca estamina, recue e use o ambiente como cobertura enquanto ela recarrega.
+  </Step>
+  <Step num="4" title="A Fase de Execução">
+    Quando o chefe atingir 20% de vida, ele frequentemente entrará em um estado de desespero. Guarde sua habilidade Suprema (Ultimate) para este momento para encerrar a luta rapidamente antes que ele possa se curar ou chamar reforços.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Sinergia de Frutas">
+Usar a **Light Fruit** é altamente recomendado para farmar chefes devido à sua alta mobilidade, permitindo que você fique fora do alcance de combos corpo a corpo devastadores enquanto causa dano constante.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Drops de Chefes e Tabelas de Saque">
+
+A principal razão pela qual os jogadores farmam os **chefes do legacy piece** é o saque. De Fragmentos usados para melhorias a armas lendárias que definem sua build, as recompensas são extensas. No meta de 2026, o saque é dividido em \"Drops Garantidos\" e \"Sorteios Raros\".
+
+| Nome do Item | Taxa de Drop | Tipo de Item | Caso de Uso |
+| :--- | :--- | :--- | :--- |
+| **Fragmento Comum** | 100% | Moeda | Melhorar equipamentos básicos |
+| **Baú Raro** | 15% | Recipiente | Saque aleatório de alto nível |
+| **Espada do Chefe** | 2% | Arma | Builds de combate de fim de jogo |
+| **Núcleo de Poder** | 5% | Mod de Habilidade | Aprimorar habilidades de Fruta |
+| **Barra de Ouro** | 25% | Moeda | Injeção massiva de dinheiro |
+
+<Callout type="info" title="Mecânicas de Saque">
+O saque no Legacy Piece é instanciado para a maioria dos chefes, o que significa que você não precisa se preocupar com outros jogadores \"roubando\" seus drops. No entanto, os Chefes Mundiais recompensam os jogadores com base na sua contribuição total de dano.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Preparação para Farmar Chefes">
+
+Antes de partir para a Grand Line para desafiar os inimigos mais fortes, certifique-se de que seu personagem está devidamente equipado. A falta de preparação é a principal causa de derrotas totais do grupo (\"boss-wiping\") na comunidade.
+
+<Checklist
+  id="boss-prep"
+  title="Requisitos Pré-Batalha:"
+  items={[
+    "Equipar uma Fruta com pelo menos duas habilidades de combate desbloqueadas",
+    "Melhorar sua Espada principal para pelo menos o Nível 2",
+    "Estocar itens de recuperação de vida na cidade local",
+    "Verificar se há códigos ativos como 'update0.5!' para buffs de atributos",
+    "Entrar em um grupo se for tentar Chefes Mundiais para obter o bônus de XP"
+  ]}
+/>
+
+| Foco de Atributo | Valor Recomendado | Motivo |
+| :--- | :--- | :--- |
+| **Defesa** | 40% dos Pontos | Sobrevivência contra AOE pesado |
+| **Fruta/Espada** | 50% dos Pontos | Principal fonte de dano |
+| **Estamina** | 10% dos Pontos | Mobilidade e esquiva |
+
+<Callout type="tip" title="Dica de Estratégia">
+Se você estiver tendo dificuldades com um chefe específico, tente mudar seu Estilo de Luta. Alguns chefes são fracos contra ataques rápidos e de múltiplos acertos, enquanto outros são melhor controlados com movimentos de espada lentos e pesados.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Com que frequência os chefes do Legacy Piece reaparecem?",
+    answer: "A maioria dos Chefes de Ilha tem um tempo de renascimento de 15 a 20 minutos. Os Chefes Mundiais estão em um cronômetro global, geralmente surgindo a cada 2 a 4 horas, dependendo da atividade do servidor."
+  },
+  {
+    question: "Posso solar chefes no Legacy Piece?",
+    answer: "Sim, a maioria dos chefes até o Nível 100 pode ser solada se você tiver uma Fruta de alto nível como Magma ou Dragon. No entanto, os Chefes Mundiais são projetados para jogo em grupo."
+  },
+  {
+    question: "Eu ganho saques melhores se causar mais dano?",
+    answer: "Para Chefes Mundiais, sim. Existem faixas de recompensa em níveis (Bronze, Prata, Ouro) com base na sua porcentagem de dano. Para Chefes de Ilha padrão, o saque é fixo."
+  },
+  {
+    question: "Qual é a melhor Fruta para caçar chefes?",
+    answer: "A Light é a melhor para iniciantes devido ao voo e alcance. A Magma é a melhor para jogadores avançados porque possui o maior DPS bruto do jogo."
+  }
+]} />
+
+</Section>

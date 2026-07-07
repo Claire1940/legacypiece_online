@@ -1,0 +1,160 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia de Leveling do Legacy Piece: Progressão Rápida e Rotas de Ilhas",
+  description: "Domine o guia definitivo de leveling do Legacy Piece. Descubra as rotas de ilhas mais rápidas, estratégias de quests e dicas de combate para alcançar o nível máximo em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0b2239/fff?text=Legacy+Piece+Leveling+Guide",
+  date: "2026-07-07",
+  author: "Equipe da Wiki do Legacy Piece",
+  keywords: "legacy piece, leveling guide, guia de leveling, roblox, progressão rápida, rotas de ilhas"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Palavra-chave Principal**: Siga este **guia de leveling do legacy piece** estruturado para otimizar suas rotas de quests e o crescimento do seu personagem.
+- **Loop de Leveling**: Combine quests locais das ilhas com farm de mobs de alta densidade para maximizar os Pontos de Experiência (XP) por hora.
+- **Estratégia de Combate**: Utilize habilidades de Área de Efeito (AoE) de Akuma no Mi (Devil Fruits) ou Espadas para limpar grupos de inimigos rapidamente.
+- **Distribuição de Atributos**: Priorize dano de Melee/Espada e Defesa no início para aguentar sessões de grind mais longas.
+- **Dica de Mobilidade**: Garanta um barco confiável cedo para minimizar o tempo de viagem entre as ilhas de progressão.
+</Callout>
+
+<Section icon={Map} title="Rota de Progressão de Ilhas Ideal">
+
+Navegar pelos vastos mares de forma eficiente é a base para uma progressão rápida. Viajar para ilhas fora da sua faixa de nível resulta em retornos de XP reduzidos ou dificuldade de combate esmagadora. Siga o caminho otimizado abaixo para manter seu personagem constantemente lutando contra inimigos que rendem o máximo de experiência.
+
+| Faixa de Nível | Nome da Ilha | Tipos de Inimigos Principais | Objetivos Chave |
+| :--- | :--- | :--- | :--- |
+| **Níveis 1-15** | Ilha Inicial (Starter) | Bandidos, Recrutadores | Aprender combate básico, completar quests introdutórias |
+| **Níveis 15-30** | Shells Town | Marinheiros, Capitães | Farmar recompensas da marinha local, melhorar equipamentos básicos |
+| **Níveis 30-50** | Orange Town | Capangas do Buggy, Piratas | Desbloquear maestria inicial de Akuma no Mi, farmar spawns em grupo |
+| **Níveis 50-80** | Baratie | Chefs Renegados, Piratas de Krieg | Comprar estilos de combate avançados, melhorar armamento |
+| **Níveis 80-110** | Arlong Park | Homens-Peixe Guerreiros, Oficiais | Aproveitar spawns de alta densidade, farmar drops de chefes |
+| **Níveis 110-150** | Loguetown | Marinheiros de Elite, Chefes Locais | Preparar-se para conteúdo de alto nível, otimizar builds de atributos |
+
+<Callout type="tip" title="Eficiência na Navegação">
+Nunca navegue sem rumo. Sempre defina seu ponto de spawn na taverna ou doca da ilha local assim que chegar para evitar longas viagens de barco caso caia em batalha.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estilos de Combate e Sinergia de Build">
+
+Para manter uma velocidade de limpeza rápida, sua distribuição de atributos deve corresponder ao seu estilo de combate escolhido. Espalhar pontos demais em todos os atributos é um erro comum que retarda a progressão no meio do jogo.
+
+<CardGrid cols={3}>
+  <Card title="Build Focada em Fruta">
+    - **Alto dano em área (AoE)**
+    - Foca em atributos de Fruta e Defesa
+    - Ideal para usuários de Luz, Magma ou Dragão
+  </Card>
+  <Card title="Especialista em Espada">
+    - **Burst preciso em alvo único**
+    - Foca em atributos de Espada e Estamina
+    - Excelente para chefes e NPCs de elite
+  </Card>
+  <Card title="Lutador de Curto Alcance">
+    - **Alta sustentação e potencial de combo**
+    - Foca em atributos de Melee e Defesa
+    - Altamente confiável para o farm do início ao meio do jogo
+  </Card>
+</CardGrid>
+
+| Categoria de Atributo | Alocação Recomendada % | Nível de Prioridade | Impacto no Combate |
+| :--- | :--- | :--- | :--- |
+| **Ataque Principal** | 50% do total de pontos | **Alta** | Aumenta o dano da sua arma principal/fruta |
+| **Defesa** | 35% do total de pontos | **Alta** | Aumenta a vida para sobreviver a ataques pesados de chefes |
+| **Estamina** | 15% do total de pontos | **Média** | Permite esquivas frequentes e uso de habilidades |
+
+<Callout type="warning" title="Cuidado com o Reset de Atributos">
+Itens de reset de atributos podem ser raros ou caros. Decida seu caminho de build principal cedo para evitar desperdiçar recursos em redistribuições desnecessárias.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estratégia de Leveling Passo a Passo">
+
+Maximizar seu ganho de XP requer uma abordagem sistemática para cada ilha que você visita. Siga este loop passo a passo para limpar zonas de forma eficiente.
+
+<Steps>
+  <Step num="1" title="Aceite Todas as Quests Locais">
+    Localize os dadores de quests perto das docas ou da cidade principal. Sempre acumule várias quests se elas visarem os mesmos tipos de inimigos para dobrar seu rendimento de XP por abate.
+  </Step>
+  <Step num="2" title="Agrupe e Atraia Inimigos">
+    Não lute contra inimigos um por um. Corra por um grupo de 3 a 5 alvos para atrair o aggro deles, junte-os em um grupo apertado e use suas habilidades AoE.
+  </Step>
+  <Step num="3" title="Priorize Alvos de Elite">
+    Assim que seus objetivos de quest padrão estiverem completos, foque em mini-chefes locais ou unidades de elite. Eles oferecem fatias de XP significativamente maiores e drops de equipamentos valiosos.
+  </Step>
+  <Step num="4" title="Melhore o Equipamento e Siga em Frente">
+    Verifique os vendedores locais ou tabelas de drop para melhorias de armas antes de sair de uma ilha. Assim que atingir o nível máximo recomendado para a zona, zarpe imediatamente.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Dica de Agrupamento">
+Ao agrupar mobs, use ataques básicos à distância ou dash-bloqueio para atrair arqueiros ou atiradores distantes para o grupo de combate corpo a corpo para uma limpeza completa.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tier List das Melhores Frutas para Leveling">
+
+Se você tiver a sorte de obter uma Akuma no Mi cedo, isso pode alterar drasticamente sua velocidade de leveling. Algumas frutas se destacam na limpeza de mobs, enquanto outras são mais adequadas para mobilidade ou estilos de jogo defensivos.
+
+| Tier | Nome da Fruta | Desempenho de Leveling | Força Principal |
+| :--- | :--- | :--- | :--- |
+| **S-Tier** | Luz / Dragão | **Excelente** | Mobilidade inigualável e dano massivo em área (AoE) |
+| **A-Tier** | Magma / Mochi / Terremoto | **Muito Bom** | Alto dano e forte controle de grupo |
+| **B-Tier** | Gelo / Fogo / Escuridão | **Bom** | Ataques elementais equilibrados, ótimo para iniciantes |
+
+<Callout type="info" title="Aquisição de Frutas">
+Se você não tiver uma fruta S-Tier, não interrompa sua progressão para farmar uma. Um estilo sólido de Espada ou Melee é mais do que suficiente para alcançar níveis altos rapidamente.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Marcos de Progressão e Checklist">
+
+Acompanhe os marcos de crescimento do seu personagem para garantir que você não está perdendo picos de poder cruciais durante sua jornada.
+
+<Checklist
+  id="leveling-milestones"
+  title="Principais Objetivos de Progressão:"
+  items={[
+    "Compre seu primeiro barco a vela nas docas da Ilha Inicial (Starter Island).",
+    "Desbloqueie a habilidade secundária do seu estilo de combate escolhido até o nível 25.",
+    "Adquira um acessório ou peça de armadura decente dos chefes de Shells Town.",
+    "Aloque atributos sistematicamente sem dividir pontos em atributos não utilizados.",
+    "Alcance o nível 100 e prepare sua build para a exploração oceânica de alto nível."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é a maneira mais rápida de viajar entre as ilhas no Legacy Piece?",
+    answer: "Comprar um barco a vela de alto nível ou utilizar Akuma no Mi focadas em mobilidade, como a Luz, é a maneira mais rápida de viajar pelo mar."
+  },
+  {
+    question: "Devo focar em quests ou apenas farmar mobs para XP?",
+    answer: "Sempre priorize as quests. Acumular quests que visam os mesmos inimigos fornece um multiplicador massivo de XP em comparação ao farm bruto de mobs."
+  },
+  {
+    question: "Onde posso resetar meus atributos se eu cometer um erro na minha build?",
+    answer: "Os resets de atributos podem ser realizados usando códigos específicos do jogo, comprando poções de reset de vendedores especializados ou usando moeda premium."
+  },
+  {
+    question: "Este guia de leveling do legacy piece se aplica a jogadores solo?",
+    answer: "Sim. Este guia é otimizado para progressão solo, embora formar grupos com outros jogadores possa tornar os encontros com chefes significativamente mais rápidos."
+  }
+]} />
+
+</Section>

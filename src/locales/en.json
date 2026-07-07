@@ -10,7 +10,15 @@
       "twitterDescription": "Legacy Piece Wiki covers Roblox codes, fruits, leveling, abilities, bosses, and update guides for players."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "tierList": "Tier List",
+    "fruits": "Fruits",
+    "weapons": "Weapons",
+    "abilities": "Abilities",
+    "locations": "Locations"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -600,45 +608,25 @@
       "featured": "Top Tier Picks",
       "all": "Full Tier List"
     },
-    "bosses": {
-      "title": "Legacy Piece Bosses",
-      "description": "Boss locations, mechanics, recommended levels, and drop rewards for every Legacy Piece fight.",
-      "metaTitle": "Legacy Piece Bosses - Locations, Strategies & Drops",
-      "metaDescription": "Complete Legacy Piece boss database with locations, recommended levels, fight mechanics, and drop rewards for every major boss encounter.",
-      "categoryLabel": "BOSS FIGHTS",
-      "whatIs": "What are Bosses?",
-      "whatIsDescription": "Legacy Piece bosses are high-power enemies scattered across the map. Each boss has unique mechanics, a recommended level, and valuable drops.",
-      "why": "Why fight bosses?",
+    "locations": {
+      "title": "Legacy Piece Locations",
+      "description": "Complete Legacy Piece locations database covering the full map, boss spawn points, NPCs, and key landmarks across every sea.",
+      "metaTitle": "Legacy Piece Locations - Map, Bosses & NPC Spawn Points",
+      "metaDescription": "Explore every Legacy Piece location including the full world map, boss spawn points, NPC trainers, and key landmarks across all islands and seas.",
+      "categoryLabel": "MAP & LOCATIONS",
+      "whatIs": "What are Locations?",
+      "whatIsDescription": "Legacy Piece locations cover every island, sea, boss spawn point, and NPC on the map. Knowing where to find bosses, trainers, and resources helps you plan an efficient progression route.",
+      "why": "Why explore locations?",
       "whySteps": {
-        "step1Title": "Earn Rare Drops",
-        "step1Description": "Bosses drop weapons, gear, and resources unavailable elsewhere in Legacy Piece.",
-        "step2Title": "Prepare Effectively",
-        "step2Description": "Learn boss mechanics and recommended levels before engaging.",
-        "step3Title": "Progress Through Content",
-        "step3Description": "Bosses gate access to new islands and endgame Legacy Piece content."
+        "step1Title": "Find Bosses Fast",
+        "step1Description": "Locate every Legacy Piece boss spawn point and recommended level before engaging.",
+        "step2Title": "Discover NPCs and Trainers",
+        "step2Description": "Track down NPCs that teach abilities, sell gear, and unlock new Legacy Piece content.",
+        "step3Title": "Plan Your Route",
+        "step3Description": "Use the Legacy Piece map to chart an efficient progression path through each sea."
       },
-      "featured": "Major Bosses",
-      "all": "All Bosses"
-    },
-    "updates": {
-      "title": "Legacy Piece Updates",
-      "description": "Latest Legacy Piece update news, patch notes, balance changes, and new content drops.",
-      "metaTitle": "Legacy Piece Updates - Patch Notes & New Content",
-      "metaDescription": "Track every Legacy Piece update including patch notes, new fruits, balance changes, bug fixes, and fresh content drops as they release.",
-      "categoryLabel": "UPDATE NEWS",
-      "whatIs": "What are Updates?",
-      "whatIsDescription": "Legacy Piece updates add new fruits, bosses, islands, and balance changes. This section follows every patch so you stay current with the game.",
-      "why": "Why follow updates?",
-      "whySteps": {
-        "step1Title": "Catch New Content",
-        "step1Description": "Discover new fruits, bosses, and areas as soon as they arrive in Legacy Piece.",
-        "step2Title": "Adapt to Balance Changes",
-        "step2Description": "Stay informed about ability and weapon balance updates.",
-        "step3Title": "Redeem Fresh Codes",
-        "step3Description": "New Legacy Piece codes often drop alongside major updates."
-      },
-      "featured": "Latest Updates",
-      "all": "All Updates"
+      "featured": "Key Locations",
+      "all": "All Locations"
     }
   }
 }

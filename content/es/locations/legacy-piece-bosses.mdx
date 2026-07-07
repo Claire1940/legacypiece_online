@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Flame } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Jefes de Legacy Piece: Ubicaciones, Recompensas y Estrategias de Combate",
+  description: "Domina a los jefes de Legacy Piece con nuestra guía sobre ubicaciones de aparición, drops raros y tácticas de combate. Aprende cómo derrotar a PNJ fuertes y reclamar botines legendarios.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0b2239/fff?text=Legacy+Piece+Bosses+Guide",
+  date: "2026-07-07",
+  author: "Equipo de Wiki de Legacy Piece"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Los jefes de Legacy Piece** son esenciales para obtener recompensas de alto nivel como Fragmentos, Cofres y armas raras.
+- **Mecánicas de Aparición**: Los jefes suelen aparecer en ubicaciones específicas de las islas o mediante eventos mundiales; mantente atento a los registros de actualización "addedbosspawn!".
+- **Estrategia de Combate**: Utiliza frutas elementales como **Luz** para la movilidad o **Magma** para un alto DPS al enfrentarte a oponentes PNJ avanzados.
+- **Prioridad de Botín**: Concéntrate en los jefes que sueltan **Espadas** y **Núcleos de Poder** para mejorar significativamente tu build de personaje.
+- **Preparación**: Asegúrate de que tu nivel coincida con la dificultad de la isla antes de entablar combate para evitar una derrota rápida.
+</Callout>
+
+<Section icon={Target} title="Entendiendo las Mecánicas de los Jefes de Legacy Piece">
+
+En el vasto mundo de Legacy Piece, los jefes representan el desafío definitivo para cualquier aspirante a pirata. No son simplemente versiones más fuertes de los PNJ estándar; poseen conjuntos de movimientos únicos, mayores reservas de salud y la capacidad de soltar objetos exclusivos que no se encuentran en ningún otro lugar. A partir de las actualizaciones de 2026, el sistema de jefes se ha refinado para ofrecer tanto encuentros aptos para jugar en solitario como incursiones mundiales masivas que requieren la cooperación de la comunidad.
+
+Para tener éxito, los jugadores deben entender la distinción entre los Jefes Enemigos estándar y los Oponentes PNJ Fuertes. Aunque ambos proporcionan recompensas de progresión, sus ciclos de aparición y escala de dificultad difieren significativamente.
+
+| Categoría de Jefe | Nivel de Dificultad | Recompensas Principales | Tipo de Aparición |
+| :--- | :--- | :--- | :--- |
+| **Jefes Mundiales** | Muy Alto (S) | Espadas Legendarias, Fragmentos | Intervalo de Tiempo |
+| **Jefes de Isla** | Moderado (A-B) | Frutas Raras, Dinero, PX | Activado por Misión |
+| **PNJ Fuertes** | Escalado (C) | Objetos de Progresión, Cofres | Ubicación Estática |
+| **Jefes de Evento** | Varía | Cosméticos de Edición Limitada | Estacional/Actualización |
+
+<Callout type="tip" title="Consejo Pro: La Ventaja de la Actualización">
+Consulta siempre los últimos registros del servidor. Los códigos como **addedbosspawn!** a menudo coinciden con ajustes en la salud de los jefes o la introducción de nuevos encuentros legendarios. Mantenerse actualizado garantiza que no estés usando tácticas obsoletas contra enemigos mejorados.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Principales Ubicaciones de Jefes y Requisitos">
+
+Navegar por los mares para encontrar a los **jefes de Legacy Piece** requiere prestar mucha atención a los requisitos de nivel de las islas. Enfrentarse a un jefe demasiado pronto resultará en un viaje rápido de regreso a tu punto de aparición. Cada isla importante del juego alberga al menos un encuentro de jefe significativo que sirve como "guardián" para la siguiente etapa de tu aventura.
+
+<CardGrid cols={3}>
+  <Card title="Jefe de la Isla de Inicio">
+    - **Nivel Requerido**: 1-15
+    - **Enfoque**: Combate Básico
+    - **Botín Clave**: Cofres de Inicio
+  </Card>
+  <Card title="Jefe del Puesto del Desierto">
+    - **Nivel Requerido**: 30-50
+    - **Enfoque**: Resistencias Elementales
+    - **Botín Clave**: Núcleos de Poder
+  </Card>
+  <Card title="Comandante de la Base Marina">
+    - **Nivel Requerido**: 75+
+    - **Enfoque**: Técnicas de Espada
+    - **Botín Clave**: Sables Raros
+  </Card>
+</CardGrid>
+
+Al cazar a estos enemigos, recuerda que algunos jefes solo aparecen durante momentos específicos del día o después de que se haya derrotado a un cierto número de PNJ menores en la isla. Esta mecánica de "conteo de bajas" evita que los jugadores simplemente acampen en los puntos de aparición de los jefes sin interactuar con el ecosistema local.
+
+| Nombre de la Isla | Nombre del Jefe | Nivel Recomendado | Estilo de Combate |
+| :--- | :--- | :--- | :--- |
+| **Isla de Inicio** | Líder Bandido | 10 | Cuerpo a Cuerpo / Físico |
+| **Shell Town** | Capitán Corrupto | 25 | Espada / A Distancia |
+| **Orange Village** | Maestro de Ceremonias | 45 | Fruta / Caos |
+| **Baratie** | Pirata Fantasma | 60 | Alta Velocidad / Cuerpo a Cuerpo |
+
+<Callout type="warning" title="Advertencia de Nivel">
+No intentes enfrentarte a jefes que superen en más de 10 niveles a tu personaje actual. El escalado de daño en Legacy Piece hace que las diferencias de nivel sean extremadamente castigadoras, independientemente de tu habilidad de Fruta.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estrategias de Combate para Encuentros con Jefes">
+
+Derrotar a los **jefes de Legacy Piece** requiere más que solo presionar botones al azar. Debes dominar la sinergia entre tus habilidades de Fruta del Diablo, habilidades de Espada y maniobras de combate básicas. Cada jefe tiene una "fase de furia" donde su velocidad de ataque aumenta y sus tiempos de reutilización disminuyen.
+
+**Puntos Destacados del Video:**
+- Demostración de la táctica de esquivar y zigzaguear para los jefes de la Marina.
+- Rotaciones óptimas de habilidades para un DPS máximo usando las frutas Magma y Luz.
+- Cómo kitear los jefes para evitar ataques de área (AOE) de alto daño.
+
+<YouTubeEmbed videoId="8657732325" title="Guía de Combate contra Jefes de Legacy Piece" />
+
+Para maximizar tu eficiencia, sigue esta progresión táctica durante cualquier encuentro importante:
+
+<Steps>
+  <Step num="1" title="Reconocimiento de Patrones">
+    Observa al jefe durante los primeros 30 segundos. La mayoría de los jefes siguen un combo de 3 golpes seguido de una habilidad pesada de área de efecto (AOE). Aprende las señales visuales de estos golpes pesados.
+  </Step>
+  <Step num="2" title="Encadenamiento de Habilidades">
+    Comienza con tus habilidades de Fruta a distancia (como los rayos de Luz) para desgastar su escudo. Una vez roto el escudo, acércate con habilidades de Espada para causar un daño explosivo masivo.
+  </Step>
+  <Step num="3" title="Gestión de Estamina">
+    Nunca dejes que tu barra de estamina llegue a cero. Mantén siempre la suficiente para al menos dos esquivas. Si te queda poca, retrocede y usa el entorno para cubrirte mientras se recarga.
+  </Step>
+  <Step num="4" title="La Fase de Ejecución">
+    Cuando el jefe llegue al 20% de salud, a menudo entrará en un estado desesperado. Guarda tu habilidad Definitiva (Ultimate) para este momento para terminar la pelea rápidamente antes de que puedan curarse o pedir refuerzos.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Sinergia de Frutas">
+Se recomienda encarecidamente usar la **Fruta de Luz** para farmear jefes debido a su alta movilidad, lo que te permite mantenerte fuera del alcance de los devastadores combos cuerpo a cuerpo mientras infliges un daño constante.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Drops de Jefes y Tablas de Botín">
+
+La razón principal por la que los jugadores farmean a los **jefes de Legacy Piece** es el botín. Desde Fragmentos utilizados para mejoras hasta armas legendarias que definen tu build, las recompensas son extensas. En el meta de 2026, el botín se divide en "Drops Garantizados" y "Tiradas Raras".
+
+| Nombre del Objeto | Tasa de Drop | Tipo de Objeto | Caso de Uso |
+| :--- | :--- | :--- | :--- |
+| **Fragmento Común** | 100% | Moneda | Mejorar equipo básico |
+| **Cofre Raro** | 15% | Contenedor | Botín aleatorio de alto nivel |
+| **Espada de Jefe** | 2% | Arma | Builds de combate de fin de juego |
+| **Núcleo de Poder** | 5% | Mod de Habilidad | Mejorar habilidades de Fruta |
+| **Lingote de Oro** | 25% | Moneda | Inyección masiva de dinero |
+
+<Callout type="info" title="Mecánicas de Botín">
+El botín en Legacy Piece es instanciado para la mayoría de los jefes, lo que significa que no tienes que preocuparte de que otros jugadores "roben" tus drops. Sin embargo, los Jefes Mundiales recompensan a los jugadores según su contribución de daño total.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Verificación de Preparación para Farmear Jefes">
+
+Antes de dirigirte al Grand Line para desafiar a los enemigos más fuertes, asegúrate de que tu personaje esté equipado adecuadamente. La falta de preparación es la causa principal de las derrotas totales ante jefes ("boss-wiping") en la comunidad.
+
+<Checklist
+  id="boss-prep"
+  title="Requisitos Previos a la Batalla:"
+  items={[
+    "Equipar una Fruta con al menos dos habilidades de combate desbloqueadas",
+    "Mejorar tu Espada principal al menos al Nivel 2",
+    "Abastecerse de objetos de recuperación de salud en la ciudad local",
+    "Buscar códigos activos como 'update0.5!' para aumentos de estadísticas",
+    "Unirse a un grupo si se intentan Jefes Mundiales para obtener el bono de PX"
+  ]}
+/>
+
+| Enfoque de Estadísticas | Valor Recomendado | Razón |
+| :--- | :--- | :--- |
+| **Defensa** | 40% de los Puntos | Supervivencia contra áreas de efecto (AOE) pesadas |
+| **Fruta/Espada** | 50% de los Puntos | Fuente principal de daño |
+| **Estamina** | 10% de los Puntos | Movilidad y esquiva |
+
+<Callout type="tip" title="Consejo de Estrategia">
+Si tienes dificultades con un jefe específico, intenta cambiar tu Estilo de Lucha. Algunos jefes son débiles a los ataques rápidos de múltiples golpes, mientras que otros se manejan mejor con movimientos de espada lentos y pesados.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Con qué frecuencia aparecen los jefes de Legacy Piece?",
+    answer: "La mayoría de los Jefes de Isla tienen un temporizador de reaparición de 15 a 20 minutos. Los Jefes Mundiales tienen un temporizador global, y suelen aparecer cada 2 a 4 horas según la actividad del servidor."
+  },
+  {
+    question: "¿Puedo derrotar a los jefes en solitario en Legacy Piece?",
+    answer: "Sí, la mayoría de los jefes hasta el Nivel 100 se pueden derrotar en solitario si tienes una Fruta de alto nivel como Magma o Dragón. Sin embargo, los Jefes Mundiales están diseñados para jugar en grupo."
+  },
+  {
+    question: "¿Obtengo mejor botín si inflijo más daño?",
+    answer: "Para los Jefes Mundiales, sí. Hay categorías de recompensa por niveles (Bronce, Plata, Oro) basadas en tu porcentaje de daño. Para los Jefes de Isla estándar, el botín es fijo."
+  },
+  {
+    question: "¿Cuál es la mejor Fruta para cazar jefes?",
+    answer: "Luz es la mejor para principiantes debido al vuelo y al alcance. Magma es la mejor para jugadores avanzados porque tiene el DPS bruto más alto del juego."
+  }
+]} />
+
+</Section>

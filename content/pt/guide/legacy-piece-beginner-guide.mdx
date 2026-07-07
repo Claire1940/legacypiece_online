@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guia de Iniciante de Legacy Piece: Comece e Suba de Nível Rápido",
+  description: "Domine o básico de Legacy Piece no Roblox. Aprenda sobre seleção de raças, missões iniciais, estilos de luta e as rotas mais rápidas de evolução inicial.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0b2239/fff?text=Legacy+Piece+Beginner+Guide",
+  date: "2026-07-07",
+  author: "Equipe da Wiki de Legacy Piece"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Palavra-chave principal**: Siga este **guia de iniciante de legacy piece** completo para dominar a progressão inicial, otimizar suas builds de combate e alcançar níveis mais altos de forma eficiente.
+- **Mecânica principal**: Gire para obter uma raça poderosa (como Oni ou Fishman) durante a personalização para garantir bônus de combate passivos fortes.
+- **Melhor estratégia**: Priorize as missões da história principal na Ilha Fusha, depois passe para as missões secundárias e chefes para maximizar seus ganhos de EXP.
+- **Dica crítica**: Defina seu Cristal de Renascimento (Spawn Crystal) em cada nova ilha para evitar longas viagens de barco caso caia em combate.
+- **Melhor escolha**: Compre a Katana cedo e tente obter as Devil Fruits de Magma ou Luz (Light) para carregar você no início do jogo.
+</Callout>
+
+<Section icon={Map} title="Criando Seu Personagem e Girando Sua Raça">
+
+Antes de se lançar nos vastos mares de Roblox Legacy Piece, seu primeiro passo ocorre no menu de personalização. Dedicar um tempo para configurar seu personagem adequadamente evita que você corra por aí com os cosméticos padrão. Mais importante ainda, la tela de personalização abriga o Menu de Giros (Spin Menu), onde você gira para definir sua raça inicial. 
+
+Ao entrar no jogo, você recebe 3 giros grátis. Você pode obter mais giros resgatando códigos ativos ou comprando-os. Cada raça fornece estatísticas passivas exclusivas, benefícios de movimentação e características cosméticas que influenciam fortemente sua eficiência em combate.
+
+| Raça | Chance de Giro | Principais Bônus Passivos e Recursos | Avaliação de Combate |
+| :--- | :--- | :--- | :--- |
+| **Oni** | 2% | Maior quantidade de vida, aumento no dano geral | ★★★★★ |
+| **Fishman** | 10% | Aumento no dano de Punho, nado mais rápido, respira debaixo d'água | ★★★★☆ |
+| **Mink** | 5% | Grande reserva de stamina, velocidade de movimento mais rápida, desbloqueia o estilo Electro | ★★★★☆ |
+| **Skypiean** | 18% | Reserva de stamina aumentada, maior altura de salto | ★★★☆☆ |
+| **Human** | 65% | Ganho de EXP mais rápido, ganho de XP de Maestria de Arma mais rápido | ★★★☆☆ |
+
+<Callout type="tip" title="Dica Pro: Seleção de Raça">
+Se você conseguir tirar Oni ou Fishman, salve imediatamente. Oni fornece a melhor escala de combate bruto para lutas contra chefes, enquanto Fishman remove completamente a ameaça de afogamento no início do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Controles Básicos e Layout da Interface">
+
+Legacy Piece não possui um tutorial no jogo, deixando os jogadores descobrirem os controles por meio da exploração ativa. Entender a interface do usuário e as teclas de atalho é essencial antes de entrar em combate com NPCs hostis. Suas estatísticas primárias são exibidas no timão do navio no canto inferior esquerdo da tela, acompanhando seu Nível (Level), Beli (moeda), Vida (Health), EXP e Stamina.
+
+**Destaques do Vídeo:**
+- Aprenda a gerenciar a stamina enquanto esquiva (dash) e bloqueia em combate.
+- Descubra a localização da sua primeira âncora de renascimento na Ilha Fusha.
+- Entenda como fazer a transição do estilo de Punho para sua primeira espada.
+
+<YouTubeEmbed videoId="8657732325" title="Guia de Iniciante e Showcase de Legacy Piece" />
+
+<CardGrid cols={3}>
+  <Card title="Controles de Movimento">
+    - **Toque duplo em W**: Correr
+    - **Tecla Q**: Esquiva/Dash (consome 10 de Stamina)
+    - **Barra de Espaço**: Pular / Pulo Duplo (Skypiean)
+  </Card>
+  <Card title="Controles de Combate">
+    - **Clique Esquerdo**: Ataque Básico (M1)
+    - **Tecla F**: Bloquear ataques
+    - **Tecla H**: Finalizar oponentes caídos (Grip)
+  </Card>
+  <Card title="Controles do Sistema">
+    - **Tecla M**: Abrir Menu Principal
+    - **Tecla B**: Carregar itens
+    - **Tecla E**: Interagir com NPCs / Cristais de Renascimento
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Aviso de Gerenciamento de Stamina">
+A esquiva (dash) consome 10 de stamina por carga. Usar demais a esquiva deixará você incapaz de bloquear ataques pesados, o que pode resultar rapidamente em derrota durante os primeiros confrontos com chefes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rota de Progressão Inicial Passo a Passo">
+
+Para subir de nível com eficiência, você deve seguir uma rota estruturada de missões começando na Ilha Fusha. As missões são marcadas por pontos de exclamação coloridos acima das cabeças dos NPCs, indicando diferentes tipos de missões. 
+
+| Tipo de Missão | Cor do Marcador | Descrição e Prioridade | Rendimento de EXP |
+| :--- | :--- | :--- | :--- |
+| **Missões de História** | Azul | Progressão da história principal; devem sempre ser concluídas primeiro | Alto |
+| **Missões Secundárias** | Dourado / Amarelo | Missões repetíveis usadas para preencher lacunas de nível antes dos chefes | Médio |
+| **Missões de Chefe** | Vermelho | Lutas desafiadoras que desbloqueiam a viagem para as ilhas subsequentes | Muito Alto |
+
+<Steps>
+  <Step num="1" title="Resgate Códigos e Reivindique Recompensas">
+    Assim que nascer no jogo, abra o menu e resgate todos os códigos ativos para garantir Beli inicial e giros grátis. Reivindique quaisquer recompensas de grupo disponíveis para aumentar sua carteira inicial.
+  </Step>
+  <Step num="2" title="Ative o Cristal de Renascimento de Fusha">
+    Aproxime-se do Cristal de Renascimento verde do lado de fora, perto do Party's Bar, e segure E para ativá-lo. Isso garante que você renasça por perto se for derrotado por bandidos no início do jogo.
+  </Step>
+  <Step num="3" title="Conclua a Missão de Woop Slap">
+    Encontre Woop Slap perto do moinho de vento. Aceite sua missão introdutória e siga o marcador marrom de missão na sua tela para conhecer o layout da ilha.
+  </Step>
+  <Step num="4" title="Suba de Nível no Party's Bar">
+    Vá para dentro do Party's Bar e fale com Makino. Aceite as missões de história dela para derrotar os bandidos locais, repetindo-as até atingir o Nível 15.
+  </Step>
+  <Step num="5" title="Compre a Katana">
+    Assim que acumular Beli suficiente com as missões, visite a loja de armas local e compre a Katana para substituir seu Estilo de Luta de Punho padrão.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Desbloqueando Estilos de Luta e Devil Fruits">
+
+Embora o Estilo de Luta de Punho padrão funcione contra os bandidos do início do jogo, você precisará adquirir armas avançadas, estilos de luta especializados e Devil Fruits para progredir no conteúdo de meio de jogo.
+
+### Treinadores de Estilos e Armas Iniciais
+Você pode comprar armas básicas em lojas ou derrotar chefes para obter drops raros. Estilos de luta especializados exigem encontrar treinadores escondidos em diferentes ilhas.
+
+- **Estilo de Uma Espada (One Sword Style - 1SS)**: Localizado na Mystery Island. Você deve derrotar três alunos e concluir tarefas de musculação para desbloqueá-lo.
+- **Estilo Blackleg**: Localizado em Shell's Town. Este estilo foca em combos de chutes poderosos e alta mobilidade.
+- **Estilo Electro**: Exclusivo para a raça Mink, oferecendo ataques corpo a corpo infundidos com eletricidade.
+
+### Fazenda (Farming) de Devil Fruits
+As Devil Fruits concedem habilidades elementais ou físicas poderosas. Em Legacy Piece, as Devil Fruits surgem naturalmente debaixo de árvores em todas as ilhas a cada 40 minutos. A floresta da Ilha Fusha é altamente recomendada para a caça de frutas devido à sua densa população de árvores.
+
+| Fruta | Raridade | Caso de Uso Principal | Eficiência para Subir de Nível |
+| :--- | :--- | :--- | :--- |
+| **Light** | Rara | Ataques à distância, mobilidade extremamente alta, viagem rápida | ★★★★★ |
+| **Magma** | Rara | Dano massivo em área (AoE), alto dano de queimadura | ★★★★★ |
+| **Ice** | Incomum | Controle de grupo, congela a água para andar sobre os mares | ★★★★☆ |
+| **Fire** | Incomum | Dano equilibrado no início do jogo, dano contínuo (DOT) de queimadura sólido | ★★★☆☆ |
+
+<Callout type="success" title="Configuração Ideal para Subir de Nível">
+Buscar obter **Magma** ou **Light** é a melhor estratégia de longo prazo para iniciantes. Ambas as frutas permitem que você derrote grandes grupos de inimigos de missões simultaneamente, reduzindo drasticamente o seu tempo total de evolução.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Marcos Essenciais para Iniciantes">
+
+Para garantir que seu personagem seja construído corretamente para os desafios à frente, use esta lista de verificação para acompanhar seu progresso inicial.
+
+<Checklist
+  id="beginner-milestones"
+  title="Lista de Verificação dos Primeiros 15 Níveis:"
+  items={[
+    "Resgate todos os códigos ativos de lançamento e atualização para obter Beli e giros grátis [1.1.5].",
+    "Gire sua raça inicial para obter Oni, Fishman ou Mink.",
+    "Ative o Cristal de Renascimento perto do Party's Bar na Ilha Fusha.",
+    "Alcance o Nível 15 repetindo as missões de bandidos da Makino.",
+    "Compre a Katana na loja de armas para desbloquear a maestria de espada."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como faço para correr e esquivar (dash) no Legacy Piece?",
+    answer: "Você pode correr tocando duas vezes na tecla W. Para esquivar, pressione a tecla Q, o que consome 10 pontos da sua barra de stamina por uso."
+  },
+  {
+    question: "Qual é o melhor lugar para encontrar Devil Fruits no início do jogo?",
+    answer: "As Devil Fruits surgem debaixo de árvores a cada 40 minutos. A floresta na Ilha Fusha é o melhor lugar para procurar, pois possui a maior densidade de árvores."
+  },
+  {
+    question: "Qual é a vantagem de configurar um Cristal de Renascimento (Spawn Crystal)?",
+    answer: "Os Cristais de Renascimento funcionam como sua âncora. Ativá-los garante que você renasça na sua ilha de missão atual, em vez de ter que navegar de volta a partir da ilha inicial."
+  },
+  {
+    question: "Qual é a melhor raça para se conseguir neste guia de iniciante de legacy piece?",
+    answer: "Oni é a melhor raça devido aos seus enormes bônus de vida e dano. Fishman também é altamente recomendada porque permite nadar mais rápido e evita afogamentos."
+  }
+]} />
+
+</Section>

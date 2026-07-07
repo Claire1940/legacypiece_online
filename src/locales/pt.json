@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "codes": "Códigos",
+    "guide": "Guia",
+    "tierList": "Tier List",
+    "fruits": "Frutas",
+    "weapons": "Armas",
+    "abilities": "Habilidades",
+    "locations": "Locais"
+  }
+}

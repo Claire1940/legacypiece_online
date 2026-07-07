@@ -1,0 +1,154 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de Razas de Legacy Piece: Mejores Rasgos, Buffs y Tier List",
+  description: "Explora la guía definitiva de razas de Legacy Piece. Compara las estadísticas, ventajas (buffs) y probabilidades de giro de Humano, Fishman, Mink y Skypiean para crear al mejor pirata en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0b2239/fff?text=Legacy+Piece+Race+Guide",
+  date: "2026-07-07",
+  author: "Equipo de la Wiki de Legacy Piece"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Elección Principal**: Tu raza en Legacy Piece determina tus ventajas pasivas, resistencias elementales y habilidades únicas de desplazamiento.
+- **Nivel Superior (Top Tier)**: Fishman y Mink dominan el meta actual de 2026 debido a su utilidad superior, aumentos de daño bruto y habilidades raciales únicas.
+- **Mecánicas de Giro (Roll)**: Los jugadores pueden volver a girar (reroll) su raza usando códigos del juego o Robux, con probabilidades de obtención que van desde común hasta raro.
+- **Mejor Estrategia**: Alinea tu raza con tu Fruta del Diablo (Devil Fruit) o build de espada elegida para maximizar la sinergia en combate.
+</Callout>
+
+<Section icon={Map} title="Guía de Razas de Legacy Piece: Resumen del Sistema">
+
+En el vasto mundo abierto de Legacy Piece, elegir la raza adecuada es la base de la build de tu personaje. Tu raza determina no solo tu apariencia visual, sino que también otorga bonificaciones pasivas cruciales, rasgos de combate únicos y mecánicas de movimiento especializadas. Ya sea que quieras conquistar los mares como un nadador rápido o dominar las batallas PvP con ataques que inducen parálisis, comprender las mecánicas raciales es esencial para una progresión eficiente.
+
+Las razas se obtienen durante la personalización del personaje o se vuelven a girar más tarde utilizando códigos activos del juego. Cada raza pertenece a un nivel de rareza específico, lo que determina su probabilidad de obtención.
+
+| Raza | Nivel de Rareza | Probabilidad de Giro | Estilo de Juego Principal |
+| :--- | :--- | :--- | :--- |
+| **Humano** | Común | 70% | Equilibrado, versátil, fácil de armar |
+| **Skypiean** | Poco Común | 18% | Movilidad vertical, combate aéreo |
+| **Mink** | Raro | 7% | Gran velocidad, gestión de energía (stamina), aturdimiento |
+| **Fishman** | Raro | 5% | Combate acuático, regeneración de salud, tanque |
+
+<Callout type="tip" title="Estrategia de Reroll">
+No te conformes con una raza básica si tienes códigos activos disponibles. Hacer reroll temprano te permite asegurar una raza de nivel Raro como Fishman o Mink, lo que te dará una ventaja masiva durante la fase de nivelación al inicio del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Ventajas Raciales y Rasgos de Combate">
+
+Cada raza proporciona distintas ventajas pasivas que afectan directamente a tu daño infligido, defensa y capacidades de desplazamiento. Elegir una raza que complemente tu arma o habilidad de Fruta del Diablo puede elevar tu eficiencia en combate a niveles de élite.
+
+<CardGrid cols={2}>
+  <Card title="Fishman (Tier S)">
+    - **Inmunidad al Agua**: Nada libremente sin recibir daño, incluso con una Fruta del Diablo.
+    - **Maestría de Puños**: Potencia el Karate Fishman y el daño cuerpo a cuerpo.
+    - **Gran Reserva de Salud**: Mayor vida base (HP) y regeneración pasiva más rápida.
+  </Card>
+  <Card title="Mink (Tier S)">
+    - **Combate Electro**: Añade efectos de aturdimiento eléctrico a los ataques cuerpo a cuerpo básicos.
+    - **Aumento de Energía**: Incremento masivo de la energía (stamina) máxima y de la velocidad de recuperación.
+    - **Velocidad Extrema**: La velocidad de movimiento base más rápida del juego.
+  </Card>
+  <Card title="Skypiean (Tier A)">
+    - **Mecánica de Planeo**: Capacidad de caída lenta para navegar de forma segura por islas elevadas.
+    - **Aumento de Salto**: Mayor altura de salto base para combos aéreos.
+    - **Estadísticas Equilibradas**: Mezcla decente de mejoras de energía y salud.
+  </Card>
+  <Card title="Humano (Tier B)">
+    - **Bonificación de EXP**: Gana puntos de experiencia un poco más rápido que otras razas.
+    - **Polifacético**: Sin debilidades importantes, lo que lo hace altamente flexible.
+    - **Escalamiento Fácil**: Ideal para probar múltiples builds híbridas.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia de Fruta del Diablo">
+Normalmente, comer una Fruta del Diablo te hace muy vulnerable a ahogarte. Sin embargo, la raza Fishman elude por completo esta mecánica, lo que permite a los usuarios de frutas luchar en aguas profundas sin recibir daño pasivo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tier List de las Mejores Razas para PvP y PvE">
+
+Para optimizar tu ruta de progresión, debes evaluar cómo se desempeña cada raza en los diferentes modos de juego. Mientras que algunas razas sobresalen en escaramuzas PvP de ritmo rápido, otras están diseñadas para ayudarte a sobrevivir en peleas de jefes de alto nivel y farmear enemigos de manera eficiente.
+
+| Raza | Rango PvP | Rango PvE | Mejor Sinergia de Combate |
+| :--- | :--- | :--- | :--- |
+| **Fishman** | ★★★★★ | ★★★★★ | Builds basadas en agua, configuraciones de Tanque, usuarios de Fruta del Diablo |
+| **Mink** | ★★★★★ | ★★★★☆ | Builds de espada, estilos de juego basados en combos, cuerpo a cuerpo |
+| **Skypiean** | ★★★☆☆ | ★★★★☆ | Frutas a distancia, builds de francotirador, farmeo a gran altitud |
+| **Humano** | ★★★☆☆ | ★★★☆☆ | Builds iniciales, nivelación general, configuraciones híbridas |
+
+<Callout type="success" title="Recomendación del Meta">
+Para obtener el mejor rendimiento absoluto en el meta de 2026, busca la raza **Fishman** si dependes de las habilidades de la Fruta del Diablo, o **Mink** si prefieres el juego de espada rápido y los combos cuerpo a cuerpo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo hacer Reroll a tu Raza">
+
+Si no estás satisfecho con tu raza inicial, puedes volver a girar (reroll) fácilmente usando los sistemas del juego. Sigue estos pasos estructurados para asegurar la raza deseada.
+
+<Steps>
+  <Step num="1" title="Acceder al Menú de Personalización">
+    Inicia el juego y navega hasta el menú principal. Haz clic en la opción 'Customize' (Personalizar) antes de entrar a los servidores de juego en vivo.
+  </Step>
+  <Step num="2" title="Comprobar Giros Disponibles">
+    Mira tu contador de giros de raza. Puedes adquirir giros gratis canjeando códigos promocionales activos o comprándolos directamente con Robux.
+  </Step>
+  <Step num="3" title="Girar y Confirmar">
+    Presiona el botón 'Spin' (Girar) al lado de tu raza actual. El sistema alternará entre las opciones disponibles según sus porcentajes de probabilidad.
+  </Step>
+  <Step num="4" title="Asegurar tu Build">
+    Una vez que obtengas una raza de nivel S como Fishman o Mink, deja de girar inmediatamente y guarda la configuración de tu personaje.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Verificación de Progresión para Nuevos Jugadores">
+
+Maximizar tu potencial racial requiere alcanzar hitos clave durante tu viaje. Utiliza esta lista de verificación para asegurarte de que tu personaje esté optimizado correctamente.
+
+<Checklist
+  id="race-progression"
+  title="Objetivos de Optimización Racial:"
+  items={[
+    "Canjear todos los códigos activos de lanzamiento y actualización para obtener giros gratis",
+    "Asegurar al menos una raza de nivel A (Skypiean, Mink o Fishman)",
+    "Desbloquear un estilo de lucha que coincida con tus pasivas raciales",
+    "Entrenar tu energía (stamina) para aprovechar la velocidad del Mink o la regeneración del Fishman",
+    "Llegar a islas de nivel alto para probar tu build en PvP competitivo"
+  ]}
+/>
+
+</Section>
+
+<Section icon={HelpCircle} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor raza absoluta en Legacy Piece?",
+    answer: "Fishman es ampliamente considerada la mejor raza en general debido a su inmunidad al daño por agua, lo cual es increíblemente poderoso para los jugadores que han consumido una Fruta del Diablo."
+  },
+  {
+    question: "¿Pierdo mi raza si como una Fruta del Diablo?",
+    answer: "No, comer una Fruta del Diablo no cambia tu raza. Sin embargo, a menos que seas un Fishman, comer una fruta hará que recibas daño al nadar en el agua."
+  },
+  {
+    question: "¿Cómo obtengo más giros (rerolls) de raza gratis?",
+    answer: "Puedes obtener giros de raza gratis estando atento a los nuevos códigos de desarrollador que se lancen, los cuales se distribuyen con frecuencia durante las actualizaciones del juego y los hitos de la comunidad."
+  },
+  {
+    question: "¿Pueden los humanos competir con las razas raras en PvP?",
+    answer: "Sí. Aunque los humanos carecen de las llamativas habilidades pasivas de los Minks o Fishmen, un jugador muy experimentado con un arma y una build de fruta óptimas puede derrotar fácilmente a las razas raras."
+  }
+]} />
+
+</Section>

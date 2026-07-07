@@ -1,0 +1,147 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Legacy Piece Map: Full Island Level Requirements & Boss Locations",
+  description: "Navigate the seas of Legacy Piece with our complete map guide. Learn every island's level requirements, boss locations, and exclusive trainer locations.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0b2239/fff?text=Legacy+Piece+Map+Guide",
+  date: "2026-07-07",
+  author: "legacy piece Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Mechanic**: Legacy Piece lacks an in-game HUD map, meaning you must rely on compass directions and local region text.
+- **Progression Flow**: Sail sequentially through islands based on strict level caps to avoid high-level enemy zones.
+- **Key Milestones**: Prioritize unlocking Haki at level 45 on Haki Island and 1SS (1 Sword Style) on its designated trainer island.
+- **Spawn Points**: Always interact with local spawn NPCs on newly discovered islands to secure your progress.
+</Callout>
+
+<Section icon={Map} title="Legacy Piece Map: Navigating the First Sea">
+
+Sailing through the vast ocean of **Legacy Piece** can be incredibly challenging due to the absence of a traditional in-game HUD map. To successfully navigate from your starting point at Fusha Island to late-game territories like Arlong Park, you must follow the recommended level brackets. Venturing into high-level waters prematurely will result in swift defeats by powerful hostile NPCs.
+
+Below is the definitive sequence of islands in the First Sea, mapped out by recommended character levels. 
+
+| Island Name | Level Range | Key Boss NPC | Primary Purpose |
+| :--- | :--- | :--- | :--- |
+| **Fusha Island** | 1-15 | Higuma The Bandit | Starter questing, basic combat tutorials |
+| **Alvida Island** | 15-25 | Alvida The Iron Mace | Mid-tier early progression, defense upgrades |
+| **Shells Town** | 25-40 | Axe Hand Morgan | High EXP quests, Zoro questline |
+| **Shimotsuki Island** | 40-50 | Yeti | Weapon upgrades, Frost Blade drops |
+| **Haki Island** | 45+ | None | Learning Haki technique |
+| **Orange Town** | 50-65 | Buggy The Clown | Mid-game progression, accessory farming |
+| **Baratie** | 65-80 | Don Krieg | Advanced weapon farming, high tier food |
+| **Mink Island** | 80-95 | Wolfam | Late-game scaling, unique fighting style |
+| **Arlong Park** | 95-99 | Saw Shark Arlong | End-game progression, top-tier weapons |
+
+<Callout type="warning" title="Sailing Safety">
+Do not attempt to bypass the recommended level caps. Enemies on higher-tier islands scale dramatically in damage and health, making early farming there highly inefficient.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Boss Drops & Combat Requirements">
+
+Each major island on the **legacy piece map** features a unique boss that drops exclusive weapons or accessories. Farming these bosses is essential for upgrading your character build.
+
+| Boss Name | Island Location | Health Pool | Exclusive Drops | Drop Rate |
+| :--- | :--- | :--- | :--- | :--- |
+| **Higuma** | Fusha Island | 285 HP | Higuma Katana | 35% |
+| **Alvida** | Alvida Island | 480 HP | Alvida Hat / Iron Mace | 15% / 10% |
+| **Axe Hand Morgan** | Shells Town | 550 HP | Metal Jaw / Axe Hand | 10% / 5% |
+| **Yeti** | Shimotsuki Island | 850 HP | Frost Coat / Frost Blade | 9% / 3% |
+| **Buggy The Clown** | Orange Town | 685 HP | Buggy Hat / Buggy Knives | 10% / 4% |
+| **Don Krieg** | Baratie | 750 HP | Daisenso | 2% |
+| **Saw Shark Arlong** | Arlong Park | 850 HP | Kiribachi | 1% |
+
+<CardGrid cols={3}>
+  <Card title="Melee Builds">
+    Target **Frost Blade** from Yeti (Shimotsuki Island) or **Kiribachi** from Arlong (Arlong Park) to maximize your sword-based physical damage.
+  </Card>
+  <Card title="Defense Builds">
+    Farm **Alvida Hat** or **Frost Coat** early on to boost your total health pool and damage resistance during tough boss battles.
+  </Card>
+  <Card title="Fruit Users">
+    Prioritize leveling speed on high-density islands like **Orange Town** and **Baratie** to unlock your Devil Fruit mastery skills faster.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Drop Rate Optimization">
+Boss drop rates are fixed, but you can speed up farming loops by setting your spawn point directly at the boss's island and server-hopping to find active spawns.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Leveling Route">
+
+To level up efficiently without getting lost, follow this structured navigation path across the First Sea.
+
+<Steps>
+  <Step num="1" title="Fusha Island (Levels 1-15)">
+    Complete the introductory quests from Woop Slap and Makino. Defeat Higuma the Bandit until you hit level 15.
+  </Step>
+  <Step num="2" title="Alvida Island (Levels 15-25)">
+    Sail East from Fusha Island's southern tip. Talk to Koby and complete Mary's delivery quests while farming Alvida.
+  </Step>
+  <Step num="3" title="Shells Town (Levels 25-40)">
+    Head Northeast of Alvida Island. Complete the multi-part Zoro questline to earn massive chunks of EXP.
+  </Step>
+  <Step num="4" title="Shimotsuki Island (Levels 40-50)">
+    Travel north to reach the snowy shores of Shimotsuki. Complete the Blacksmith's 4-part questline and defeat the Yeti.
+  </Step>
+  <Step num="5" title="Haki Island (Level 45+)">
+    Take a quick detour to Haki Island. Complete the Haki Trainer's trial and pay 2.5k Beli to unlock Busoshoku Haki.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Milestone Unlocked">
+Unlocking Haki at level 45 is a game-changer. It allows you to damage Logia-type Devil Fruit users and boosts your overall physical damage output.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Navigational Checklist for Pirates">
+
+Before embarking on long voyages across the open sea, make sure you have checked off the following essential preparations:
+
+<Checklist
+  id="navigation-prep"
+  title="Voyage Readiness Checklist:"
+  items={[
+    "Interact with the local Spawn Point NPC on your current island to secure your progress.",
+    "Purchase a reliable sailboat from the local Shipwright NPC.",
+    "Ensure you have at least 2,500 Beli saved up before reaching level 45 for Haki training.",
+    "Equip a high-mobility Devil Fruit like Light if you plan on skipping long boat trips."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Legacy Piece Map FAQ">
+
+<FAQ items={[
+  {
+    question: "Is there an in-game map item in Legacy Piece?",
+    answer: "No, Legacy Piece does not feature an in-game HUD map or a map item. Players must rely on compass directions, island landmarks, and community-made maps to navigate the seas."
+  },
+  {
+    question: "How do I learn Haki and what level is required?",
+    answer: "You can learn Haki at Haki Island once you reach level 45. You must complete a short quest for the Haki Trainer NPC and pay a fee of 2,500 Beli."
+  },
+  {
+    question: "What is the best way to travel fast between islands?",
+    answer: "While there is no instant fast-travel system, you can set spawn points at any island you visit. Using high-mobility Devil Fruits like Light or buying faster boats will significantly reduce travel times."
+  },
+  {
+    question: "Where can I find the Sword Style Trainer?",
+    answer: "The 1SS (1 Sword Style) trainer is located on 1SS Island, which is a special utility island separate from the main level-progression islands."
+  }
+]} />
+
+</Section>

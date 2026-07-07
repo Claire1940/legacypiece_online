@@ -1,0 +1,159 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de nivelación de Legacy Piece: Progresión rápida y rutas de islas",
+  description: "Domina la guía de nivelación definitiva de Legacy Piece. Descubre las rutas de islas más rápidas, estrategias de misiones y consejos de combate para alcanzar el nivel máximo en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0b2239/fff?text=Legacy+Piece+Leveling+Guide",
+  date: "2026-07-07",
+  author: "Equipo de la Wiki de Legacy Piece"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Palabra clave principal**: Sigue esta **guía de nivelación de Legacy Piece** estructurada para optimizar tu ruta de misiones y el crecimiento de tu personaje.
+- **Bucle de nivelación**: Combina las misiones de la isla local con el farmeo de enemigos de alta densidad para maximizar los Puntos de Experiencia (XP) por hora.
+- **Estrategia de combate**: Utiliza habilidades de Área de Efecto (AoE) de las Frutas del Diablo o Espadas para despejar grupos de enemigos rápidamente.
+- **Asignación de estadísticas**: Prioriza el daño de Cuerpo a cuerpo/Espada y la Defensa al principio para resistir sesiones de farmeo más largas.
+- **Consejo de movilidad**: Consigue un barco fiable pronto para minimizar el tiempo de viaje entre las islas de progresión.
+</Callout>
+
+<Section icon={Map} title="Ruta Óptima de Progresión por Islas">
+
+Navegar por los vastos mares de manera eficiente es la base de una progresión rápida. Viajar a islas fuera de tu rango de nivel resulta en una ganancia reducida de XP o en una dificultad de combate abrumadora. Sigue el camino optimizado a continuación para mantener a tu personaje luchando constantemente contra enemigos que otorguen la máxima experiencia.
+
+| Rango de Nivel | Nombre de la Isla | Tipos de Enemigos Principales | Objetivos Clave |
+| :--- | :--- | :--- | :--- |
+| **Niveles 1-15** | Isla de Inicio | Bandidos, Reclutadores | Aprender el combate básico, completar misiones introductorias |
+| **Niveles 15-30** | Shells Town | Soldados de la Marina, Capitanes | Farmear recompensas de la marina local, mejorar equipo básico |
+| **Niveles 30-50** | Orange Town | Secuaces de Buggy, Piratas | Desbloquear el dominio temprano de la Fruta del Diablo, farmear grupos de enemigos |
+| **Niveles 50-80** | Baratie | Chefs Renegados, Piratas de Krieg | Comprar estilos de combate avanzados, mejorar armamento |
+| **Niveles 80-110** | Arlong Park | Guerreros Gyojin, Oficiales | Aprovechar los grupos de alta densidad, farmear drops de jefes |
+| **Niveles 110-150** | Loguetown | Marines de Élite, Jefes Locales | Prepararse para el contenido de alto nivel, optimizar builds de estadísticas |
+
+<Callout type="tip" title="Eficiencia de Navegación">
+Nunca navegues sin rumbo. Establece siempre tu punto de reaparición en la taberna o muelle de la isla local tan pronto como llegues para evitar largos viajes en barco si caes en combate.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estilos de Combate y Sinergia de Build">
+
+Para mantener una velocidad de despeje rápida, tu distribución de estadísticas debe coincidir con tu estilo de combate elegido. Repartir los puntos de manera muy dispersa entre todos los atributos es un error común que ralentiza la progresión a mitad del juego.
+
+<CardGrid cols={3}>
+  <Card title="Build Principal de Fruta">
+    - **Alto daño en área (AoE)**
+    - Se centra en las estadísticas de Fruta y Defensa
+    - Ideal para usuarios de Luz, Magma o Dragón
+  </Card>
+  <Card title="Especialista en Espada">
+    - **Daño explosivo preciso a un solo objetivo**
+    - Se centra en las estadísticas de Espada y Estamina
+    - Excelente para jefes y NPCs de élite
+  </Card>
+  <Card title="Luchador Cuerpo a Cuerpo">
+    - **Alta sustentabilidad y potencial de combo**
+    - Se centra en las estadísticas de Cuerpo a cuerpo y Defensa
+    - Muy confiable para el farmeo en el juego temprano y medio
+  </Card>
+</CardGrid>
+
+| Categoría de Estadística | Asignación Recomendada % | Nivel de Prioridad | Impacto en Combate |
+| :--- | :--- | :--- | :--- |
+| **Ofensiva Principal** | 50% de los puntos totales | **Alto** | Incrementa el daño de tu arma principal/fruta |
+| **Defensa** | 35% de los puntos totales | **Alto** | Incrementa la vida total para sobrevivir a ataques fuertes de jefes |
+| **Estamina** | 15% de los puntos totales | **Medio** | Permite esquivar con frecuencia y usar habilidades |
+
+<Callout type="warning" title="Precaución con el Restablecimiento de Estadísticas">
+Los objetos para restablecer estadísticas pueden ser raros o costosos. Decide tu camino de build principal temprano para evitar desperdiciar recursos en redistribuciones innecesarias.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estrategia de Nivelación Paso a Paso">
+
+Maximizar tu ganancia de XP requiere un enfoque sistemático en cada isla que visites. Sigue este bucle paso a paso para despejar zonas de manera eficiente.
+
+<Steps>
+  <Step num="1" title="Acepta Todas las Misiones Locales">
+    Localiza a los dadores de misiones cerca de los muelles o de la ciudad principal. Acumula siempre múltiples misiones si se dirigen a los mismos tipos de enemigos para duplicar tu rendimiento de XP por baja.
+  </Step>
+  <Step num="2" title="Agrupa y Atrae a los Enemigos">
+    No luches contra los enemigos uno por uno. Corre al lado de un grupo de 3 a 5 objetivos para atraer su atención (aggro), júntalos en un grupo cerrado y desata tus habilidades de área (AoE).
+  </Step>
+  <Step num="3" title="Prioriza los Objetivos de Élite">
+    Una vez completados los objetivos de tus misiones estándar, dirígete a los mini-jefes locales o unidades de élite. Ofrecen cantidades significativamente mayores de XP y drops de equipo valiosos.
+  </Step>
+  <Step num="4" title="Mejora tu Equipo y Continúa">
+    Revisa los vendedores locales o las tablas de drops para obtener mejoras de armas antes de abandonar una isla. Once you reach the maximum recommended level for the zone, set sail immediately.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo de Agrupación">
+Al agrupar enemigos, usa ataques básicos a distancia o dashes con bloqueo para atraer a los arqueros o artilleros distantes al grupo de combate cuerpo a cuerpo para un despeje limpio.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tier List de las Mejores Frutas para Nivelar">
+
+Si tienes la suerte de obtener una Fruta del Diablo temprano, esto puede alterar drásticamente tu velocidad de nivelación. Algunas frutas sobresalen en el despeje de enemigos, mientras que otras son más adecuadas para la movilidad o estilos de juego defensivos.
+
+| Tier | Nombre de la Fruta | Rendimiento de Nivelación | Fuerza Principal |
+| :--- | :--- | :--- | :--- |
+| **Tier S** | Luz / Dragón | **Excelente** | Movilidad inigualable y daño masivo en área (AoE) |
+| **Tier A** | Magma / Mochi / Terremoto | **Muy Bueno** | Alto daño y fuerte control de masas |
+| **Tier B** | Hielo / Fuego / Oscuridad | **Bueno** | Ataques elementales equilibrados, ideal para principiantes |
+
+<Callout type="info" title="Adquisición de Frutas">
+Si no tienes una fruta de Tier S, no detengas tu progresión para farmear una. Un estilo sólido de Espada o Cuerpo a cuerpo es más que suficiente para alcanzar niveles altos rápidamente.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hitos de Progresión y Lista de Verificación">
+
+Realiza un seguimiento de los hitos de crecimiento de tu personaje para asegurarte de no perder picos de poder cruciales durante tu viaje.
+
+<Checklist
+  id="leveling-milestones"
+  title="Objetivos Clave de Progresión:"
+  items={[
+    "Compra tu primer barco de vela en los muelles de la Isla de Inicio.",
+    "Desbloquea la habilidad secundaria de tu estilo de combate elegido al nivel 25.",
+    "Consigue un accesorio o pieza de armadura decente de los jefes de Shells Town.",
+    "Asigna estadísticas sistemáticamente sin dividir los puntos en atributos no utilizados.",
+    "Alcanza el nivel 100 y prepara tu build para la exploración oceánica de alto nivel."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la forma más rápida de viajar entre islas en Legacy Piece?",
+    answer: "Comprar un barco de vela de alto nivel o utilizar Frutas del Diablo enfocadas en la movilidad como la Luz es la forma más rápida de viajar por el mar."
+  },
+  {
+    question: "¿Debería centrarme en las misiones o simplemente farmear enemigos para obtener XP?",
+    answer: "Prioriza siempre las misiones. Acumular misiones que se dirigen a los mismos enemigos proporciona un multiplicador masivo de XP en comparación con farmear enemigos de forma directa."
+  },
+  {
+    question: "¿Dónde puedo restablecer mis estadísticas si cometo un error en mi build?",
+    answer: "Los restablecimientos de estadísticas se pueden realizar utilizando códigos específicos del juego, comprando pociones de restablecimiento de vendedores especializados o utilizando moneda premium."
+  },
+  {
+    question: "¿Esta guía de nivelación de Legacy Piece se aplica a jugadores en solo?",
+    answer: "Sí. Esta guía está optimizada para la progresión en solitario, aunque agruparse con otros jugadores puede hacer que los encuentros con los jefes sean significativamente más rápidos."
+  }
+]} />
+
+</Section>

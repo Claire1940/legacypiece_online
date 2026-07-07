@@ -1,0 +1,170 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Exhibición de Armas de Legacy Piece: Tier List y Ubicaciones",
+  description: "Descubre las mejores armas en Legacy Piece. Nuestra exhibición de armas cubre ubicaciones, tasas de caída y clasificaciones de rendimiento en combate para el meta de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0b2239/fff?text=Weapon+Showcase+Guide",
+  date: "2026-07-07",
+  author: "Equipo de Wiki de Legacy Piece"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Esta **exhibición de armas de Legacy Piece** detalla las mejores espadas, sus tasas de caída y sus principales usos en combate.
+- Las armas de nivel alto como el **Bisento** y la **Dark Blade** dominan el meta actual de PvP y PvE.
+- Las caídas de jefes requieren farmear islas específicas, con tasas de caída que van del **1% al 10%**.
+- Mejora tu efectividad en combate combinando armas con habilidades complementarias de **Fruta del Diablo**.
+</Callout>
+
+<Section icon={Trophy} title="Tier List y Clasificación de Armas">
+
+Elegir el arma adecuada dicta tu eficiencia en combate en alta mar. El meta actual favorece en gran medida a las armas que ofrecen un equilibrio de control de masas, alto escalado de daño y combos rápidos de inicio. Esta tier list clasifica las armas más destacadas según su versatilidad tanto en el farmeo PvE como en los enfrentamientos PvP.
+
+| Arma | Tier | Fuente Principal | Calificación de Combate |
+| :--- | :--- | :--- | :--- |
+| **Dark Blade** | S | Gamepass / Botín de Raid | ★★★★★ |
+| **Bisento** | S | Botín de Jefe (Baratie) | ★★★★★ |
+| **Kiribachi** | A | Botín de Jefe (Arlong Park) | ★★★★☆ |
+| **Soul Cane** | A | Cofre Oculto / Jefe | ★★★★☆ |
+| **Iron Mace** | B | Botín de Jefe (Isla Alvida) | ★★★☆☆ |
+| **Katana** | C | Vendedor de Isla de Inicio | ★★☆☆☆ |
+
+<CardGrid cols={3}>
+  <Card title="Dark Blade (Tier S)">
+    - **Velocidad de ataque rápida**
+    - Alto escalado de daño
+    - Excepcionales combos de inicio para PvP
+  </Card>
+  <Card title="Bisento (Tier S)">
+    - **Rango de área de efecto (AoE) masivo**
+    - Ataques con gran empuje (knockback)
+    - La mejor arma para farmear oleadas de enemigos (mobs)
+  </Card>
+  <Card title="Kiribachi (Tier A)">
+    - **Gran daño por sangrado**
+    - Fuerte escalado a mitad del juego
+    - Botín de jefe accesible
+  </Card>
+</CardGrid>
+
+Las armas de Tier S proporcionan conjuntos de habilidades únicos que pueden romper los bloqueos enemigos o cubrir grandes áreas, lo que las hace ideales para raids de alto nivel. Las armas de Tier A son excelentes alternativas que funcionan excepcionalmente bien en builds específicas, particularmente cuando se combinan con Frutas del Diablo de alta movilidad como Luz o Fuego. Las armas de Tier B y Tier C sirven como escalones de progresión para los jugadores más nuevos.
+
+<Callout type="tip" title="Consejo Pro">
+No te apresures a obtener armas de Tier S al principio. La Kiribachi o incluso una Iron Mace bien mejorada pueden llevarte fácilmente a través del proceso de nivelación a mitad del juego sin requerir horas de farmeo repetitivo de jefes.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Cómo Obtener Cada Arma">
+
+Las armas en Legacy Piece se obtienen a través de tres métodos principales: comprándolas a mercaderes de las islas, derrotando a jefes específicos o completando eventos mundiales raros. Los botines de jefes están sujetos a la generación de números aleatorios (RNG), lo que significa que es posible que debas derrotar a un jefe varias veces para asegurar su arma.
+
+| Arma | Jefe / Fuente | Ubicación de la Isla | Tasa de Caída Estimada |
+| :--- | :--- | :--- | :--- |
+| **Katana** | Mercader de Armas | Isla de Inicio | 100% (Compra) |
+| **Iron Mace** | Jefe Alvida | Isla de Alvida | 8% - 10% de probabilidad |
+| **Kiribachi** | Jefe Arlong | Arlong Park | 5% de probabilidad |
+| **Bisento** | Barbablanca (Whitebeard) | Isla Baratie | 1% - 2% de probabilidad |
+| **Soul Cane** | Jefe Brook | Segundo Mar / Evento | 3% de probabilidad |
+
+Para farmear estas armas de manera eficiente, los jugadores deben formar grupos para acelerar los tiempos de eliminación de los jefes. Los jefes tienen temporizadores de reaparición establecidos, que generalmente varían entre 10 y 20 minutos según el servidor. Cambiar de servidor (server hopping) sigue siendo la estrategia más efectiva para los jugadores en solitario que buscan minimizar el tiempo de inactividad entre encuentros.
+
+<Callout type="success" title="Aumentos de Tasa de Caída">
+Mantente atento a los códigos activos de los desarrolladores o a los eventos de fin de semana que otorgan aumentos en la tasa de caída. Farmear armas legendarias como el Bisento durante estos períodos reduce significativamente el tiempo de farmeo.
+</Callout>
+
+Al desafiar a jefes de alto nivel como Arlong o Barbablanca, asegúrate de haber establecido tu punto de reaparición (spawn point) en la isla local. Esto minimiza el tiempo de viaje si tu personaje es derrotado durante el encuentro.
+
+</Section>
+
+<Section icon={Swords} title="Habilidades y Maestría de Armas">
+
+Las armas no son solo herramientas de estadísticas; cuentan con conjuntos de habilidades únicos que se desbloquean a medida que aumentas tu nivel de Maestría de Arma. La maestría se obtiene golpeando a los enemigos y asestando los golpes de gracia con el arma.
+
+<Steps>
+  <Step num="1" title="Equipar y Usar">
+    Equipa el arma elegida y usa ataques básicos de clic izquierdo (M1) para derrotar a enemigos cercanos a tu nivel.
+  </Step>
+  <Step num="2" title="Desbloquear Habilidades Básicas">
+    Alcanza el nivel de Maestría 25 para desbloquear tu primera habilidad activa (generalmente vinculada a la tecla Z).
+  </Step>
+  <Step num="3" title="Desbloquear Habilidades Avanzadas">
+    Continúa entrenando hasta el nivel de Maestría 75+ para desbloquear finalizadores de combo de alto daño (vinculados a las teclas X y C).
+  </Step>
+  <Step num="4" title="Sinergia con Haki">
+    Activa el Haki de Armamento para imbuir tu arma, aumentando el daño base y eludiendo las defensas elementales.
+  </Step>
+</Steps>
+
+Diferentes armas escalan con diferentes estadísticas. Las espadas escalan directamente con tu estadística de Espada (Sword), mientras que las armas como la Iron Mace pueden escalar con Fuerza (Strength) o perfiles de armas especializados.
+
+| Tipo de Build | Estadística Principal | Arma Recomendada | Mejor Sinergia de Fruta |
+| :--- | :--- | :--- | :--- |
+| **Espadachín Puro** | Espada (Máx) | Dark Blade / Bisento | Giro (Spin) / Corte (Chop) (Defensa) |
+| **Luchador Híbrido** | Espada / Fruta | Kiribachi / Soul Cane | Luz / Magma |
+| **Tanque Luchador** | Defensa / Fuerza | Iron Mace | Terremoto (Quake) / Diamante |
+
+<Callout type="info" title="Retención de Maestría">
+La Maestría de Arma es permanente. Si cambias a un arma diferente y luego regresas a la anterior, tus habilidades desbloqueadas y tu nivel de maestría permanecerán intactos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rutas de Farmeo y Progresión de Armas">
+
+Para optimizar tu viaje, debes seguir una ruta de progresión estructurada. Intentar obtener armas de final de juego demasiado pronto ralentizará tu velocidad general de nivelación debido a las bajas tasas de caída y a las difíciles mecánicas de los jefes.
+
+<Checklist
+  id="weapon-progression"
+  title="Hitos Óptimos de Armas:"
+  items={[
+    "Compra la Katana de inicio inmediatamente al aparecer.",
+    "Alcanza el nivel 20 y farmea a Alvida para obtener la Iron Mace.",
+    "Transiciona a Arlong Park al nivel 50+ para farmear la Kiribachi.",
+    "Obtén el Haki de Armamento para aumentar el daño de tu espada.",
+    "Únete a raids de alto nivel o farmea a Barbablanca en Baratie para obtener el Bisento."
+  ]}
+/>
+
+Al farmear jefes, prioriza aprender sus patrones de ataque. La mayoría de los jefes tienen señales visuales claras antes de desatar habilidades de alto daño. Utilizar las mecánicas de esquiva (tecla F o dash) es crucial para sobrevivir a los encuentros en solitario.
+
+<Callout type="warning" title="Gestión de Estamina">
+El uso de habilidades de armas consume estamina. Asegúrate de asignar puntos a tu estadística de Estamina para evitar quedarte sin energía a mitad del combo durante peleas intensas contra jefes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+Comprender los matices del sistema de armas te ayudará a evitar errores comunes durante tu progresión. Aquí están las respuestas a las preguntas más frecuentes sobre las armas en el juego.
+
+<FAQ items={[
+  {
+    question: "¿Dónde puedo encontrar una exhibición completa de armas de Legacy Piece?",
+    answer: "Puedes ver exhibiciones de armas en el juego probando armas en la arena de entrenamiento o al observar a miembros de la comunidad utilizando armas de tier S en partidas PvP."
+  },
+  {
+    question: "¿Puedo usar dos armas a la vez (dual-wield) en Legacy Piece?",
+    answer: "No, el uso de doble empuñadura no es compatible a menos que estés usando un conjunto de armas específico diseñado como un objeto de doble arma (como katanas duales específicas)."
+  },
+  {
+    question: "¿El daño del arma escala con las estadísticas de la Fruta del Diablo?",
+    answer: "No, las habilidades de las armas escalan estrictamente con tus estadísticas de Espada o Fuerza, dependiendo de la categoría del arma. Las habilidades de la fruta escalan con la estadística de la Fruta."
+  },
+  {
+    question: "¿Cuál es la forma más rápida de subir de nivel la Maestría de Arma?",
+    answer: "El método más rápido es luchar contra jefes con mucha salud o grupos de enemigos mientras usas las habilidades de tu arma para infligir daño y asestar el golpe final."
+  }
+]} />
+
+<Callout type="tip" title="Veredicto Final">
+Selecciona un arma que se adapte a tu estilo de juego preferido. Aunque las armas de tier S ofrecen ventajas estadísticas, la habilidad del jugador, el posicionamiento y el tiempo del Haki determinan en última instancia el resultado de las batallas.
+</Callout>
+
+</Section>

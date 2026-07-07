@@ -1,0 +1,147 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mapa de Legacy Piece: Requisitos de nivel de islas y ubicaciones de jefes",
+  description: "Navega por los mares de Legacy Piece con nuestra guía completa de mapas. Conoce los requisitos de nivel de cada isla, la ubicación de los jefes y de los entrenadores exclusivos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0b2239/fff?text=Legacy+Piece+Map+Guide",
+  date: "2026-07-07",
+  author: "Equipo de la Wiki de Legacy Piece"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Mecánica principal**: Legacy Piece carece de un mapa HUD en el juego, lo que significa que debes confiar en las direcciones de la brújula y en el texto de la región local.
+- **Flujo de progresión**: Navega secuencialmente a través de las islas según los límites estrictos de nivel para evitar zonas de enemigos de alto nivel.
+- **Hitos clave**: Prioriza desbloquear Haki en el nivel 45 en Haki Island y 1SS (Estilo de 1 Espada) en su isla de entrenamiento designada.
+- **Puntos de aparición**: Interactúa siempre con los NPC de aparición local en las islas recién descubiertas para asegurar tu progreso.
+</Callout>
+
+<Section icon={Map} title="Mapa de Legacy Piece: Navegando por el Primer Mar">
+
+Navegar por el vasto océano de **Legacy Piece** puede ser increíblemente desafiante debido a la ausencia de un mapa HUD tradicional en el juego. Para navegar con éxito desde tu punto de partida en Fusha Island hasta territorios de juego tardío como Arlong Park, debes seguir los rangos de nivel recomendados. Aventurarse prematuramente en aguas de alto nivel resultará en rápidas derrotas a manos de poderosos NPC hostiles.
+
+A continuación se muestra la secuencia definitiva de islas en el Primer Mar, organizadas por niveles recomendados de personaje.
+
+| Nombre de la isla | Rango de nivel | NPC Jefe clave | Propósito principal |
+| :--- | :--- | :--- | :--- |
+| **Fusha Island** | 1-15 | Higuma The Bandit | Misiones iniciales, tutoriales de combate básico |
+| **Alvida Island** | 15-25 | Alvida The Iron Mace | Progresión temprana de nivel medio, mejoras de defensa |
+| **Shells Town** | 25-40 | Axe Hand Morgan | Misiones de mucha EXP, cadena de misiones de Zoro |
+| **Shimotsuki Island** | 40-50 | Yeti | Mejoras de armas, botín de Frost Blade |
+| **Haki Island** | 45+ | Ninguno | Aprender la técnica Haki |
+| **Orange Town** | 50-65 | Buggy The Clown | Progresión a mitad de juego, farmeo de accesorios |
+| **Baratie** | 65-80 | Don Krieg | Farmeo avanzado de armas, comida de alto nivel |
+| **Mink Island** | 80-95 | Wolfam | Escalamiento de juego tardío, estilo de lucha único |
+| **Arlong Park** | 95-99 | Saw Shark Arlong | Progresión de juego tardío, armas de primer nivel |
+
+<Callout type="warning" title="Seguridad al navegar">
+No intentes saltarte los límites de nivel recomendados. Los enemigos en las islas de mayor nivel escalan drásticamente en daño y vida, lo que hace que el farmeo temprano allí sea muy ineficiente.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Botines de jefes y requisitos de combate">
+
+Cada isla principal en el **mapa de Legacy Piece** cuenta con un jefe único que otorga armas o accesorios exclusivos. Farmear estos jefes es esencial para mejorar la build de tu personaje.
+
+| Nombre del jefe | Ubicación de la isla | Cantidad de vida | Botín exclusivo | Probabilidad de obtención |
+| :--- | :--- | :--- | :--- | :--- |
+| **Higuma** | Fusha Island | 285 HP | Higuma Katana | 35% |
+| **Alvida** | Alvida Island | 480 HP | Alvida Hat / Iron Mace | 15% / 10% |
+| **Axe Hand Morgan** | Shells Town | 550 HP | Metal Jaw / Axe Hand | 10% / 5% |
+| **Yeti** | Shimotsuki Island | 850 HP | Frost Coat / Frost Blade | 9% / 3% |
+| **Buggy The Clown** | Orange Town | 685 HP | Buggy Hat / Buggy Knives | 10% / 4% |
+| **Don Krieg** | Baratie | 750 HP | Daisenso | 2% |
+| **Saw Shark Arlong** | Arlong Park | 850 HP | Kiribachi | 1% |
+
+<CardGrid cols={3}>
+  <Card title="Builds de cuerpo a cuerpo">
+    Busca obtener la **Frost Blade** de Yeti (Shimotsuki Island) o **Kiribachi** de Arlong (Arlong Park) para maximizar tu daño físico basado en espadas.
+  </Card>
+  <Card title="Builds de defensa">
+    Farmea el **Alvida Hat** o el **Frost Coat** al principio para aumentar tu cantidad total de vida y tu resistencia al daño durante las batallas difíciles contra los jefes.
+  </Card>
+  <Card title="Usuarios de frutas">
+    Prioriza la velocidad de nivelación en islas de alta densidad como **Orange Town** y **Baratie** para desbloquear más rápido tus habilidades de maestría de Fruta del Diablo.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Optimización de probabilidad de obtención">
+Las probabilidades de obtención de los jefes son fijas, pero puedes acelerar los ciclos de farmeo estableciendo tu punto de aparición directamente en la isla del jefe y cambiando de servidor para encontrar apariciones activas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ruta de nivelación paso a paso">
+
+Para subir de nivel de manera eficiente sin perderte, sigue esta ruta de navegación estructurada a través del Primer Mar.
+
+<Steps>
+  <Step num="1" title="Fusha Island (Niveles 1-15)">
+    Completa las misiones de introducción de Woop Slap y Makino. Derrota a Higuma the Bandit hasta que alcances el nivel 15.
+  </Step>
+  <Step num="2" title="Alvida Island (Niveles 15-25)">
+    Navega hacia el este desde el extremo sur de Fusha Island. Habla con Koby y completa las misiones de entrega de Mary mientras farmeas a Alvida.
+  </Step>
+  <Step num="3" title="Shells Town (Niveles 25-40)">
+    Dirígete al noreste de Alvida Island. Completa la cadena de misiones de Zoro de varias partes para obtener enormes cantidades de EXP.
+  </Step>
+  <Step num="4" title="Shimotsuki Island (Niveles 40-50)">
+    Viaja hacia el norte para llegar a las costas nevadas de Shimotsuki. Completa la cadena de misiones de 4 partes del herrero y derrota al Yeti.
+  </Step>
+  <Step num="5" title="Haki Island (Nivel 45+)">
+    Haz un desvío rápido a Haki Island. Completa la prueba del entrenador de Haki y paga 2500 Beli para desbloquear el Haki de Busoshoku.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Hito desbloqueado">
+Desbloquear el Haki en el nivel 45 cambia las reglas del juego. Te permite dañar a usuarios de Frutas del Diablo de tipo Logia y aumenta tu producción general de daño físico.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de verificación de navegación para piratas">
+
+Antes de emprender viajes largos por mar abierto, asegúrate de haber completado los siguientes preparativos esenciales:
+
+<Checklist
+  id="navigation-prep"
+  title="Lista de preparación para el viaje:"
+  items={[
+    "Interactúa con el NPC del punto de aparición local en tu isla actual para asegurar tu progreso.",
+    "Compra un barco de vela confiable al NPC constructor de barcos (Shipwright) local.",
+    "Asegúrate de tener al menos 2500 Beli guardados antes de alcanzar el nivel 45 para el entrenamiento de Haki.",
+    "Equípate con una Fruta del Diablo de alta movilidad como la Luz (Light) si planeas omitir los viajes largos en barco."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes sobre el mapa de Legacy Piece">
+
+<FAQ items={[
+  {
+    question: "¿Hay algún objeto de mapa en el juego en Legacy Piece?",
+    answer: "No, Legacy Piece no cuenta con un mapa HUD en el juego ni con un objeto de mapa. Los jugadores deben confiar en las direcciones de la brújula, los puntos de referencia de las islas y los mapas creados por la comunidad para navegar por los mares."
+  },
+  {
+    question: "¿Cómo aprendo Haki y qué nivel se requiere?",
+    answer: "Puedes aprender Haki en Haki Island una vez que alcances el nivel 45. Debes completar una breve misión para el NPC entrenador de Haki y pagar una tarifa de 2500 Beli."
+  },
+  {
+    question: "¿Cuál es la mejor manera de viajar rápido entre islas?",
+    answer: "Aunque no hay un sistema de viaje rápido instantáneo, puedes establecer puntos de aparición en cualquier isla que visites. Usar Frutas del Diablo de alta movilidad como la Luz (Light) o comprar barcos más rápidos reducirá significativamente los tiempos de viaje."
+  },
+  {
+    question: "¿Dónde puedo encontrar al entrenador del estilo de espada?",
+    answer: "El entrenador de 1SS (Estilo de 1 Espada) se encuentra en la isla 1SS (1SS Island), que es una isla de utilidad especial separada de las islas principales de progresión de nivel."
+  }
+]} />
+
+</Section>

@@ -1,1 +1,446 @@
-{}
+{
+  "en": {
+    "abilities": [
+      {
+        "slug": "legacy-piece-abilities",
+        "file": "legacy-piece-abilities"
+      },
+      {
+        "slug": "legacy-piece-best-abilities",
+        "file": "legacy-piece-best-abilities"
+      },
+      {
+        "slug": "legacy-piece-character-guide",
+        "file": "legacy-piece-character-guide"
+      },
+      {
+        "slug": "legacy-piece-gojo-guide",
+        "file": "legacy-piece-gojo-guide"
+      },
+      {
+        "slug": "legacy-piece-haki",
+        "file": "legacy-piece-haki"
+      },
+      {
+        "slug": "legacy-piece-yuta-guide",
+        "file": "legacy-piece-yuta-guide"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "legacy-piece-codes",
+        "file": "legacy-piece-codes"
+      }
+    ],
+    "fruits": [
+      {
+        "slug": "legacy-piece-best-fruit",
+        "file": "legacy-piece-best-fruit"
+      },
+      {
+        "slug": "legacy-piece-fruit-guide",
+        "file": "legacy-piece-fruit-guide"
+      },
+      {
+        "slug": "legacy-piece-fruit-rankings",
+        "file": "legacy-piece-fruit-rankings"
+      },
+      {
+        "slug": "legacy-piece-fruit-showcase",
+        "file": "legacy-piece-fruit-showcase"
+      },
+      {
+        "slug": "legacy-piece-fruits",
+        "file": "legacy-piece-fruits"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "legacy-piece-afk-guide",
+        "file": "legacy-piece-afk-guide"
+      },
+      {
+        "slug": "legacy-piece-beginner-guide",
+        "file": "legacy-piece-beginner-guide"
+      },
+      {
+        "slug": "legacy-piece-haki-guide",
+        "file": "legacy-piece-haki-guide"
+      },
+      {
+        "slug": "legacy-piece-leveling-guide",
+        "file": "legacy-piece-leveling-guide"
+      },
+      {
+        "slug": "legacy-piece-money-farm-guide",
+        "file": "legacy-piece-money-farm-guide"
+      },
+      {
+        "slug": "legacy-piece-progression-guide",
+        "file": "legacy-piece-progression-guide"
+      },
+      {
+        "slug": "legacy-piece-race-guide",
+        "file": "legacy-piece-race-guide"
+      },
+      {
+        "slug": "legacy-piece-rank-guide",
+        "file": "legacy-piece-rank-guide"
+      }
+    ],
+    "locations": [
+      {
+        "slug": "legacy-piece-bosses",
+        "file": "legacy-piece-bosses"
+      },
+      {
+        "slug": "legacy-piece-cid-location",
+        "file": "legacy-piece-cid-location"
+      },
+      {
+        "slug": "legacy-piece-map",
+        "file": "legacy-piece-map"
+      },
+      {
+        "slug": "legacy-piece-zenitsu-location",
+        "file": "legacy-piece-zenitsu-location"
+      }
+    ],
+    "tier-list": [
+      {
+        "slug": "legacy-piece-ability-tier-list",
+        "file": "legacy-piece-ability-tier-list"
+      },
+      {
+        "slug": "legacy-piece-fruit-tier-list",
+        "file": "legacy-piece-fruit-tier-list"
+      },
+      {
+        "slug": "legacy-piece-tier-list",
+        "file": "legacy-piece-tier-list"
+      },
+      {
+        "slug": "legacy-piece-weapon-tier-list",
+        "file": "legacy-piece-weapon-tier-list"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "legacy-piece-chihiro-weapon",
+        "file": "legacy-piece-chihiro-weapon"
+      },
+      {
+        "slug": "legacy-piece-red-mist-weapon",
+        "file": "legacy-piece-red-mist-weapon"
+      },
+      {
+        "slug": "legacy-piece-sword-guide",
+        "file": "legacy-piece-sword-guide"
+      },
+      {
+        "slug": "legacy-piece-weapon-showcase",
+        "file": "legacy-piece-weapon-showcase"
+      },
+      {
+        "slug": "legacy-piece-weapons",
+        "file": "legacy-piece-weapons"
+      }
+    ]
+  },
+  "es": {
+    "abilities": [
+      {
+        "slug": "legacy-piece-abilities",
+        "file": "legacy-piece-abilities"
+      },
+      {
+        "slug": "legacy-piece-best-abilities",
+        "file": "legacy-piece-best-abilities"
+      },
+      {
+        "slug": "legacy-piece-character-guide",
+        "file": "legacy-piece-character-guide"
+      },
+      {
+        "slug": "legacy-piece-gojo-guide",
+        "file": "legacy-piece-gojo-guide"
+      },
+      {
+        "slug": "legacy-piece-haki",
+        "file": "legacy-piece-haki"
+      },
+      {
+        "slug": "legacy-piece-yuta-guide",
+        "file": "legacy-piece-yuta-guide"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "legacy-piece-codes",
+        "file": "legacy-piece-codes"
+      }
+    ],
+    "fruits": [
+      {
+        "slug": "legacy-piece-best-fruit",
+        "file": "legacy-piece-best-fruit"
+      },
+      {
+        "slug": "legacy-piece-fruit-guide",
+        "file": "legacy-piece-fruit-guide"
+      },
+      {
+        "slug": "legacy-piece-fruit-rankings",
+        "file": "legacy-piece-fruit-rankings"
+      },
+      {
+        "slug": "legacy-piece-fruit-showcase",
+        "file": "legacy-piece-fruit-showcase"
+      },
+      {
+        "slug": "legacy-piece-fruits",
+        "file": "legacy-piece-fruits"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "legacy-piece-afk-guide",
+        "file": "legacy-piece-afk-guide"
+      },
+      {
+        "slug": "legacy-piece-beginner-guide",
+        "file": "legacy-piece-beginner-guide"
+      },
+      {
+        "slug": "legacy-piece-haki-guide",
+        "file": "legacy-piece-haki-guide"
+      },
+      {
+        "slug": "legacy-piece-leveling-guide",
+        "file": "legacy-piece-leveling-guide"
+      },
+      {
+        "slug": "legacy-piece-money-farm-guide",
+        "file": "legacy-piece-money-farm-guide"
+      },
+      {
+        "slug": "legacy-piece-progression-guide",
+        "file": "legacy-piece-progression-guide"
+      },
+      {
+        "slug": "legacy-piece-race-guide",
+        "file": "legacy-piece-race-guide"
+      },
+      {
+        "slug": "legacy-piece-rank-guide",
+        "file": "legacy-piece-rank-guide"
+      }
+    ],
+    "locations": [
+      {
+        "slug": "legacy-piece-bosses",
+        "file": "legacy-piece-bosses"
+      },
+      {
+        "slug": "legacy-piece-cid-location",
+        "file": "legacy-piece-cid-location"
+      },
+      {
+        "slug": "legacy-piece-map",
+        "file": "legacy-piece-map"
+      },
+      {
+        "slug": "legacy-piece-zenitsu-location",
+        "file": "legacy-piece-zenitsu-location"
+      }
+    ],
+    "tier-list": [
+      {
+        "slug": "legacy-piece-ability-tier-list",
+        "file": "legacy-piece-ability-tier-list"
+      },
+      {
+        "slug": "legacy-piece-fruit-tier-list",
+        "file": "legacy-piece-fruit-tier-list"
+      },
+      {
+        "slug": "legacy-piece-tier-list",
+        "file": "legacy-piece-tier-list"
+      },
+      {
+        "slug": "legacy-piece-weapon-tier-list",
+        "file": "legacy-piece-weapon-tier-list"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "legacy-piece-chihiro-weapon",
+        "file": "legacy-piece-chihiro-weapon"
+      },
+      {
+        "slug": "legacy-piece-red-mist-weapon",
+        "file": "legacy-piece-red-mist-weapon"
+      },
+      {
+        "slug": "legacy-piece-sword-guide",
+        "file": "legacy-piece-sword-guide"
+      },
+      {
+        "slug": "legacy-piece-weapon-showcase",
+        "file": "legacy-piece-weapon-showcase"
+      },
+      {
+        "slug": "legacy-piece-weapons",
+        "file": "legacy-piece-weapons"
+      }
+    ]
+  },
+  "pt": {
+    "abilities": [
+      {
+        "slug": "legacy-piece-abilities",
+        "file": "legacy-piece-abilities"
+      },
+      {
+        "slug": "legacy-piece-best-abilities",
+        "file": "legacy-piece-best-abilities"
+      },
+      {
+        "slug": "legacy-piece-character-guide",
+        "file": "legacy-piece-character-guide"
+      },
+      {
+        "slug": "legacy-piece-gojo-guide",
+        "file": "legacy-piece-gojo-guide"
+      },
+      {
+        "slug": "legacy-piece-haki",
+        "file": "legacy-piece-haki"
+      },
+      {
+        "slug": "legacy-piece-yuta-guide",
+        "file": "legacy-piece-yuta-guide"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "legacy-piece-codes",
+        "file": "legacy-piece-codes"
+      }
+    ],
+    "fruits": [
+      {
+        "slug": "legacy-piece-best-fruit",
+        "file": "legacy-piece-best-fruit"
+      },
+      {
+        "slug": "legacy-piece-fruit-guide",
+        "file": "legacy-piece-fruit-guide"
+      },
+      {
+        "slug": "legacy-piece-fruit-rankings",
+        "file": "legacy-piece-fruit-rankings"
+      },
+      {
+        "slug": "legacy-piece-fruit-showcase",
+        "file": "legacy-piece-fruit-showcase"
+      },
+      {
+        "slug": "legacy-piece-fruits",
+        "file": "legacy-piece-fruits"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "legacy-piece-afk-guide",
+        "file": "legacy-piece-afk-guide"
+      },
+      {
+        "slug": "legacy-piece-beginner-guide",
+        "file": "legacy-piece-beginner-guide"
+      },
+      {
+        "slug": "legacy-piece-haki-guide",
+        "file": "legacy-piece-haki-guide"
+      },
+      {
+        "slug": "legacy-piece-leveling-guide",
+        "file": "legacy-piece-leveling-guide"
+      },
+      {
+        "slug": "legacy-piece-money-farm-guide",
+        "file": "legacy-piece-money-farm-guide"
+      },
+      {
+        "slug": "legacy-piece-progression-guide",
+        "file": "legacy-piece-progression-guide"
+      },
+      {
+        "slug": "legacy-piece-race-guide",
+        "file": "legacy-piece-race-guide"
+      },
+      {
+        "slug": "legacy-piece-rank-guide",
+        "file": "legacy-piece-rank-guide"
+      }
+    ],
+    "locations": [
+      {
+        "slug": "legacy-piece-bosses",
+        "file": "legacy-piece-bosses"
+      },
+      {
+        "slug": "legacy-piece-cid-location",
+        "file": "legacy-piece-cid-location"
+      },
+      {
+        "slug": "legacy-piece-map",
+        "file": "legacy-piece-map"
+      },
+      {
+        "slug": "legacy-piece-zenitsu-location",
+        "file": "legacy-piece-zenitsu-location"
+      }
+    ],
+    "tier-list": [
+      {
+        "slug": "legacy-piece-ability-tier-list",
+        "file": "legacy-piece-ability-tier-list"
+      },
+      {
+        "slug": "legacy-piece-fruit-tier-list",
+        "file": "legacy-piece-fruit-tier-list"
+      },
+      {
+        "slug": "legacy-piece-tier-list",
+        "file": "legacy-piece-tier-list"
+      },
+      {
+        "slug": "legacy-piece-weapon-tier-list",
+        "file": "legacy-piece-weapon-tier-list"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "legacy-piece-chihiro-weapon",
+        "file": "legacy-piece-chihiro-weapon"
+      },
+      {
+        "slug": "legacy-piece-red-mist-weapon",
+        "file": "legacy-piece-red-mist-weapon"
+      },
+      {
+        "slug": "legacy-piece-sword-guide",
+        "file": "legacy-piece-sword-guide"
+      },
+      {
+        "slug": "legacy-piece-weapon-showcase",
+        "file": "legacy-piece-weapon-showcase"
+      },
+      {
+        "slug": "legacy-piece-weapons",
+        "file": "legacy-piece-weapons"
+      }
+    ]
+  }
+}
