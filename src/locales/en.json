@@ -283,35 +283,35 @@
       ]
     },
     "legacyPieceAbilitiesGuide": {
-      "eyebrow": "ABILITIES GUIDE",
+      "eyebrow": "COMBAT SYSTEM",
       "title": "Legacy Piece Abilities Guide",
-      "subtitle": "Master every combat ability in Legacy Piece, from Devil Fruit powers to Haki and fighting styles.",
-      "intro": "Abilities define your playstyle in Legacy Piece. Each ability line serves a different role in combat, exploration, and progression, so understanding how they fit together helps you build a stronger character.",
+      "subtitle": "Explore the abilities available in Legacy Piece and learn how they shape combat, exploration, and character progression.",
+      "intro": "Abilities are a core part of combat in Legacy Piece, letting you customize your fighting style and improve your effectiveness against enemies. Understanding ability types and their uses helps you choose better strategies during battles.",
       "items": [
         {
-          "name": "Devil Fruit Powers",
-          "type": "Core Ability",
-          "description": "Devil Fruits grant unique elemental and combat abilities that define your main playstyle in Legacy Piece."
+          "name": "Devil Fruit Abilities",
+          "type": "Power System",
+          "description": "Devil Fruits grant unique combat skills and powers that define your main playstyle, used for combat attacks, enemy damage, and unique fighting styles."
+        },
+        {
+          "name": "Sword Abilities",
+          "type": "Weapon Skills",
+          "description": "Sword techniques deliver powerful weapon moves and close-range attacks for melee combat, boss fights, and PvE battles."
+        },
+        {
+          "name": "Combat Skills",
+          "type": "Fighting System",
+          "description": "Basic and advanced combat moves combine with weapons and abilities to build combos and handle enemy encounters."
         },
         {
           "name": "Haki",
           "type": "Combat Enhancement",
-          "description": "Haki strengthens your attacks, defense, and awareness, becoming essential for high-level Legacy Piece fights."
-        },
-        {
-          "name": "Fighting Styles",
-          "type": "Melee Combat",
-          "description": "Fighting styles shape your melee combos and movement, giving flexibility between aggressive and defensive builds."
-        },
-        {
-          "name": "Power Core Abilities",
-          "type": "Progression Skill",
-          "description": "Power Core Abilities unlock as you progress, adding active skills that boost your combat output."
+          "description": "Haki strengthens your attacks, defense, and awareness, becoming essential for high-level fights and stronger enemies."
         },
         {
           "name": "Mobility Skills",
           "type": "Traversal Ability",
-          "description": "Movement abilities help you cross islands, dodge attacks, and reach hidden Legacy Piece areas."
+          "description": "Movement abilities help you cross islands, dodge attacks, and reach hidden areas during exploration."
         },
         {
           "name": "Ultimate Moves",
@@ -321,10 +321,10 @@
       ]
     },
     "legacyPieceBossGuide": {
-      "eyebrow": "BOSS GUIDE",
+      "eyebrow": "BOSS BATTLES",
       "title": "Legacy Piece Boss Guide",
-      "subtitle": "Prepare for every major boss fight in Legacy Piece with locations, recommended levels, and drop rewards.",
-      "intro": "Bosses guard the best rewards in Legacy Piece. Each encounter has its own mechanics, recommended level, and drops, so preparing the right abilities and gear before a fight makes a clear difference.",
+      "subtitle": "Learn how to prepare for major boss encounters in Legacy Piece and understand their role in progression.",
+      "intro": "Boss battles provide challenging combat encounters where you can test your builds, improve your skills, and earn progression rewards. Preparing with suitable abilities and equipment is important before taking on stronger enemies.",
       "headers": {
         "boss": "Boss",
         "location": "Location",
@@ -333,73 +333,73 @@
       },
       "bosses": [
         {
-          "name": "Captain Buggy",
+          "name": "Starter Island Boss",
           "location": "Starter Island",
           "level": "Lv 50",
           "drops": "Map Fragment, Shards"
         },
         {
-          "name": "Mihawk",
-          "location": "Baratie Seas",
+          "name": "Open Seas Boss",
+          "location": "Open Seas",
           "level": "Lv 150",
           "drops": "Sword Blueprint, Rare Chest"
         },
         {
-          "name": "Arlong",
-          "location": "Arlong Park",
+          "name": "Coastal Stronghold Boss",
+          "location": "Coastal Stronghold",
           "level": "Lv 250",
           "drops": "Shark Tooth Necklace, Cash"
         },
         {
-          "name": "Crocodile",
-          "location": "Alabasta Desert",
+          "name": "Desert Region Boss",
+          "location": "Desert Region",
           "level": "Lv 400",
           "drops": "Sand Scale Cloak, Crates"
         },
         {
-          "name": "Blackbeard",
-          "location": "Onigashima Approach",
+          "name": "Endgame World Boss",
+          "location": "Final Sea",
           "level": "Lv 600",
           "drops": "Dark Cloak, Legendary Chest"
         }
       ]
     },
     "legacyPieceUpdateNews": {
-      "eyebrow": "UPDATE NEWS",
+      "eyebrow": "LATEST UPDATES",
       "title": "Legacy Piece Update News",
-      "subtitle": "Track the latest Legacy Piece updates, new fruits, balance changes, and fresh content drops.",
-      "intro": "Legacy Piece keeps growing with new fruits, islands, bosses, and balance changes. This section follows every major update so you always know what changed and what to try next.",
+      "subtitle": "Follow game changes, new features, and important announcements from the Legacy Piece developers.",
+      "intro": "Legacy Piece receives updates that improve gameplay, add content, and adjust existing systems. This section organizes major changes so players can quickly understand what has changed.",
       "updates": [
         {
-          "version": "Update 0.5",
-          "title": "New Fruit, Boss, and Progression Rework",
-          "summary": "Legacy Piece Update 0.5 adds a new fruit line, a high-level boss encounter, and a smoother early-game progression curve."
+          "version": "Game Updates",
+          "title": "Latest Releases",
+          "summary": "New content, gameplay improvements, balancing changes, and feature adjustments are introduced through developer updates that keep Legacy Piece fresh."
         },
         {
-          "version": "Update 0.4",
-          "title": "Island Expansion and Combat Balance",
-          "summary": "Update 0.4 expands the Legacy Piece map with a new island region and rebalances several abilities for fairer PvP."
+          "version": "Content Additions",
+          "title": "New Features",
+          "summary": "Updates may include new abilities, locations, mechanics, or improvements to existing Legacy Piece gameplay systems."
         },
         {
-          "version": "Update 0.3",
-          "title": "Quality of Life and Code Refresh",
-          "summary": "Update 0.3 improves menu navigation, fixes movement bugs, and refreshes the active Legacy Piece code pool."
+          "version": "Developer Announcements",
+          "title": "Community News",
+          "summary": "Official Legacy Piece announcements provide information about upcoming changes, events, and game-related news."
         },
         {
-          "version": "Update 0.2",
-          "title": "Launch Content and Starter Improvements",
-          "summary": "Update 0.2 polishes the Legacy Piece starter experience, adds tutorial hints, and stabilizes server performance."
+          "version": "Balance Adjustments",
+          "title": "Patch Notes",
+          "summary": "Regular patches refine combat balance, fix issues, and keep Legacy Piece running smoothly across all devices."
         }
       ]
     },
     "legacyPieceDiscordCommunity": {
       "eyebrow": "COMMUNITY",
       "title": "Legacy Piece Discord Community",
-      "subtitle": "Join the Legacy Piece community to follow announcements, events, code drops, and player discussions.",
-      "intro": "The Legacy Piece community is the fastest way to catch new codes, event news, and update announcements. Connect with other players through the official channels below.",
+      "subtitle": "Find official Legacy Piece community channels for announcements, discussions, and game updates.",
+      "intro": "The Legacy Piece community provides a place for players to follow developer news, discuss gameplay, share experiences, and stay connected with other players through the official channels below.",
       "channels": [
         {
-          "name": "Discord Server",
+          "name": "Official Discord Server",
           "description": "Join the official Legacy Piece Discord for announcements, code drops, and community events.",
           "cta": "Join Discord",
           "href": "https://discord.com/invite/legacypiece"
@@ -411,13 +411,13 @@
           "href": "https://www.roblox.com/games/8657732325/Legacy-Piece"
         },
         {
-          "name": "Update Announcements",
-          "description": "Follow official Legacy Piece channels to catch every patch note and balance change as it lands.",
+          "name": "Developer Social Channels",
+          "description": "Follow official Legacy Piece social channels to catch every patch note, preview, and balance change as it lands.",
           "cta": "Follow Updates",
           "href": "https://www.roblox.com/games/8657732325/Legacy-Piece"
         },
         {
-          "name": "Code Drops",
+          "name": "Community Code Drops",
           "description": "Be the first to redeem new Legacy Piece codes shared during community milestones and events.",
           "cta": "Get Codes",
           "href": "https://discord.com/invite/legacypiece"
