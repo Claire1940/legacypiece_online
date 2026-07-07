@@ -91,8 +91,11 @@ export default function Copyright() {
               endorsed by, or associated with:
             </p>
             <ul>
+              <li><strong>Eiichiro Oda</strong> - Original creator and author of the One Piece manga series</li>
+              <li><strong>Shueisha Inc.</strong> - Publisher of the One Piece manga (Weekly Shōnen Jump)</li>
+              <li><strong>Toei Animation Co., Ltd.</strong> - Animation studio producing the One Piece anime</li>
               <li><strong>Roblox Corporation</strong> - Owner of the Roblox platform</li>
-              <li><strong>Legacy Piece Developers</strong> - Creators of the Legacy Piece game</li>
+              <li><strong>Legacy Piece Developers</strong> - Creators of the Legacy Piece Roblox fan game inspired by One Piece</li>
             </ul>
             <p>
               All game-related content, including but not limited to:
@@ -152,9 +155,10 @@ export default function Copyright() {
               The following trademarks and service marks are the property of their respective owners:
             </p>
             <ul>
+              <li><strong>One Piece</strong> - Trademark of Eiichiro Oda / Shueisha Inc. / Toei Animation Co., Ltd.</li>
               <li><strong>ROBLOX</strong> - Trademark of Roblox Corporation</li>
-              <li><strong>Legacy Piece</strong> - Trademark of the game developers</li>
-              <li><strong>Legacy Piece Wiki</strong> - Our own branding (not affiliated with the game)</li>
+              <li><strong>Legacy Piece</strong> - Trademark of the Legacy Piece game developers (a Roblox fan game inspired by One Piece)</li>
+              <li><strong>Legacy Piece Wiki</strong> - Our own branding (not affiliated with the game or One Piece)</li>
             </ul>
             <p>
               All other trademarks, service marks, and trade names referenced on this website are the property of

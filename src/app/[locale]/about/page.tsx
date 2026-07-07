@@ -235,7 +235,7 @@ export default function About() {
             <h2>Important Disclaimer</h2>
             <p className="text-yellow-400/90">
               <strong>Legacy Piece Wiki is an unofficial fan-made website.</strong> We are NOT affiliated with,
-              endorsed by, or associated with the developers of Legacy Piece or any official entities.
+              endorsed by, or associated with Eiichiro Oda, Shueisha Inc., Toei Animation Co., Ltd., the developers of Legacy Piece, or any official One Piece entities.
             </p>
             <p>
               All game content, trademarks, characters, and assets are the property of their respective owners.
