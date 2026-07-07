@@ -1,0 +1,142 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Legacy Piece Yeti: Boss Location, Farming Tactics & Rare Drops",
+  description: "Master the Legacy Piece Yeti boss fight. Learn where to find the Yeti on Shimotsuki Island, his combat patterns, and how to farm the Frost Blade.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Yeti+Boss+Guide",
+  date: "2026-07-08",
+  author: "legacy piece Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Boss**: The Yeti is a formidable level 40–50 boss in Legacy Piece.
+- **Key Location**: Hidden deep inside a secret cave on Shimotsuki Island.
+- **Signature Drops**: Defeating him yields the Frost Blade (3%) and the Frost Coat (9%).
+- **Combat Strategy**: Keep your distance to avoid his heavy ground slam and freeze-based skills.
+- **Top Choice**: The Frost Coat is an S-tier accessory providing a massive +75 HP and +30 Stamina.
+</Callout>
+
+<Section icon={Map} title="Yeti Boss Location & Requirements">
+
+To challenge the **Legacy Piece Yeti**, you must travel to Shimotsuki Island, which is balanced for players between levels 40 and 50. Unlike other bosses that patrol open fields, the Yeti is hidden away in a subterranean cavern. Finding him requires navigating a short questline and locating a secret entrance.
+
+| Island | Level Range | Boss Name | Spawn Location | Boss HP |
+| --- | --- | --- | --- | --- |
+| Shimotsuki Island | Levels 40–50 | Yeti | Secret Deserted Lab Cave | 750 HP |
+
+<Callout type="warning" title="Level Warning">
+Do not attempt this boss fight under level 40. The Yeti deals heavy damage that can easily wipe out undergeared players.
+</Callout>
+
+To access the Yeti's cave, you need to follow these specific steps:
+
+<Steps>
+  <Step num="1" title="Find the Scientist">
+    Locate and speak with the Scientist NPC on Shimotsuki Island to gain access to the secret deserted lab.
+  </Step>
+  <Step num="2" title="Find the Trapdoor">
+    Search the floor of the deserted lab to find a hidden trapdoor.
+  </Step>
+  <Step num="3" title="Enter the Ice Cave">
+    Open the trapdoor and drop down into the frozen cave where the Yeti waits.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Swords} title="Combat Mechanics & Movesets">
+
+The Yeti boss possesses 750 HP and deals damage scaling from 9 to 20 per hit. He utilizes three signature area-of-effect (AoE) abilities that can easily overwhelm unprepared adventurers.
+
+| Ability Name | Attack Type | Effect & Description |
+| --- | --- | --- |
+| **Yeti Roar** | AoE Shockwave | Emits a loud roar that stuns and knocks back players. |
+| **Ceiling Bust** | Falling Hazards | Strikes the cavern roof to rain down sharp, damaging icicles. |
+| **Ground Slam** | Heavy Melee | Slams the frozen ground, dealing high AoE damage around him. |
+
+<CardGrid cols={3}>
+  <Card title="Evade the Slam">
+    - **High damage radius**
+    - Watch for his raised arms
+    - Dash backward to dodge
+  </Card>
+  <Card title="Watch the Ceiling">
+    - **Falling icicle hazard**
+    - Avoid circular floor markers
+    - Keep moving constantly
+  </Card>
+  <Card title="Counter-Attack">
+    - **Post-skill vulnerability**
+    - Strike after his Ground Slam
+    - Use ranged skills safely
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Farming Tip">
+Bring a weapon or fighting style with high mobility. Dashing out of the Yeti's Ground Slam radius is the easiest way to preserve your health during the encounter.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Yeti Drop Rates & Stat Boosts">
+
+Farming the Yeti is highly recommended due to his top-tier midgame rewards. He drops one of the best accessories in the First Sea along with a powerful elemental sword.
+
+| Drop Item | Item Type | Drop Rate | Key Stats & Effects |
+| --- | --- | --- | --- |
+| **Frost Coat** | Accessory (S-Tier) | 9% Chance | +75 Max HP, +30 Stamina |
+| **Frost Blade** | Melee Weapon | 3% Chance | Ice elemental attacks, high freeze potential |
+
+<Callout type="success" title="S-Tier Accessory">
+The Frost Coat is widely considered an S-tier accessory for level 40–80 players because of its massive dual stat boosts (+75 HP and +30 Stamina).
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Farming Checklist">
+
+Use this checklist to optimize your farming runs and track your progression as you prepare to defeat the Yeti and claim his rare drops.
+
+<Checklist
+  id="yeti-farm"
+  title="Yeti Farming Milestones:"
+  items={[
+    "Reach Character Level 40 on Shimotsuki Island",
+    "Locate the Scientist and unlock the secret lab trapdoor",
+    "Defeat the Yeti to complete the local island quest (290 Total EXP)",
+    "Obtain the S-Tier Frost Coat (9% drop rate)",
+    "Acquire the rare Frost Blade (3% drop rate)"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Where exactly does the Yeti spawn in Legacy Piece?",
+    answer: "The Yeti spawns inside a secret frozen cave beneath the deserted lab on Shimotsuki Island. You must talk to the Scientist NPC to get teleported inside."
+  },
+  {
+    question: "What are the drop rates for the Yeti's items?",
+    answer: "The Frost Coat has a 9% drop rate, while the highly coveted Frost Blade has a much rarer 3% drop rate."
+  },
+  {
+    question: "Is the Frost Coat worth farming?",
+    answer: "Yes. The Frost Coat is an S-tier midgame accessory that increases your HP by 75 and your Stamina by 30, making it incredibly valuable for progression."
+  },
+  {
+    question: "How much HP does the Yeti boss have?",
+    answer: "The Yeti boss has a total of 750 HP and deals between 9 and 20 damage per hit depending on the attack used."
+  }
+]} />
+
+</Section>

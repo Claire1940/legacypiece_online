@@ -1,0 +1,142 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Legacy Piece Yeti: Ubicación del Jefe, Tácticas de Farming y Drops Raros",
+  description: "Domina la batalla contra el jefe Yeti en Legacy Piece. Aprende dónde encontrar al Yeti en la Isla Shimotsuki, sus patrones de combate y cómo farmear la Frost Blade.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Yeti+Boss+Guide",
+  date: "2026-07-08",
+  author: "Equipo de la Wiki de Legacy Piece"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Jefe Principal**: El Yeti es un formidable jefe de nivel 40–50 en Legacy Piece.
+- **Ubicación Clave**: Escondido en lo profundo de una cueva secreta en la Isla Shimotsuki.
+- **Drops Distintivos**: Derrotarlo otorga la Frost Blade (3%) y el Frost Coat (9%).
+- **Estrategia de Combate**: Mantén la distancia para evitar su fuerte golpe contra el suelo y sus habilidades basadas en congelación.
+- **Mejor Opción**: El Frost Coat es un accesorio de nivel S que proporciona un aumento masivo de +75 HP y +30 de Estamina.
+</Callout>
+
+<Section icon={Map} title="Ubicación y Requisitos del Jefe Yeti">
+
+Para desafiar al **Yeti de Legacy Piece**, debes viajar a la Isla Shimotsuki, la cual está equilibrada para jugadores de entre niveles 40 y 50. A diferencia de otros jefes que patrullan campos abiertos, el Yeti está escondido en una caverna subterránea. Encontrarlo requiere completar una pequeña cadena de misiones y localizar una entrada secreta.
+
+| Isla | Rango de Nivel | Nombre del Jefe | Ubicación de Aparición | HP del Jefe |
+| --- | --- | --- | --- | --- |
+| Isla Shimotsuki | Niveles 40–50 | Yeti | Cueva del Laboratorio Abandonado Secreto | 750 HP |
+
+<Callout type="warning" title="Advertencia de Nivel">
+No intentes esta batalla contra el jefe por debajo del nivel 40. El Yeti inflige un daño elevado que puede eliminar fácilmente a jugadores con equipamiento insuficiente.
+</Callout>
+
+Para acceder a la cueva del Yeti, debes seguir estos pasos específicos:
+
+<Steps>
+  <Step num="1" title="Encuentra al Científico">
+    Localiza y habla con el PNJ Científico en la Isla Shimotsuki para obtener acceso al laboratorio secreto abandonado.
+  </Step>
+  <Step num="2" title="Encuentra la Trampilla">
+    Busca en el suelo del laboratorio abandonado para encontrar una trampilla oculta.
+  </Step>
+  <Step num="3" title="Entra en la Cueva de Hielo">
+    Abre la trampilla y déjate caer en la cueva congelada donde espera el Yeti.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de Combate y Movimientos">
+
+El jefe Yeti posee 750 HP e inflige un daño que escala de 9 a 20 por golpe. Utiliza tres habilidades distintivas de área de efecto (AoE) que pueden abrumar fácilmente a los aventureros desprevenidos.
+
+| Nombre de la Habilidad | Tipo de Ataque | Efecto y Descripción |
+| --- | --- | --- |
+| **Yeti Roar** | Onda de Choque AoE | Emite un rugido fuerte que aturde y empuja a los jugadores. |
+| **Ceiling Bust** | Peligros de Caída | Golpea el techo de la caverna para hacer caer carámbanos afilados y dañinos. |
+| **Ground Slam** | Cuerpo a Cuerpo Pesado | Golpea el suelo congelado, infligiendo un alto daño AoE a su alrededor. |
+
+<CardGrid cols={3}>
+  <Card title="Evade el Slam">
+    - **Radio de daño alto**
+    - Vigila cuando levante los brazos
+    - Deslízate hacia atrás para esquivar
+  </Card>
+  <Card title="Vigila el Techo">
+    - **Peligro de carámbanos cayendo**
+    - Evita los marcadores circulares en el suelo
+    - Mantente en constante movimiento
+  </Card>
+  <Card title="Contraataque">
+    - **Vulnerabilidad post-habilidad**
+    - Ataca después de su Ground Slam
+    - Usa habilidades a distancia de forma segura
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo de Farming">
+Lleva un arma o estilo de lucha con alta movilidad. Deslizarse fuera del radio del Ground Slam del Yeti es la forma más fácil de preservar tu salud durante el encuentro.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tasas de Drop y Mejoras de Estadísticas del Yeti">
+
+Farmear al Yeti es muy recomendable debido a sus recompensas de primer nivel para el juego medio. Suelta uno de los mejores accesorios del Primer Mar junto con una poderosa espada elemental.
+
+| Objeto de Drop | Tipo de Objeto | Probabilidad de Drop | Estadísticas Clave y Efectos |
+| --- | --- | --- | --- |
+| **Frost Coat** | Accesorio (Nivel S) | 9% de Probabilidad | +75 HP Máx, +30 Estamina |
+| **Frost Blade** | Arma Melee | 3% de Probabilidad | Ataques elementales de hielo, alto potencial de congelación |
+
+<Callout type="success" title="Accesorio de Nivel S">
+El Frost Coat es ampliamente considerado un accesorio de nivel S para jugadores de nivel 40–80 debido a sus masivos aumentos de estadísticas duales (+75 HP y +30 Estamina).
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Lista de Verificación de Farming">
+
+Usa esta lista para optimizar tus sesiones de farming y seguir tu progreso mientras te preparas para derrotar al Yeti y reclamar sus drops raros.
+
+<Checklist
+  id="yeti-farm"
+  title="Hitos de Farming del Yeti:"
+  items={[
+    "Alcanzar el Nivel de Personaje 40 en la Isla Shimotsuki",
+    "Localizar al Científico y desbloquear la trampilla del laboratorio secreto",
+    "Derrotar al Yeti para completar la misión local de la isla (290 EXP Total)",
+    "Obtener el Frost Coat de Nivel S (9% de tasa de drop)",
+    "Adquirir la rara Frost Blade (3% de tasa de drop)"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Dónde aparece exactamente el Yeti en Legacy Piece?",
+    answer: "El Yeti aparece dentro de una cueva congelada secreta debajo del laboratorio abandonado en la Isla Shimotsuki. Debes hablar con el PNJ Científico para ser teletransportado al interior."
+  },
+  {
+    question: "¿Cuáles son las tasas de drop de los objetos del Yeti?",
+    answer: "El Frost Coat tiene una tasa de drop del 9%, mientras que la muy codiciada Frost Blade tiene una tasa mucho más rara del 3%."
+  },
+  {
+    question: "¿Vale la pena farmear el Frost Coat?",
+    answer: "Sí. El Frost Coat es un accesorio de nivel S para el juego medio que aumenta tu HP en 75 y tu Estamina en 30, lo que lo hace increíblemente valioso para progresar."
+  },
+  {
+    question: "¿Cuánto HP tiene el jefe Yeti?",
+    answer: "El jefe Yeti tiene un total de 750 HP e inflige entre 9 y 20 de daño por golpe, dependiendo del ataque utilizado."
+  }
+]} />
+
+</Section>

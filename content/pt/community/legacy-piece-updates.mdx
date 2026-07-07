@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Atualizações de Legacy Piece: Roteiro de 2026 e Notas de Atualização",
+  description: "Acompanhe as últimas atualizações de Legacy Piece, notas de patch, ajustes de equilíbrio e códigos para otimizar sua progressão no RPG de piratas de anime do Roblox.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0b2239/fff?text=Legacy+Piece+Updates",
+  date: "2026-07-07",
+  author: "Equipe da Wiki de Legacy Piece"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Foco Principal**: Acompanhe todas as principais **atualizações de legacy piece** para ajustar as builds de personagens e rotas de subida de nível.
+- **Versão Atual**: A atualização 0.5 introduz mecânicas de spawn de chefes, recursos de estilhaços e recompensas de baús.
+- **Mudança de Meta**: Frutas de alta mobilidade como Light e opções de alto dano como Dragon dominam o patch.
+- **Dica de Progressão**: Resgatar códigos de atualização ativos é essencial para obter resets gratuitos, estilhaços e dinheiro.
+- **Alerta da Comunidade**: Ajustes de equilíbrio são lançados semanalmente; continue verificando os logs de patch para evitar desperdício de pontos de atributos.
+</Callout>
+
+<Section icon={Map} title="Histórico de Atualizações e Log de Patches">
+
+O ciclo de desenvolvimento do Legacy Piece traz mudanças frequentes aos mares, ajustando como os piratas sobem de nível, combatem chefes e utilizam as habilidades das Akuma no Mi. Manter-se informado sobre essas mudanças garante que você não passe horas farmando em rotas otimizadas que foram ajustadas em patches recentes. Grandes atualizações introduzem novas ilhas, aumentam o limite de nível e adicionam mecânicas poderosas, como o sistema de Núcleo de Poder.
+
+Acompanhar o histórico de versões ajuda a identificar padrões no equilíbrio dos desenvolvedores. Por exemplo, hotfixes recentes focam bastante na otimização da estabilidade do servidor e no ajuste dos temporizadores de spawn de chefes para evitar gargalos de jogadores.
+
+| Versão | Data de Lançamento | Principais Adições | Impacto |
+|--------|--------------------|--------------------|---------|
+| Update 0.5 | Meados de 2026 | Mecânicas de spawn de chefes, estilhaços, baús e ajustes de nível | Crítico |
+| Hotfix 0.4 | Meados de 2026 | Resoluções de bugs, sincronização de combate e adições de códigos | Médio |
+| Patch de Lançamento | Início de 2026 | Sistemas principais, ilhas iniciais, conjuntos de armas básicos e frutas | Crítico |
+
+<Callout type="warning" title="Ajustes dos Desenvolvedores">
+Hotfixes semanais frequentemente ajustam as taxas de spawn de NPCs e os valores de experiência de missões. Sempre verifique as configurações mais recentes do servidor antes de iniciar uma sessão de farm de várias horas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Como as Atualizações Impactam a Meta das Frutas">
+
+Cada grande atualização altera la viabilidade das Akuma no Mi tanto no farm PvE quanto nos confrontos PvP. Uma fruta que dominava as ilhas iniciais pode perder força nas lutas contra chefes do final do jogo devido a ajustes de escala. A meta atual favorece fortemente frutas que oferecem alta mobilidade ou dano massivo em área (AoE), permitindo que os jogadores eliminem grupos de inimigos rapidamente.
+
+Por exemplo, a fruta Light continua sendo uma escolha de primeira linha porque sua velocidade de viagem e ataques à distância minimizam o dano recebido durante as lutas contra chefes. Enquanto isso, opções focadas em combate como Dragon escalam excepcionalmente bem no final do jogo, tornando-as muito cobiçadas para conteúdos desafiadores.
+
+| Fruta | Elemento/Tipo | Ajustes de Atualização | Classificação Atual |
+|-------|---------------|------------------------|---------------------|
+| Light | Logia / Voo | Velocidade do projétil à distância aumentada; custo de stamina de voo reduzido | ★★★★★ |
+| Dragon | Zoan / Combate | Defesa de transformação melhorada; cooldowns de habilidades levemente aumentados | ★★★★★ |
+| Mochi | Paramecia Especial | Tamanhos de hitbox ajustados para melhor consistência de combos | ★★★★☆ |
+| Magma | Logia / Dano | Dano de queimadura ao longo do tempo causa dano mais rápido; perigos no chão expandidos | ★★★★☆ |
+| Ice | Logia / Congelamento | Duração do congelamento ajustada no PvP; escala de dano de congelamento aumentada | ★★★☆☆ |
+
+<CardGrid cols={3}>
+  <Card title="Opções S-Tier">
+    - **Light**: Melhor para viagem rápida e farm seguro à distância.
+    - **Dragon**: Alto dano e defesa para chefes do final do jogo.
+  </Card>
+  <Card title="Opções A-Tier">
+    - **Mochi**: Excelente potencial de combo e capacidades de atordoamento.
+    - **Magma**: Dano em área massivo para limpar grupos de inimigos.
+  </Card>
+  <Card title="Opções B-Tier">
+    - **Ice**: Controle de grupo sólido e habilidades amigáveis para iniciantes.
+    - **Fire**: Dano equilibrado com baixos requisitos de maestria.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica de Meta">
+Não consuma uma fruta rara imediatamente se um patch de equilíbrio for anunciado. Guarde suas frutas de alto nível no inventário até que a comunidade teste a escala de dano atualizada.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ajustes na Rota de Nivelamento">
+
+À medida que as atualizações introduzem novas ilhas e ajustam as recompensas das missões, o caminho ideal para o nível máximo muda. As missões iniciais agora oferecem maior rendimento de experiência para ajudar novos jogadores a alcançarem o conteúdo do meio do jogo mais rapidamente. O nivelamento eficiente exige mover-se entre as ilhas assim que você atingir o requisito de nível mínimo, em vez de ficar farmando NPCs de nível baixo.
+
+Combinar recompensas de missões com treinamento de combate ativo é a maneira mais rápida de progredir. Foque em agrupar inimigos e eliminá-los com habilidades de área para maximizar sua experiência por hora.
+
+<Steps>
+  <Step num="1" title="Limpe as Ilhas Iniciais">
+    Foque em missões de combate básicas para alcançar o nível 15 rapidamente. Evite farmar NPCs sem missões ativas.
+  </Step>
+  <Step num="2" title="Adquira a Primeira Habilidade">
+    Obtenha um estilo de arma básico ou fruta inicial para acelerar o combate. Não se preocupe com atributos atributos no início.
+  </Step>
+  <Step num="3" title="Transição para Áreas de Meio de Jogo">
+    Mova-se para ilhas de nível mais alto assim que as missões forem desbloqueadas. Agrupe os inimigos para otimizar o dano em área.
+  </Step>
+  <Step num="4" title="Farme Spawns de Chefes">
+    Participe de batalhas contra chefes para ganhar experiência de alto nível, estilhaços e drops de equipamentos exclusivos.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Impulso de Progressão">
+Completar missões diárias após uma grande atualização é a maneira mais confiável de obter materiais necessários para melhorias de equipamentos no final do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Códigos de Atualização Ativos e Recompensas">
+
+Os desenvolvedores lançam regularmente códigos promocionais junto com grandes atualizações para comemorar marcos, compensar correções de bugs ou recompensar a comunidade. Esses códigos fornecem impulsos essenciais, estilhaços, baús e dinheiro que podem acelerar significativamente a progressão do seu personagem.
+
+Sempre resgate os códigos assim que forem anunciados, pois muitas recompensas específicas de atualizações ficam disponíveis apenas por tempo limitado antes de expirarem.
+
+| Código | Resumo da Recompensa | Status de Expiração |
+|--------|----------------------|---------------------|
+| update0.5! | Estilhaços, baús e dinheiro | Tempo Limitado |
+| sorryforbugs7! | Recursos e impulsos gratuitos | Tempo Limitado |
+| addedbosspawn! | Recompensas gratuitas no jogo | Tempo Limitado |
+| thanksfor1kccu! | Estilhaços e outras recompensas | Tempo Limitado |
+| RELEASE! | Pacote de recompensa de lançamento | Ativo |
+
+<Callout type="info" title="Informações de Resgate">
+Para resgatar códigos, abra o menu do jogo, navegue até as configurações ou caixa de entrada de código, insira o código exatamente como mostrado e clique em resgatar. Os códigos diferenciam maiúsculas de minúsculas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Preparação para o Dia do Patch">
+
+Quando uma grande atualização é lançada, preparar seu personagem e recursos com antecedência pode lhe dar uma vantagem significativa. Use esta lista de verificação para garantir que você está pronto para o novo conteúdo.
+
+<Checklist
+  id="patch-prep"
+  title="Tarefas Essenciais para o Dia do Patch:"
+  items={[
+    "Acumule dinheiro e estilhaços para comprar novas armas imediatamente",
+    "Guarde frutas raras em seu inventário em vez de consumi-las",
+    "Complete todas as missões da história principal pendentes para desbloquear novas ilhas",
+    "Verifique os canais oficiais da comunidade para lançamentos de códigos no dia do lançamento",
+    "Resete os atributos se um grande patch de equilíbrio alterar a viabilidade da sua build atual"
+  ]}
+/>
+
+<Callout type="tip" title="Dica de Armazenamento">
+Mantenha pelo menos uma poção de reset de atributos ou moeda suficiente para comprar uma antes do lançamento de uma atualização, caso sua build principal seja ajustada.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes sobre Atualizações de Legacy Piece">
+
+Entender como as atualizações são lançadas e como elas afetam sua jogabilidade é crucial para a progressão a longo prazo. Abaixo estão as perguntas mais comuns sobre as atualizações de desenvolvimento.
+
+<FAQ items={[
+  {
+    question: "Com que frequência as atualizações de Legacy Piece são lançadas?",
+    answer: "As grandes atualizações de conteúdo geralmente são lançadas a cada poucas semanas, enquanto patches de equilíbrio menores, correções de bugs e hotfixes são lançados semanalmente, dependendo do feedback da comunidade."
+  },
+  {
+    question: "Os códigos de atualização expiram?",
+    answer: "Sim, a maioria dos códigos lançados junto com as atualizações fica ativa por tempo limitado. Códigos de lançamento e de grandes marcos costumam durar mais, mas códigos de hotfix expiram rapidamente."
+  },
+  {
+    question: "Qual é a melhor maneira de se preparar para um aumento no limite de nível?",
+    answer: "Acumule ouro, estilhaços e materiais de melhoria. Completar todas as missões de nível alto atuais garante que você possa acessar novas ilhas imediatamente quando a atualização for ao ar."
+  },
+  {
+    question: "Meus atributos serão resetados automaticamente após uma atualização de equilíbrio?",
+    answer: "Não, os atributos não são resetados automaticamente, a menos que ocorra uma grande reformulação. Os desenvolvedores geralmente lançam códigos de reset de atributos gratuitos para ajudar os jogadores a se adaptarem às mudanças de equilíbrio."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+Fique de olho nos canais oficiais para anúncios dos desenvolvedores sobre as próximas expansões de conteúdo e ajustes mecânicos.
+</Callout>
+
+</Section>

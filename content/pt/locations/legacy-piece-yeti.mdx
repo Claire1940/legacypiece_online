@@ -1,0 +1,142 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Yeti em Legacy Piece: Localização do Boss, Táticas de Farm e Drops Raros",
+  description: "Domine a luta contra o boss Yeti em Legacy Piece. Saiba onde encontrar o Yeti na Ilha Shimotsuki, seus padrões de combate e como farmar a Frost Blade.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Yeti+Boss+Guide",
+  date: "2026-07-08",
+  author: "Equipe da Wiki de Legacy Piece"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Boss Principal**: O Yeti é um boss formidável de nível 40–50 em Legacy Piece.
+- **Localização Chave**: Escondido nas profundezas de uma caverna secreta na Ilha Shimotsuki.
+- **Drops de Assinatura**: Derrotá-lo concede a Frost Blade (3%) e o Frost Coat (9%).
+- **Estratégia de Combate**: Mantenha distância para evitar seu golpe pesado no chão e habilidades baseadas em congelamento.
+- **Melhor Escolha**: O Frost Coat é um acessório de Tier S que fornece massivos +75 de HP e +30 de Estamina.
+</Callout>
+
+<Section icon={Map} title="Localização e Requisitos do Boss Yeti">
+
+Para desafiar o **Yeti de Legacy Piece**, você deve viajar para a Ilha Shimotsuki, que é balanceada para jogadores entre os níveis 40 e 50. Ao contrário de outros bosses que patrulham campos abertos, o Yeti está escondido em uma caverna subterrânea. Encontrá-lo requer seguir uma pequena linha de missões e localizar uma entrada secreta.
+
+| Ilha | Faixa de Nível | Nome do Boss | Local de Spawn | HP do Boss |
+| --- | --- | --- | --- | --- |
+| Ilha Shimotsuki | Níveis 40–50 | Yeti | Caverna Secreta do Lab Desertado | 750 HP |
+
+<Callout type="warning" title="Aviso de Nível">
+Não tente esta luta contra o boss abaixo do nível 40. O Yeti causa dano pesado que pode facilmente eliminar jogadores mal equipados.
+</Callout>
+
+Para acessar a caverna do Yeti, você precisa seguir estes passos específicos:
+
+<Steps>
+  <Step num="1" title="Encontre o Cientista">
+    Localize e fale com o NPC Cientista na Ilha Shimotsuki para ganhar acesso ao laboratório desertado secreto.
+  </Step>
+  <Step num="2" title="Encontre o Alçapão">
+    Procure no chão do laboratório desertado para encontrar um alçapão escondido.
+  </Step>
+  <Step num="3" title="Entre na Caverna de Gelo">
+    Abra o alçapão e desça na caverna congelada onde o Yeti espera.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Swords} title="Mecânicas de Combate e Conjunto de Movimentos">
+
+O boss Yeti possui 750 de HP e causa dano que varia de 9 a 20 por acerto. Ele utiliza três habilidades de área (AoE) características que podem facilmente sobrecarregar aventureiros despreparados.
+
+| Nome da Habilidade | Tipo de Ataque | Efeito e Descrição |
+| --- | --- | --- |
+| **Yeti Roar** | Onda de Choque AoE | Emite um rugido alto que atordoa e repele os jogadores. |
+| **Ceiling Bust** | Riscos de Queda | Golpeia o teto da caverna para fazer chover estalactites afiadas e danosas. |
+| **Ground Slam** | Melee Pesado | Golpeia o chão congelado, causando alto dano AoE ao seu redor. |
+
+<CardGrid cols={3}>
+  <Card title="Evite o Slam">
+    - **Raio de dano alto**
+    - Observe os braços levantados
+    - Use o dash para trás para esquivar
+  </Card>
+  <Card title="Cuidado com o Teto">
+    - **Perigo de estalactites caindo**
+    - Evite os marcadores circulares no chão
+    - Mantenha-se em movimento constante
+  </Card>
+  <Card title="Contra-ataque">
+    - **Vulnerabilidade pós-habilidade**
+    - Ataque após o Ground Slam dele
+    - Use habilidades à distância com segurança
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica de Farm">
+Traga uma arma ou estilo de luta com alta mobilidade. Esquivar-se do raio do Ground Slam do Yeti é a maneira mais fácil de preservar sua vida durante o encontro.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Taxas de Drop do Yeti e Bônus de Atributos">
+
+Farmar o Yeti é altamente recomendado devido às suas recompensas de midgame de alto nível. Ele dropa um dos melhores acessórios do Primeiro Mar, junto com uma poderosa espada elemental.
+
+| Item de Drop | Tipo de Item | Taxa de Drop | Atributos e Efeitos Chave |
+| --- | --- | --- | --- |
+| **Frost Coat** | Acessório (Tier S) | 9% de Chance | +75 HP Máx, +30 Estamina |
+| **Frost Blade** | Arma Melee | 3% de Chance | Ataques elementais de gelo, alto potencial de congelamento |
+
+<Callout type="success" title="Acessório Tier S">
+O Frost Coat é amplamente considerado um acessório de Tier S para jogadores do nível 40–80 por causa de seus massivos bônus duplos de atributos (+75 HP e +30 Estamina).
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Checklist de Farm">
+
+Use este checklist para otimizar suas rodadas de farm e acompanhar seu progresso enquanto se prepara para derrotar o Yeti e reivindicar seus drops raros.
+
+<Checklist
+  id="yeti-farm"
+  title="Marcos de Farm do Yeti:"
+  items={[
+    "Alcançar o Nível de Personagem 40 na Ilha Shimotsuki",
+    "Localizar o Cientista e desbloquear o alçapão do laboratório secreto",
+    "Derrotar o Yeti para completar a missão local da ilha (290 EXP Total)",
+    "Obter o Frost Coat de Tier S (9% de taxa de drop)",
+    "Adquirir a rara Frost Blade (3% de taxa de drop)"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Onde exatamente o Yeti spawna em Legacy Piece?",
+    answer: "O Yeti spawna dentro de uma caverna congelada secreta sob o laboratório desertado na Ilha Shimotsuki. Você deve falar com o NPC Cientista para ser teletransportado para dentro."
+  },
+  {
+    question: "Quais são as taxas de drop para os itens do Yeti?",
+    answer: "O Frost Coat tem uma taxa de drop de 9%, enquanto a cobiçada Frost Blade tem uma taxa muito mais rara de 3%."
+  },
+  {
+    question: "Vale a pena farmar o Frost Coat?",
+    answer: "Sim. O Frost Coat é um acessório de midgame Tier S que aumenta seu HP em 75 e sua Estamina em 30, tornando-o incrivelmente valioso para a progressão."
+  },
+  {
+    question: "Quanto de HP o boss Yeti tem?",
+    answer: "O boss Yeti tem um total de 750 de HP e causa entre 9 e 20 de dano por acerto, dependendo do ataque usado."
+  }
+]} />
+
+</Section>
