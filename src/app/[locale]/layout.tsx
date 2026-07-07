@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // 启用静态渲染：必须在调用 next-intl 服务端函数前设置请求 locale
   setRequestLocale(locale);
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://legacypiece.online";
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.legacypiece.online";
 
   // 获取 SEO 翻译
   const t = await getTranslations("seo.home");
@@ -77,7 +77,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: t("twitterTitle"),
       description: t("twitterDescription"),
       images: [`${siteUrl}/images/hero.webp`],
-      creator: "@lucidblocks",
+      creator: "@ShrinesLegacy",
     },
     icons: {
       icon: [

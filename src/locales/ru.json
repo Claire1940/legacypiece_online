@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "description": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях, концовках и советы по выживанию в сюрреалистичной воксельной песочнице на Steam.",
-      "keywords": "Lucid Blocks, вики Lucid Blocks, крафт, биомы, достижения, выживание, Steam",
-      "ogTitle": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "ogDescription": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях, концовках и советы по выживанию в сюрреалистичной воксельной песочнице на Steam.",
-      "twitterTitle": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "twitterDescription": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях и советы по выживанию в сюрреалистичной воксельной песочнице на Steam."
+      "title": "Legacy Piece Wiki - Codes, Fruits & Guides",
+      "description": "Legacy Piece Wiki offers Roblox codes, fruits, leveling guides, abilities, bosses, and update tips to help players progress faster with complete game resources.",
+      "keywords": "Legacy Piece, Roblox, codes, fruits, leveling, abilities, bosses, guides",
+      "ogTitle": "Legacy Piece Wiki - Codes, Fruits & Guides",
+      "ogDescription": "Legacy Piece Wiki offers Roblox codes, fruits, leveling guides, abilities, bosses, and update tips to help players progress faster with complete game resources.",
+      "twitterTitle": "Legacy Piece Wiki - Codes, Fruits & Guides",
+      "twitterDescription": "Legacy Piece Wiki covers Roblox codes, fruits, leveling, abilities, bosses, and update guides for players."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Статьи скоро появятся"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Воксельная песочница на выживание",
-    "title": "Lucid Blocks Вики",
-    "description": "Исследуйте сказочные биомы, объединяйте предметы с помощью Apotheosis, свободно стройте и выживайте среди странных существ в этой сюрреалистичной песочнице с открытым миром на Steam.",
-    "getFreeCodesCTA": "Изучить руководство по крафту",
-    "playOnSteamCTA": "Играть на Steam",
+    "badge": "Anime Pirate RPG Adventure",
+    "title": "Legacy Piece Wiki",
+    "description": "Complete Legacy Piece Wiki covering codes, fruits, abilities, bosses, leveling guides, weapons, races, updates, and progression strategies for Roblox players.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnSteamCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1 325",
-        "label": "Игроков онлайн"
+        "value": "5M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1 986",
-        "label": "Пиковый онлайн"
+        "value": "20+",
+        "label": "Abilities Available"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Положительных отзывов"
+        "value": "7+",
+        "label": "Active Codes"
       },
       "stat4": {
-        "value": "12 марта 2026",
-        "label": "Дата выхода"
+        "value": "Weekly",
+        "label": "Updates"
       }
     }
   },
@@ -181,27 +181,27 @@
     ]
   },
   "cta": {
-    "title": "Готовы исследовать Lucid Blocks?",
-    "description": "Присоединяйтесь к сообществу Lucid Blocks в Discord, где вас ждут руководства, обновления и обсуждения!",
-    "joinCommunity": "Присоединиться к Discord",
-    "joinGame": "Играть на Steam"
+    "title": "Ready to Play Legacy Piece?",
+    "description": "Join the Legacy Piece community on Discord for codes, guides, updates, and discussions!",
+    "joinCommunity": "Join Discord",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Вики Lucid Blocks",
-    "description": "Ваш полноценный ресурсный центр по крафту, биомам, существам, достижениям и руководствам по выживанию в Lucid Blocks.",
-    "resources": "Ресурсы",
-    "community": "Сообщество",
-    "legal": "Юридическая информация",
+    "title": "Legacy Piece Wiki",
+    "description": "Your complete resource hub for Legacy Piece codes, fruits, abilities, bosses, leveling guides, weapons, and update tips for Roblox players.",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Сообщество Steam",
-    "steamStore": "Магазин Steam",
-    "about": "О проекте",
-    "privacy": "Политика конфиденциальности",
-    "terms": "Условия использования",
-    "copyrightNotice": "Авторское право",
-    "copyright": "© 2026 Вики Lucid Blocks. Не связано с разработчиками Lucid Blocks.",
-    "disclaimer": "Неофициальный фанатский ресурс."
+    "roblox": "Roblox Game",
+    "youtube": "Watch Guide",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Legacy Piece Wiki. Not affiliated with the developers of Legacy Piece or Roblox Corporation.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {

@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "description": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, クラフト, バイオーム, 実績, サバイバル, Steam",
-      "ogTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "ogDescription": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "twitterTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "twitterDescription": "Lucid Blocks Wikiでは、Steamの超現実的なボクセルサンドボックスにおけるクラフト、バイオーム、クリーチャー、アイテム、実績、サバイバルのヒントを網羅しています。"
+      "title": "Legacy Piece Wiki - Codes, Fruits & Guides",
+      "description": "Legacy Piece Wiki offers Roblox codes, fruits, leveling guides, abilities, bosses, and update tips to help players progress faster with complete game resources.",
+      "keywords": "Legacy Piece, Roblox, codes, fruits, leveling, abilities, bosses, guides",
+      "ogTitle": "Legacy Piece Wiki - Codes, Fruits & Guides",
+      "ogDescription": "Legacy Piece Wiki offers Roblox codes, fruits, leveling guides, abilities, bosses, and update tips to help players progress faster with complete game resources.",
+      "twitterTitle": "Legacy Piece Wiki - Codes, Fruits & Guides",
+      "twitterDescription": "Legacy Piece Wiki covers Roblox codes, fruits, leveling, abilities, bosses, and update guides for players."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "記事は近日公開予定です"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ ボクセル・サバイバル・サンドボックス",
-    "title": "Lucid Blocks Wiki",
-    "description": "夢のようなバイオームを探索し、Apotheosisでアイテムを融合、自由に建築を楽しみましょう。Steamで繰り広げられるこのシュールなオープンワールド・サンドボックスで、奇妙なクリーチャーから生き延びてください。",
-    "getFreeCodesCTA": "クラフトガイドを見る",
-    "playOnSteamCTA": "Steamでプレイ",
+    "badge": "Anime Pirate RPG Adventure",
+    "title": "Legacy Piece Wiki",
+    "description": "Complete Legacy Piece Wiki covering codes, fruits, abilities, bosses, leveling guides, weapons, races, updates, and progression strategies for Roblox players.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnSteamCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "オンラインプレイヤー"
+        "value": "5M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "最大同時接続数"
+        "value": "20+",
+        "label": "Abilities Available"
       },
       "stat3": {
-        "value": "97%",
-        "label": "好評"
+        "value": "7+",
+        "label": "Active Codes"
       },
       "stat4": {
-        "value": "2026年3月12日",
-        "label": "リリース日"
+        "value": "Weekly",
+        "label": "Updates"
       }
     }
   },
@@ -785,27 +785,27 @@
     ]
   },
   "cta": {
-    "title": "Lucid Blocksを探索する準備はできましたか？",
-    "description": "DiscordのLucid Blocksコミュニティに参加して、ガイドや最新情報、ディスカッションをチェックしましょう！",
-    "joinCommunity": "Discordに参加",
-    "joinGame": "Steamでプレイ"
+    "title": "Ready to Play Legacy Piece?",
+    "description": "Join the Legacy Piece community on Discord for codes, guides, updates, and discussions!",
+    "joinCommunity": "Join Discord",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocksのクラフト、バイオーム、クリーチャー、実績、サバイバルガイドに関する完全なリソースハブです。",
-    "resources": "リソース",
-    "community": "コミュニティ",
-    "legal": "法的情報",
+    "title": "Legacy Piece Wiki",
+    "description": "Your complete resource hub for Legacy Piece codes, fruits, abilities, bosses, leveling guides, weapons, and update tips for Roblox players.",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam コミュニティ",
-    "steamStore": "Steam ストア",
-    "about": "このサイトについて",
-    "privacy": "プライバシーポリシー",
-    "terms": "利用規約",
-    "copyrightNotice": "著作権",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocksの開発元とは提携していません。",
-    "disclaimer": "非公式のファン作成リソースサイトです。"
+    "roblox": "Roblox Game",
+    "youtube": "Watch Guide",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Legacy Piece Wiki. Not affiliated with the developers of Legacy Piece or Roblox Corporation.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {

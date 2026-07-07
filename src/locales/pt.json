@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "description": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas, finais e dicas de sobrevivência para a aventura sandbox de voxel surreal no Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricação, biomas, conquistas, sobrevivência, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "ogDescription": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas, finais e dicas de sobrevivência para a aventura sandbox de voxel surreal no Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "twitterDescription": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas e dicas de sobrevivência para o sandbox de voxel surreal no Steam."
+      "title": "Legacy Piece Wiki - Codes, Fruits & Guides",
+      "description": "Legacy Piece Wiki offers Roblox codes, fruits, leveling guides, abilities, bosses, and update tips to help players progress faster with complete game resources.",
+      "keywords": "Legacy Piece, Roblox, codes, fruits, leveling, abilities, bosses, guides",
+      "ogTitle": "Legacy Piece Wiki - Codes, Fruits & Guides",
+      "ogDescription": "Legacy Piece Wiki offers Roblox codes, fruits, leveling guides, abilities, bosses, and update tips to help players progress faster with complete game resources.",
+      "twitterTitle": "Legacy Piece Wiki - Codes, Fruits & Guides",
+      "twitterDescription": "Legacy Piece Wiki covers Roblox codes, fruits, leveling, abilities, bosses, and update guides for players."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Artigos em breve"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de Sobrevivência Voxel",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore biomas oníricos, combine itens com Apotheosis, construa livremente e sobreviva a criaturas estranhas neste sandbox surreal de mundo aberto no Steam.",
-    "getFreeCodesCTA": "Explore o Guia de Criação",
-    "playOnSteamCTA": "Jogue no Steam",
+    "badge": "Anime Pirate RPG Adventure",
+    "title": "Legacy Piece Wiki",
+    "description": "Complete Legacy Piece Wiki covering codes, fruits, abilities, bosses, leveling guides, weapons, races, updates, and progression strategies for Roblox players.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnSteamCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1.325",
-        "label": "Jogadores Online"
+        "value": "5M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1.986",
-        "label": "Pico de CCU"
+        "value": "20+",
+        "label": "Abilities Available"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Avaliações Positivas"
+        "value": "7+",
+        "label": "Active Codes"
       },
       "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Data de Lançamento"
+        "value": "Weekly",
+        "label": "Updates"
       }
     }
   },
@@ -785,27 +785,27 @@
     ]
   },
   "cta": {
-    "title": "Pronto para explorar Lucid Blocks?",
-    "description": "Junte-se à comunidade de Lucid Blocks no Discord para guias, atualizações e discussões!",
-    "joinCommunity": "Entrar no Discord",
-    "joinGame": "Jogue no Steam"
+    "title": "Ready to Play Legacy Piece?",
+    "description": "Join the Legacy Piece community on Discord for codes, guides, updates, and discussions!",
+    "joinCommunity": "Join Discord",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Wiki de Lucid Blocks",
-    "description": "Seu centro de recursos completo para crafting, biomas, criaturas, conquistas e guias de sobrevivência de Lucid Blocks.",
-    "resources": "Recursos",
-    "community": "Comunidade",
+    "title": "Legacy Piece Wiki",
+    "description": "Your complete resource hub for Legacy Piece codes, fruits, abilities, bosses, leveling guides, weapons, and update tips for Roblox players.",
+    "resources": "Resources",
+    "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Comunidade Steam",
-    "steamStore": "Loja Steam",
-    "about": "Sobre",
-    "privacy": "Política de Privacidade",
-    "terms": "Termos de Serviço",
+    "roblox": "Roblox Game",
+    "youtube": "Watch Guide",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Wiki de Lucid Blocks. Não afiliada aos desenvolvedores de Lucid Blocks.",
-    "disclaimer": "Site de recursos não oficial feito por fãs."
+    "copyright": "© 2026 Legacy Piece Wiki. Not affiliated with the developers of Legacy Piece or Roblox Corporation.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {

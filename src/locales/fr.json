@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Téléchargement de la démo, Guide de coopération, Fabrication et Mods",
-      "description": "Centre de ressources complet pour Lucid Blocks ! Obtenez des informations sur le téléchargement de la démo, des guides pour débutants, des stratégies de coopération, des conseils de fabrication, des commandes, des mods et des liens communautaires pour le jeu de braquage furtif sur Steam.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, téléchargement de la démo, guide pour débutants, guide de coopération, fabrication, équipement, mods, BepInEx, jeu Steam, jeu furtif",
-      "ogTitle": "Lucid Blocks Wiki - Téléchargement de la démo, Guide de coopération, Fabrication et Mods",
-      "ogDescription": "Centre de ressources complet pour Lucid Blocks ! Obtenez des informations sur le téléchargement de la démo, des guides pour débutants, des stratégies de coopération, des conseils de fabrication et des mods pour le jeu de braquage furtif sur Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Téléchargement de la démo, Guide de coopération, Fabrication et Mods",
-      "twitterDescription": "Centre de ressources complet pour Lucid Blocks ! Obtenez des informations sur le téléchargement de la démo, des guides pour débutants, des stratégies de coopération et des conseils de fabrication."
+      "title": "Legacy Piece Wiki - Codes, Fruits & Guides",
+      "description": "Legacy Piece Wiki offers Roblox codes, fruits, leveling guides, abilities, bosses, and update tips to help players progress faster with complete game resources.",
+      "keywords": "Legacy Piece, Roblox, codes, fruits, leveling, abilities, bosses, guides",
+      "ogTitle": "Legacy Piece Wiki - Codes, Fruits & Guides",
+      "ogDescription": "Legacy Piece Wiki offers Roblox codes, fruits, leveling guides, abilities, bosses, and update tips to help players progress faster with complete game resources.",
+      "twitterTitle": "Legacy Piece Wiki - Codes, Fruits & Guides",
+      "twitterDescription": "Legacy Piece Wiki covers Roblox codes, fruits, leveling, abilities, bosses, and update guides for players."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles à venir"
   },
   "hero": {
-    "badge": "Minuscules gnomes. Grandes maisons. Braquages furtifs entre amis.",
-    "title": "Lucid Blocks wiki",
-    "description": "Votre centre pour Lucid Blocks : comment fonctionnent les braquages, les tâches de Haut-Gnome, la fabrication et les améliorations, les ennemis, les commandes et les moyens les plus rapides de survivre à chaque partie.",
-    "getFreeCodesCTA": "Télécharger la démo",
-    "playOnSteamCTA": "Ajouter à la liste de souhaits sur Steam",
+    "badge": "Anime Pirate RPG Adventure",
+    "title": "Legacy Piece Wiki",
+    "description": "Complete Legacy Piece Wiki covering codes, fruits, abilities, bosses, leveling guides, weapons, races, updates, and progression strategies for Roblox players.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnSteamCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "15K",
-        "label": "Pic de CCU (Démo)"
+        "value": "5M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "6",
-        "label": "Joueurs en coopération"
+        "value": "20+",
+        "label": "Abilities Available"
       },
       "stat3": {
-        "value": "31/01/2026",
-        "label": "Sortie de la démo"
+        "value": "7+",
+        "label": "Active Codes"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plateforme"
+        "value": "Weekly",
+        "label": "Updates"
       }
     }
   },
@@ -819,27 +819,27 @@
     ]
   },
   "cta": {
-    "title": "Prêt à commencer à braquer ?",
-    "description": "Rejoignez la communauté Lucid Blocks sur Discord pour des groupes de coopération, des mises à jour et des discussions sur les mods !",
-    "joinCommunity": "Rejoindre Discord",
-    "joinGame": "Obtenir la démo sur Steam"
+    "title": "Ready to Play Legacy Piece?",
+    "description": "Join the Legacy Piece community on Discord for codes, guides, updates, and discussions!",
+    "joinCommunity": "Join Discord",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Votre centre de ressources complet pour les braquages furtifs, les stratégies de coopération, les mods et les guides communautaires de Lucid Blocks.",
-    "resources": "Ressources",
-    "community": "Communauté",
-    "legal": "Légal",
+    "title": "Legacy Piece Wiki",
+    "description": "Your complete resource hub for Legacy Piece codes, fruits, abilities, bosses, leveling guides, weapons, and update tips for Roblox players.",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Communauté Steam",
-    "steamStore": "Magasin Steam",
-    "about": "À propos",
-    "privacy": "Politique de confidentialité",
-    "terms": "Conditions d'utilisation",
-    "copyrightNotice": "Droits d'auteur",
-    "copyright": "© 2026 Lucid Blocks Wiki. Non affilié aux développeurs de Lucid Blocks.",
-    "disclaimer": "Site web de ressources non officiel créé par des fans."
+    "roblox": "Roblox Game",
+    "youtube": "Watch Guide",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Legacy Piece Wiki. Not affiliated with the developers of Legacy Piece or Roblox Corporation.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {
