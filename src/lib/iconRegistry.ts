@@ -38,6 +38,13 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Clock: LucideIcons.Clock,
   X: LucideIcons.X,
 
+  // Legacy Piece 主题图标（海盗 / RPG / 宝藏）
+  Gift: LucideIcons.Gift,
+  Crown: LucideIcons.Crown,
+  Zap: LucideIcons.Zap,
+  Skull: LucideIcons.Skull,
+  Newspaper: LucideIcons.Newspaper,
+
   // 默认回退图标
   HelpCircle: LucideIcons.HelpCircle,
 }
